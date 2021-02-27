@@ -1,0 +1,79 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="1" l="1613411185448" />
+    </e>
+    <e n="$Undo">
+      <i c="1" l="1613411544145" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="11" l="1613414752739" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="6" l="1613415530537" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="3" l="1613415034714" />
+    </e>
+    <e n="EditorDeleteToWordStart">
+      <i c="3" l="1613414968454" />
+    </e>
+    <e n="EditorEnter">
+      <i c="2" l="1613415138682" />
+    </e>
+    <e n="EditorLeft">
+      <i c="1" l="1613414410514" />
+    </e>
+    <e n="EditorRight">
+      <i c="11" l="1613415569924" />
+    </e>
+    <e n="EditorTab">
+      <i c="4" l="1613415403415" />
+    </e>
+    <e n="EditorUp">
+      <i c="1" l="1613415258011" />
+    </e>
+    <e n="NewFile">
+      <i c="1" l="1613413865043" />
+    </e>
+    <e n="NewPythonFile">
+      <i c="2" l="1613414743166" />
+    </e>
+    <e n="Run">
+      <i c="8" l="1613415115757" />
+    </e>
+    <e n="RunClass">
+      <i c="10" l="1613415626528" />
+    </e>
+    <e n="SaveAll">
+      <i c="1" l="1613411186405" />
+    </e>
+    <e n="ShowSettings">
+      <i c="1" l="1613411576340" />
+    </e>
+    <e n="com.intellij.execution.impl.ConsoleViewImpl$BackSpaceHandler">
+      <i c="2" l="1613415188428" />
+    </e>
+    <e n="com.intellij.execution.impl.ConsoleViewImpl$EnterHandler">
+      <i c="22" l="1613415628571" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+      <i c="663" l="1613415579096" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1613413766479" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="5" l="1613415632789" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$5">
+      <i c="1" l="1613411062645" />
+    </e>
+    <e n="com.maddyhome.idea.vim.ui.ex.ExShortcutKeyAction">
+      <i c="9" l="1613415612885" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="1" l="1613415123355" />
+    </e>
+  </component>
+</application>

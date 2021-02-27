@@ -1,0 +1,792 @@
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2021-01-29T13:12:51.193Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2021-01-29T13:12:51.194Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.4.2' ]","timestamp":"2021-01-29T13:12:51.198Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: undefined' ]","timestamp":"2021-01-29T13:12:51.198Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'AMD Ryzen 5 2600X Six-Core Processor; Linux (5.10.11-arch1-1)' ]","timestamp":"2021-01-29T13:12:51.199Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/usr/share/unity3d/config' } ]","timestamp":"2021-01-29T13:12:51.204Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2021-01-29T13:12:51.205Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2021-01-29T13:12:51.530Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T13:12:51.532Z"}
+{"moduleName":"TokenManager","level":"warn","message":"[ 'Token storage is corrupted.',\n  [Error: The name org.freedesktop.secrets was not provided by any .service files] ]","timestamp":"2021-01-29T13:12:51.539Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T13:12:51.539Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T13:12:51.539Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]","timestamp":"2021-01-29T13:12:51.540Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2021-01-29T13:12:51.541Z"}
+{"moduleName":"customInstallLocation","level":"info","message":"[ 'Custom install path not present.' ]","timestamp":"2021-01-29T13:12:51.542Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/Unity/Hub/Editor' ]","timestamp":"2021-01-29T13:12:51.543Z"}
+{"moduleName":"customInstallLocation","level":"info","message":"[ 'Cannot scan custom location (no path set).' ]","timestamp":"2021-01-29T13:12:51.543Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '0 located Editors found in storage' ]","timestamp":"2021-01-29T13:12:51.544Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T13:12:51.545Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T13:12:51.545Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Both tokens are expired, user will be logged out' ]","timestamp":"2021-01-29T13:12:51.545Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged out' ]","timestamp":"2021-01-29T13:12:51.548Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T13:12:51.549Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2021-01-29T13:12:51.550Z"}
+{"moduleName":"UnityLicenseCore","level":"warn","message":"[ 'License File is not available.' ]","timestamp":"2021-01-29T13:12:51.551Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2021-01-29T13:12:51.551Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> notLogin' ]","timestamp":"2021-01-29T13:12:51.551Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2021-01-29T13:12:51.552Z"}
+{"moduleName":"UnityPackageManagerService","level":"info","message":"[ 'Dynamic templates config loaded: [object Object]' ]","timestamp":"2021-01-29T13:12:51.766Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T13:12:51.766Z"}
+{"moduleName":"AutoUpdater","level":"warn","message":"[ 'Missing update server path' ]","timestamp":"2021-01-29T13:12:52.004Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2021-01-29T13:12:52.004Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2021-01-29T13:12:52.005Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2021-01-29T13:12:52.251Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T13:12:52.251Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2021-01-29T13:12:52.252Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2021-01-29T13:12:52.252Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2021-01-29T13:12:52.252Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2021-01-29T13:12:52.252Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2021-01-29T13:12:52.252Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2021-01-29T13:12:52.252Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2021-01-29T13:12:52.255Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T13:12:52.255Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2021-01-29T13:12:52.257Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T13:12:52.258Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T13:12:52.259Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T13:12:52.259Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T13:12:52.259Z"}
+{"moduleName":"EditorPrefLinux","level":"warn","message":"[ { [Error: ENOENT: no such file or directory, open '/home/vhyrro/.local/share/unity3d/prefs']\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/home/vhyrro/.local/share/unity3d/prefs' } ]","timestamp":"2021-01-29T13:12:52.260Z"}
+{"moduleName":"ListStorage","level":"info","message":"[ '0 located items found in storage' ]","timestamp":"2021-01-29T13:12:52.261Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T13:12:52.261Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T13:12:52.262Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2021-01-29T13:12:52.277Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2021-01-29T13:12:52.277Z"}
+{"moduleName":"EditorPrefLinux","level":"warn","message":"[ { [Error: ENOENT: no such file or directory, open '/home/vhyrro/.local/share/unity3d/prefs']\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/home/vhyrro/.local/share/unity3d/prefs' } ]","timestamp":"2021-01-29T13:12:52.838Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 1 valid paths found in path: /opt/Unity' ]","timestamp":"2021-01-29T13:14:47.583Z"}
+{"moduleName":"BaseWindow","level":"warn","message":"[ 'Failed to load page https://id.unity.com/en/conversations/2c80adeb-0c1c-4edd-bc10-9559d18b2bd901af. Error: -3 - ' ]","timestamp":"2021-01-29T13:15:13.702Z"}
+{"moduleName":"BaseWindow","level":"warn","message":"[ 'Failed to load page https://id.unity.com/en/conversations/2c80adeb-0c1c-4edd-bc10-9559d18b2bd901af. Error: -3 - ' ]","timestamp":"2021-01-29T13:15:24.131Z"}
+{"moduleName":"BaseWindow","level":"warn","message":"[ 'Failed to load page https://id.unity.com/en/conversations/2c80adeb-0c1c-4edd-bc10-9559d18b2bd901af. Error: -3 - ' ]","timestamp":"2021-01-29T13:15:33.250Z"}
+{"moduleName":"BaseWindow","level":"warn","message":"[ 'Failed to load page https://id.unity.com/en/conversations/2c80adeb-0c1c-4edd-bc10-9559d18b2bd901af. Error: -3 - ' ]","timestamp":"2021-01-29T13:19:03.450Z"}
+{"moduleName":"BaseWindow","level":"warn","message":"[ 'Failed to load page https://id.unity.com/en/conversations/2c80adeb-0c1c-4edd-bc10-9559d18b2bd901af. Error: -3 - ' ]","timestamp":"2021-01-29T13:19:10.411Z"}
+{"moduleName":"BaseWindow","level":"warn","message":"[ 'Failed to load page https://id.unity.com/en/conversations/2c80adeb-0c1c-4edd-bc10-9559d18b2bd901af. Error: -3 - ' ]","timestamp":"2021-01-29T13:19:21.842Z"}
+{"moduleName":"BaseWindow","level":"warn","message":"[ 'Failed to load page https://id.unity.com/en/conversations/2c80adeb-0c1c-4edd-bc10-9559d18b2bd901af. Error: -3 - ' ]","timestamp":"2021-01-29T13:22:31.247Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2021-01-29T13:22:32.416Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'notLogin --> initializing' ]","timestamp":"2021-01-29T13:22:32.417Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged in' ]","timestamp":"2021-01-29T13:22:32.418Z"}
+{"moduleName":"UnityLicenseCore","level":"warn","message":"[ 'License File is not available.' ]","timestamp":"2021-01-29T13:22:32.427Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2021-01-29T13:22:32.660Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2021-01-29T13:23:37.493Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseNew' ]","timestamp":"2021-01-29T13:23:37.494Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Set Survey value' ]","timestamp":"2021-01-29T13:23:37.883Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license flow started' ]","timestamp":"2021-01-29T13:23:37.883Z"}
+{"moduleName":"UnityLicenseCore","level":"info","message":"[ 'Deleting file: /home/vhyrro/.local/share/unity3d/Unity/Unity_lic.ulf.backup' ]","timestamp":"2021-01-29T13:23:49.064Z"}
+{"moduleName":"UnityLicenseCore","level":"info","message":"[ 'Writing file: /home/vhyrro/.local/share/unity3d/Unity/Unity_lic.ulf' ]","timestamp":"2021-01-29T13:23:49.096Z"}
+{"moduleName":"RestEvent:License","level":"info","message":"[ 'onLicenseChange',\n  'data:',\n  { kind: 'Unity' },\n  'connections: ',\n  Map {} ]","timestamp":"2021-01-29T13:23:49.097Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license issued' ]","timestamp":"2021-01-29T13:23:49.100Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'licenseNew --> initializing' ]","timestamp":"2021-01-29T13:23:49.100Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2021-01-29T13:23:49.118Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseValid' ]","timestamp":"2021-01-29T13:23:49.118Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license verified' ]","timestamp":"2021-01-29T13:23:49.119Z"}
+{"moduleName":"PackageFinder","level":"warn","message":"[ { [Error: ENOENT: no such file or directory, scandir '/home/vhyrro/.local/share/unity3d/Asset Store-5.x']\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'scandir',\n    path: '/home/vhyrro/.local/share/unity3d/Asset Store-5.x' } ]","timestamp":"2021-01-29T13:24:05.913Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"179847\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/227fda3e-3634-4f56-8ce4-3130436cb338\",\"size\":\"91289378\",\"supportedEditorVersion\":\"2019.4.18f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.914Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"156015\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/adfa303d-453d-4138-80c5-da25bad5a6ef\",\"size\":\"39322058\",\"supportedEditorVersion\":\"2019.4.0f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.914Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"150956\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/5fb85336-7403-470c-8227-027b04bd7198\",\"size\":\"30833983\",\"supportedEditorVersion\":\"2019.4.0f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.914Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"151055\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/749cd9b8-da69-4f5d-9179-94ab677d78c7\",\"size\":\"26200037\",\"supportedEditorVersion\":\"2019.4.18f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.915Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"140167\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/2e0e3f6e-cdd8-4f73-946c-dc3a01e77f14\",\"size\":\"15876736\",\"supportedEditorVersion\":\"2020.1.0f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.915Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"149309\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/e5a8967e-594d-4dd0-b190-283a18782684\",\"size\":\"7334071\",\"supportedEditorVersion\":\"2020.2.1f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.915Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"149311\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/83970645-9a9d-44d9-9b8c-7d3377ecabe7\",\"size\":\"27531464\",\"supportedEditorVersion\":\"2020.2.1f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.915Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"115747\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/56b75037-2343-4e1a-8f64-e0e5fd75f080\",\"size\":\"2319285086\",\"supportedEditorVersion\":\"2020.2.1f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.915Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"135162\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/40b1ddf2-0530-41c7-be61-d6aaf76ecd1e\",\"size\":\"85068821\",\"supportedEditorVersion\":\"2020.2.1f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.915Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"107098\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/17a9af7f-cad7-4cf1-8667-b6ba0d69517e\",\"size\":\"314404242\",\"supportedEditorVersion\":\"2020.2.1f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.915Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"107692\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/d1eaac81-44a1-4b26-b642-a73712c03924\",\"size\":\"249818189\",\"supportedEditorVersion\":\"2019.4.0f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.915Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"109917\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/6f508e6b-6c80-410f-a947-643cd4871460\",\"size\":\"12601526\",\"supportedEditorVersion\":\"2019.4.0f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.915Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"151986\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/e38dbe5c-44ea-45b9-9e8a-6c6abd885005\",\"size\":\"342737764\",\"supportedEditorVersion\":\"2020.2.1f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.915Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"149310\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/6a372487-31fa-4895-aa8a-d3b8f1ff5ef9\",\"size\":\"103107360\",\"supportedEditorVersion\":\"2020.2.1f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.915Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"163264\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/b31c8323-241f-4f79-91fd-541567c79064\",\"size\":\"63966742\",\"supportedEditorVersion\":\"2020.2.1f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.915Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing downloadable learn content: {\"packageId\":\"143848\",\"assetUrl\":\"https://assetstorev1-prd-cdn.unity3d.com/download/ea93f019-bfd0-45e2-b217-e67fce1f8ae3\",\"size\":\"131623816\",\"supportedEditorVersion\":\"2020.1.0f1\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.916Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing learn content: {\"imageUrl\":\"https://connect-prd-cdn.unity.com/20200629/learn/images/b10c2b7d-30b9-4bf2-a41d-f25b441c39c4_GENART2020_0742_d_1920x1080.jpg.800x0x1.webp\",\"title\":\"What is DOTS and why is it important?\",\"skillLevel\":\"foundational\",\"duration\":30,\"summary\":\"In this tutorial, you’ll: Understand why Unity is moving to DOTS. Distinguish between object-oriented and data-oriented coding approaches. Identify use cases where moving to DOTS has short and long term benefits. Evaluate the key benefits and risks of working with DOTS. Discover resources for continuing to learn about DOTS.  \",\"tutorialUrl\":\"https://learn.unity.com/tutorial/what-is-dots-and-why-is-it-important\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-29T13:24:05.917Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/.unity-editors' ]","timestamp":"2021-01-29T13:26:06.826Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.2f1: starting' ]","timestamp":"2021-01-29T13:26:31.206Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster total download size: 1.04GB' ]","timestamp":"2021-01-29T13:26:32.742Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.2f1: downloads starting' ]","timestamp":"2021-01-29T13:26:32.742Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorTargetInstaller/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz to /tmp/unityhub-9970fe40-6235-11eb-bc52-3396c41bf1ce/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz' ]","timestamp":"2021-01-29T13:26:32.742Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/MacEditorTargetInstaller/UnitySetup-Mac-Mono-Support-for-Editor-2020.2.2f1.pkg to /tmp/unityhub-9970fe40-6235-11eb-bc52-3396c41bf1ce/UnitySetup-Mac-Mono-Support-for-Editor-2020.2.2f1.pkg' ]","timestamp":"2021-01-29T13:26:32.744Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg to /tmp/unityhub-9970fe40-6235-11eb-bc52-3396c41bf1ce/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg' ]","timestamp":"2021-01-29T13:26:32.745Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://storage.googleapis.com/docscloudstorage/2020.2/UnityDocumentation.zip to /tmp/unityhub-9970fe40-6235-11eb-bc52-3396c41bf1ce/UnityDocumentation.zip' ]","timestamp":"2021-01-29T13:26:32.745Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorInstaller/Unity.tar.xz to /tmp/unityhub-9970fe40-6235-11eb-bc52-3396c41bf1ce/Unity.tar.xz' ]","timestamp":"2021-01-29T13:26:33.180Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.2f1: downloads starting, total size: 3.98GB)' ]","timestamp":"2021-01-29T13:26:33.181Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-9970fe40-6235-11eb-bc52-3396c41bf1ce/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz' ]","timestamp":"2021-01-29T13:44:25.375Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-9970fe40-6235-11eb-bc52-3396c41bf1ce/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg' ]","timestamp":"2021-01-29T13:45:17.901Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-9970fe40-6235-11eb-bc52-3396c41bf1ce/UnitySetup-Mac-Mono-Support-for-Editor-2020.2.2f1.pkg' ]","timestamp":"2021-01-29T14:17:14.561Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.2f1: Finished' ]","timestamp":"2021-01-29T15:12:20.594Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.2f1: end event for cluster' ]","timestamp":"2021-01-29T15:12:20.595Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-9970fe40-6235-11eb-bc52-3396c41bf1ce/UnityDocumentation.zip' ]","timestamp":"2021-01-29T15:12:20.595Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Access token is expired, attempting to get a new one with refresh token' ]","timestamp":"2021-01-29T15:21:57.730Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged in' ]","timestamp":"2021-01-29T15:21:59.362Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.2f1: end event for editor' ]","timestamp":"2021-01-29T16:24:48.882Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.2f1: Finished' ]","timestamp":"2021-01-29T16:24:48.883Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-9970fe40-6235-11eb-bc52-3396c41bf1ce/Unity.tar.xz' ]","timestamp":"2021-01-29T16:24:48.883Z"}
+{"moduleName":"EditorPrefLinux","level":"warn","message":"[ { [Error: ENOENT: no such file or directory, open '/home/vhyrro/.local/share/unity3d/prefs']\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'open',\n    path: '/home/vhyrro/.local/share/unity3d/prefs' } ]","timestamp":"2021-01-29T17:01:35.866Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.2f1: starting' ]","timestamp":"2021-01-29T17:01:57.140Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster total download size: 1.04GB' ]","timestamp":"2021-01-29T17:01:57.945Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.2f1: downloads starting' ]","timestamp":"2021-01-29T17:01:57.945Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorTargetInstaller/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz to /tmp/unityhub-b1e64d40-6253-11eb-bc52-3396c41bf1ce/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz' ]","timestamp":"2021-01-29T17:01:57.946Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/MacEditorTargetInstaller/UnitySetup-Mac-Mono-Support-for-Editor-2020.2.2f1.pkg to /tmp/unityhub-b1e64d40-6253-11eb-bc52-3396c41bf1ce/UnitySetup-Mac-Mono-Support-for-Editor-2020.2.2f1.pkg' ]","timestamp":"2021-01-29T17:01:57.946Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg to /tmp/unityhub-b1e64d40-6253-11eb-bc52-3396c41bf1ce/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg' ]","timestamp":"2021-01-29T17:01:57.946Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://storage.googleapis.com/docscloudstorage/2020.2/UnityDocumentation.zip to /tmp/unityhub-b1e64d40-6253-11eb-bc52-3396c41bf1ce/UnityDocumentation.zip' ]","timestamp":"2021-01-29T17:01:57.947Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorInstaller/Unity.tar.xz to /tmp/unityhub-b1e64d40-6253-11eb-bc52-3396c41bf1ce/Unity.tar.xz' ]","timestamp":"2021-01-29T17:01:58.588Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.2f1: downloads starting, total size: 3.98GB)' ]","timestamp":"2021-01-29T17:01:58.589Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Access token is expired, attempting to get a new one with refresh token' ]","timestamp":"2021-01-29T17:21:44.138Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Access token is expired, attempting to get a new one with refresh token' ]","timestamp":"2021-01-29T17:21:49.138Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged in' ]","timestamp":"2021-01-29T17:21:57.556Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged in' ]","timestamp":"2021-01-29T17:22:00.699Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-b1e64d40-6253-11eb-bc52-3396c41bf1ce/UnityDocumentation.zip' ]","timestamp":"2021-01-29T17:24:58.359Z"}
+{"moduleName":"DownloadRequest","level":"warn","message":"[ 'Something went wrong while downloading https://download.unity3d.com/download_unity/068178b99f32/MacEditorTargetInstaller/UnitySetup-Mac-Mono-Support-for-Editor-2020.2.2f1.pkg Error: ESOCKETTIMEDOUT Error: ESOCKETTIMEDOUT\\n    at ClientRequest.<anonymous> (/opt/unityhub/resources/app.asar/node_modules/request/request.js:816:19)\\n    at Object.onceWrapper (events.js:282:20)\\n    at ClientRequest.emit (events.js:194:13)\\n    at ClientRequest.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.emitRequestTimeout (_http_client.js:673:40)\\n    at Object.onceWrapper (events.js:282:20)\\n    at TLSSocket.emit (events.js:194:13)\\n    at TLSSocket.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.Socket._onTimeout (net.js:429:8)\\n    at listOnTimeout (internal/timers.js:535:17)' ]","timestamp":"2021-01-29T17:37:37.006Z"}
+{"moduleName":"DownloadRequest","level":"warn","message":"[ 'Something went wrong while checking progress of https://download.unity3d.com/download_unity/068178b99f32/MacEditorTargetInstaller/UnitySetup-Mac-Mono-Support-for-Editor-2020.2.2f1.pkg Error: ESOCKETTIMEDOUT Error: ESOCKETTIMEDOUT\\n    at ClientRequest.<anonymous> (/opt/unityhub/resources/app.asar/node_modules/request/request.js:816:19)\\n    at Object.onceWrapper (events.js:282:20)\\n    at ClientRequest.emit (events.js:194:13)\\n    at ClientRequest.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.emitRequestTimeout (_http_client.js:673:40)\\n    at Object.onceWrapper (events.js:282:20)\\n    at TLSSocket.emit (events.js:194:13)\\n    at TLSSocket.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.Socket._onTimeout (net.js:429:8)\\n    at listOnTimeout (internal/timers.js:535:17)' ]","timestamp":"2021-01-29T17:37:37.006Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-b1e64d40-6253-11eb-bc52-3396c41bf1ce/UnitySetup-Mac-Mono-Support-for-Editor-2020.2.2f1.pkg' ]","timestamp":"2021-01-29T17:37:37.006Z"}
+{"moduleName":"DownloadRequest","level":"warn","message":"[ 'Something went wrong while downloading https://download.unity3d.com/download_unity/068178b99f32/MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg Error: ESOCKETTIMEDOUT Error: ESOCKETTIMEDOUT\\n    at ClientRequest.<anonymous> (/opt/unityhub/resources/app.asar/node_modules/request/request.js:816:19)\\n    at Object.onceWrapper (events.js:282:20)\\n    at ClientRequest.emit (events.js:194:13)\\n    at ClientRequest.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.emitRequestTimeout (_http_client.js:673:40)\\n    at Object.onceWrapper (events.js:282:20)\\n    at TLSSocket.emit (events.js:194:13)\\n    at TLSSocket.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.Socket._onTimeout (net.js:429:8)\\n    at listOnTimeout (internal/timers.js:535:17)' ]","timestamp":"2021-01-29T17:37:37.455Z"}
+{"moduleName":"DownloadRequest","level":"warn","message":"[ 'Something went wrong while checking progress of https://download.unity3d.com/download_unity/068178b99f32/MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg Error: ESOCKETTIMEDOUT Error: ESOCKETTIMEDOUT\\n    at ClientRequest.<anonymous> (/opt/unityhub/resources/app.asar/node_modules/request/request.js:816:19)\\n    at Object.onceWrapper (events.js:282:20)\\n    at ClientRequest.emit (events.js:194:13)\\n    at ClientRequest.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.emitRequestTimeout (_http_client.js:673:40)\\n    at Object.onceWrapper (events.js:282:20)\\n    at TLSSocket.emit (events.js:194:13)\\n    at TLSSocket.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.Socket._onTimeout (net.js:429:8)\\n    at listOnTimeout (internal/timers.js:535:17)' ]","timestamp":"2021-01-29T17:37:37.455Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-b1e64d40-6253-11eb-bc52-3396c41bf1ce/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg' ]","timestamp":"2021-01-29T17:37:37.455Z"}
+{"moduleName":"DownloadRequest","level":"warn","message":"[ 'Something went wrong while downloading https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorTargetInstaller/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz Error: ESOCKETTIMEDOUT Error: ESOCKETTIMEDOUT\\n    at ClientRequest.<anonymous> (/opt/unityhub/resources/app.asar/node_modules/request/request.js:816:19)\\n    at Object.onceWrapper (events.js:282:20)\\n    at ClientRequest.emit (events.js:194:13)\\n    at ClientRequest.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.emitRequestTimeout (_http_client.js:673:40)\\n    at Object.onceWrapper (events.js:282:20)\\n    at TLSSocket.emit (events.js:194:13)\\n    at TLSSocket.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.Socket._onTimeout (net.js:429:8)\\n    at listOnTimeout (internal/timers.js:535:17)' ]","timestamp":"2021-01-29T17:37:38.320Z"}
+{"moduleName":"DownloadRequest","level":"warn","message":"[ 'Something went wrong while checking progress of https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorTargetInstaller/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz Error: ESOCKETTIMEDOUT Error: ESOCKETTIMEDOUT\\n    at ClientRequest.<anonymous> (/opt/unityhub/resources/app.asar/node_modules/request/request.js:816:19)\\n    at Object.onceWrapper (events.js:282:20)\\n    at ClientRequest.emit (events.js:194:13)\\n    at ClientRequest.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.emitRequestTimeout (_http_client.js:673:40)\\n    at Object.onceWrapper (events.js:282:20)\\n    at TLSSocket.emit (events.js:194:13)\\n    at TLSSocket.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.Socket._onTimeout (net.js:429:8)\\n    at listOnTimeout (internal/timers.js:535:17)' ]","timestamp":"2021-01-29T17:37:38.320Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.2f1: Finished' ]","timestamp":"2021-01-29T17:37:38.320Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.2f1: end event for cluster' ]","timestamp":"2021-01-29T17:37:38.320Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-b1e64d40-6253-11eb-bc52-3396c41bf1ce/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz' ]","timestamp":"2021-01-29T17:37:38.320Z"}
+{"moduleName":"DownloadRequest","level":"warn","message":"[ 'Something went wrong while downloading https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorInstaller/Unity.tar.xz Error: ESOCKETTIMEDOUT Error: ESOCKETTIMEDOUT\\n    at ClientRequest.<anonymous> (/opt/unityhub/resources/app.asar/node_modules/request/request.js:816:19)\\n    at Object.onceWrapper (events.js:282:20)\\n    at ClientRequest.emit (events.js:194:13)\\n    at ClientRequest.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.emitRequestTimeout (_http_client.js:673:40)\\n    at Object.onceWrapper (events.js:282:20)\\n    at TLSSocket.emit (events.js:194:13)\\n    at TLSSocket.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.Socket._onTimeout (net.js:429:8)\\n    at listOnTimeout (internal/timers.js:535:17)' ]","timestamp":"2021-01-29T17:37:45.681Z"}
+{"moduleName":"DownloadRequest","level":"warn","message":"[ 'Something went wrong while checking progress of https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorInstaller/Unity.tar.xz Error: ESOCKETTIMEDOUT Error: ESOCKETTIMEDOUT\\n    at ClientRequest.<anonymous> (/opt/unityhub/resources/app.asar/node_modules/request/request.js:816:19)\\n    at Object.onceWrapper (events.js:282:20)\\n    at ClientRequest.emit (events.js:194:13)\\n    at ClientRequest.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.emitRequestTimeout (_http_client.js:673:40)\\n    at Object.onceWrapper (events.js:282:20)\\n    at TLSSocket.emit (events.js:194:13)\\n    at TLSSocket.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.Socket._onTimeout (net.js:429:8)\\n    at listOnTimeout (internal/timers.js:535:17)' ]","timestamp":"2021-01-29T17:37:45.681Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.2f1: end event for editor' ]","timestamp":"2021-01-29T17:37:45.681Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.2f1: Finished' ]","timestamp":"2021-01-29T17:37:45.681Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-b1e64d40-6253-11eb-bc52-3396c41bf1ce/Unity.tar.xz' ]","timestamp":"2021-01-29T17:37:45.682Z"}
+{"moduleName":"Download","level":"warn","message":"[ 'The checksum does not match for windows-mono' ]","timestamp":"2021-01-29T17:37:46.977Z"}
+{"moduleName":"Download","level":"warn","message":"[ 'The checksum does not match for mac-mono' ]","timestamp":"2021-01-29T17:37:46.979Z"}
+{"moduleName":"Download","level":"warn","message":"[ 'The checksum does not match for linux-il2cpp' ]","timestamp":"2021-01-29T17:37:47.000Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'New Project Window is called for editor Unity' ]","timestamp":"2021-01-29T17:41:11.147Z"}
+{"moduleName":"Templates","level":"warn","message":"[ 'No package.json found for the template',\n  \"ENOENT: no such file or directory, open '/opt/Unity/Editor/Data/Resources/PackageManager/ProjectTemplates/libcache/package.json'\" ]","timestamp":"2021-01-29T17:41:11.561Z"}
+{"moduleName":"UnityPackageManagerService","level":"info","message":"[ 'Unity version not supported by the current configuration: Unity' ]","timestamp":"2021-01-29T17:41:13.763Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'createProject projectPath: /home/vhyrro/dev/Unity Projects/Test Project, current editor: ',\n  undefined ]","timestamp":"2021-01-29T17:41:57.292Z"}
+{"moduleName":"RestEvent:Project","level":"info","message":"[ 'onProjectCreate data: ',\n  { projectName: 'Test Project',\n    projectDirectory: '/home/vhyrro/dev/Unity Projects',\n    projectType:\n     '/opt/Unity/Editor/Data/Resources/PackageManager/ProjectTemplates/com.unity.template.3d-3.1.4.tgz',\n    selectedPackages: [],\n    defaultScene: '',\n    organizationId: undefined } ]","timestamp":"2021-01-29T17:41:57.292Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'client process has connected to /tmp/Unity-hubIPCService.sock!' ]","timestamp":"2021-01-29T17:41:57.706Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: license.change' ]","timestamp":"2021-01-29T17:43:55.875Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.opened' ]","timestamp":"2021-01-29T17:43:55.875Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.create' ]","timestamp":"2021-01-29T17:43:55.875Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.createTemp' ]","timestamp":"2021-01-29T17:43:55.875Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.openedFromCloud' ]","timestamp":"2021-01-29T17:43:55.876Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: main-window.change' ]","timestamp":"2021-01-29T17:43:55.876Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'stopping web socket server. closing connections' ]","timestamp":"2021-01-29T17:43:55.876Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'emit stop child process of /tmp/Unity-hubIPCService.sock' ]","timestamp":"2021-01-29T17:43:55.876Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ { Error: connect EBADF 35.241.52.229:443 - Local (undefined:undefined)\n      at internalConnect (net.js:840:16)\n      at defaultTriggerAsyncIdScope (internal/async_hooks.js:288:19)\n      at GetAddrInfoReqWrap.emitLookup [as callback] (net.js:983:9)\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:63:10)\n    errno: 'EBADF',\n    code: 'EBADF',\n    syscall: 'connect',\n    address: '35.241.52.229',\n    port: 443,\n    config:\n     { adapter: [Function: httpAdapter],\n       transformRequest: [Object],\n       transformResponse: [Object],\n       timeout: 0,\n       xsrfCookieName: 'XSRF-TOKEN',\n       xsrfHeaderName: 'X-XSRF-TOKEN',\n       maxContentLength: -1,\n       validateStatus: [Function: validateStatus],\n       headers: [Object],\n       proxy: false,\n       method: 'post',\n       responseType: 'json',\n       url: 'https://prd-lender.cdp.internal.unity3d.com/v1/events',\n       data:\n        '{\"common\":{\"appid\":\"hub\",\"deviceid\":\"\",\"hub_version\":\"2.4.2-g\",\"machineid\":\"dzPpQiBxp9Q0tG+ZssOnIMRP4qY=\",\"platform\":\"kLinux\",\"platformid\":16,\"session_guid\":\"b0740620-6233-11eb-bc52-3396c41bf1ce\",\"license_hash\":\"c44983083de636131f31d88fdc3cd098a311c5ce\",\"cloud_user_id\":\"1374702138613\"}}\\n{\"type\":\"hub.quit.v1\",\"msg\":{\"source\":\"TrayMenu\",\"ts\":1611942234904}}\\n' },\n    request:\n     Writable {\n       _writableState: [WritableState],\n       writable: true,\n       _events: [Object],\n       _eventsCount: 2,\n       _maxListeners: undefined,\n       _options: [Object],\n       _redirectCount: 0,\n       _redirects: [],\n       _requestBodyLength: 358,\n       _requestBodyBuffers: [Array],\n       _onNativeResponse: [Function],\n       _currentRequest: [ClientRequest],\n       _currentUrl: 'https://prd-lender.cdp.internal.unity3d.com/v1/events' },\n    response: undefined } ]","timestamp":"2021-01-29T17:43:55.935Z"}
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2021-01-29T18:02:32.755Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2021-01-29T18:02:32.755Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.4.2' ]","timestamp":"2021-01-29T18:02:32.760Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: undefined' ]","timestamp":"2021-01-29T18:02:32.760Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'AMD Ryzen 5 2600X Six-Core Processor; Linux (5.10.11-arch1-1)' ]","timestamp":"2021-01-29T18:02:32.761Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/usr/share/unity3d/config' } ]","timestamp":"2021-01-29T18:02:32.766Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2021-01-29T18:02:32.766Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2021-01-29T18:02:33.086Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T18:02:33.090Z"}
+{"moduleName":"TokenManager","level":"warn","message":"[ 'Token storage is corrupted.',\n  [Error: The name org.freedesktop.secrets was not provided by any .service files] ]","timestamp":"2021-01-29T18:02:33.096Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T18:02:33.097Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T18:02:33.098Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]","timestamp":"2021-01-29T18:02:33.098Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2021-01-29T18:02:33.102Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/Unity/Hub/Editor' ]","timestamp":"2021-01-29T18:02:33.103Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/.unity-editors' ]","timestamp":"2021-01-29T18:02:33.104Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '1 located Editors found in storage' ]","timestamp":"2021-01-29T18:02:33.105Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T18:02:33.107Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T18:02:33.107Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Both tokens are expired, user will be logged out' ]","timestamp":"2021-01-29T18:02:33.107Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged out' ]","timestamp":"2021-01-29T18:02:33.112Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T18:02:33.114Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2021-01-29T18:02:33.114Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2021-01-29T18:02:33.144Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseValid' ]","timestamp":"2021-01-29T18:02:33.144Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license verified' ]","timestamp":"2021-01-29T18:02:33.144Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2021-01-29T18:02:33.145Z"}
+{"moduleName":"UnityPackageManagerService","level":"info","message":"[ 'Dynamic templates config loaded: [object Object]' ]","timestamp":"2021-01-29T18:02:33.591Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T18:02:33.591Z"}
+{"moduleName":"AutoUpdater","level":"warn","message":"[ 'Missing update server path' ]","timestamp":"2021-01-29T18:02:33.788Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2021-01-29T18:02:33.788Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2021-01-29T18:02:33.789Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2021-01-29T18:02:34.072Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T18:02:34.073Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2021-01-29T18:02:34.073Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2021-01-29T18:02:34.073Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2021-01-29T18:02:34.073Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2021-01-29T18:02:34.073Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2021-01-29T18:02:34.073Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2021-01-29T18:02:34.074Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2021-01-29T18:02:34.077Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T18:02:34.077Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2021-01-29T18:02:34.079Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T18:02:34.080Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T18:02:34.080Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T18:02:34.080Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T18:02:34.081Z"}
+{"moduleName":"ListStorage","level":"info","message":"[ '0 located items found in storage' ]","timestamp":"2021-01-29T18:02:34.082Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T18:02:34.083Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T18:02:34.083Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2021-01-29T18:02:34.106Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2021-01-29T18:02:34.107Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'client process has connected to /tmp/Unity-hubIPCService.sock!' ]","timestamp":"2021-01-29T18:02:34.110Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Loading default page' ]","timestamp":"2021-01-29T18:02:34.134Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.2f1: starting' ]","timestamp":"2021-01-29T18:03:01.609Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster total download size: 543.31MB' ]","timestamp":"2021-01-29T18:03:02.272Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.2f1: downloads starting' ]","timestamp":"2021-01-29T18:03:02.273Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorTargetInstaller/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz to /tmp/unityhub-3a17be80-625c-11eb-8812-b98b4ce50f83/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz' ]","timestamp":"2021-01-29T18:03:02.273Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg to /tmp/unityhub-3a17be80-625c-11eb-8812-b98b4ce50f83/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg' ]","timestamp":"2021-01-29T18:03:02.276Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://storage.googleapis.com/docscloudstorage/2020.2/UnityDocumentation.zip to /tmp/unityhub-3a17be80-625c-11eb-8812-b98b4ce50f83/UnityDocumentation.zip' ]","timestamp":"2021-01-29T18:03:02.276Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorInstaller/Unity.tar.xz to /tmp/unityhub-3a17be80-625c-11eb-8812-b98b4ce50f83/Unity.tar.xz' ]","timestamp":"2021-01-29T18:03:02.734Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.2f1: downloads starting, total size: 3.48GB)' ]","timestamp":"2021-01-29T18:03:02.735Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Download Cluster cluster-2020.2.2f1: Canceled' ]","timestamp":"2021-01-29T18:13:35.418Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.2f1: Canceled' ]","timestamp":"2021-01-29T18:13:35.419Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.2f1: end event for editor' ]","timestamp":"2021-01-29T18:13:35.419Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-3a17be80-625c-11eb-8812-b98b4ce50f83/Unity.tar.xz' ]","timestamp":"2021-01-29T18:13:35.419Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-3a17be80-625c-11eb-8812-b98b4ce50f83/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz' ]","timestamp":"2021-01-29T18:13:35.419Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-3a17be80-625c-11eb-8812-b98b4ce50f83/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg' ]","timestamp":"2021-01-29T18:13:35.419Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.2f1: Finished' ]","timestamp":"2021-01-29T18:13:35.420Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.2f1: end event for cluster' ]","timestamp":"2021-01-29T18:13:35.420Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.2f1: Finished' ]","timestamp":"2021-01-29T18:13:35.420Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-3a17be80-625c-11eb-8812-b98b4ce50f83/UnityDocumentation.zip' ]","timestamp":"2021-01-29T18:13:35.420Z"}
+{"moduleName":"front-end","level":"error","message":"[ '[$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply',\n  'Error: [$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply\\n    at file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:676\\n    at g (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:101544)\\n    at d.$apply (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100014)\\n    at file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:115623\\n    at d.$emit (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100801)\\n    at e.removeEditorFromTheList (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:125392)\\n    at Ke.cancelDownload (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:117786)\\n    at fn (eval at compile (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:103032), <anonymous>:4:298)\\n    at i (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:146084)\\n    at e.$eval (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:99817)',\n  undefined ]","timestamp":"2021-01-29T18:13:35.422Z"}
+{"moduleName":"front-end","level":"error","message":"[ '[$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply',\n  'Error: [$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply\\n    at file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:676\\n    at g (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:101544)\\n    at d.$digest (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:97780)\\n    at d.$apply (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100092)\\n    at file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:115623\\n    at d.$emit (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100801)\\n    at e.removeEditorFromTheList (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:125392)\\n    at Ke.cancelDownload (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:117786)\\n    at fn (eval at compile (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:103032), <anonymous>:4:298)\\n    at i (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:146084)',\n  undefined ]","timestamp":"2021-01-29T18:13:35.423Z"}
+{"moduleName":"front-end","level":"error","message":"[ '[$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply',\n  'Error: [$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply\\n    at file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:676\\n    at g (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:101544)\\n    at d.$digest (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:97780)\\n    at d.$apply (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100092)\\n    at file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:115623\\n    at d.$emit (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100801)\\n    at e.removeEditorFromTheList (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:125392)\\n    at Ke.cancelDownload (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:117786)\\n    at fn (eval at compile (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:103032), <anonymous>:4:298)\\n    at i (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:146084)',\n  undefined ]","timestamp":"2021-01-29T18:13:35.423Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: license.change' ]","timestamp":"2021-01-29T18:56:34.304Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.opened' ]","timestamp":"2021-01-29T18:56:34.305Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.create' ]","timestamp":"2021-01-29T18:56:34.305Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.createTemp' ]","timestamp":"2021-01-29T18:56:34.305Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.openedFromCloud' ]","timestamp":"2021-01-29T18:56:34.305Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: main-window.change' ]","timestamp":"2021-01-29T18:56:34.305Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'stopping web socket server. closing connections' ]","timestamp":"2021-01-29T18:56:34.305Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'emit stop child process of /tmp/Unity-hubIPCService.sock' ]","timestamp":"2021-01-29T18:56:34.306Z"}
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2021-01-29T19:30:32.593Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2021-01-29T19:30:32.593Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.4.2' ]","timestamp":"2021-01-29T19:30:32.598Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: undefined' ]","timestamp":"2021-01-29T19:30:32.598Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'AMD Ryzen 5 2600X Six-Core Processor; Linux (5.10.11-arch1-1)' ]","timestamp":"2021-01-29T19:30:32.599Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/usr/share/unity3d/config' } ]","timestamp":"2021-01-29T19:30:32.607Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2021-01-29T19:30:32.607Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2021-01-29T19:30:33.337Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T19:30:33.341Z"}
+{"moduleName":"TokenManager","level":"warn","message":"[ 'Token storage is corrupted.',\n  [Error: The name org.freedesktop.secrets was not provided by any .service files] ]","timestamp":"2021-01-29T19:30:33.345Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T19:30:33.345Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T19:30:33.346Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]","timestamp":"2021-01-29T19:30:33.346Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2021-01-29T19:30:33.349Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/Unity/Hub/Editor' ]","timestamp":"2021-01-29T19:30:33.351Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/.unity-editors' ]","timestamp":"2021-01-29T19:30:33.351Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '0 located Editors found in storage' ]","timestamp":"2021-01-29T19:30:33.352Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T19:30:33.353Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T19:30:33.353Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Both tokens are expired, user will be logged out' ]","timestamp":"2021-01-29T19:30:33.353Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged out' ]","timestamp":"2021-01-29T19:30:33.357Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T19:30:33.359Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2021-01-29T19:30:33.360Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2021-01-29T19:30:33.387Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseValid' ]","timestamp":"2021-01-29T19:30:33.387Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license verified' ]","timestamp":"2021-01-29T19:30:33.387Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2021-01-29T19:30:33.388Z"}
+{"moduleName":"UnityPackageManagerService","level":"info","message":"[ 'Dynamic templates config loaded: [object Object]' ]","timestamp":"2021-01-29T19:30:33.610Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T19:30:33.610Z"}
+{"moduleName":"AutoUpdater","level":"warn","message":"[ 'Missing update server path' ]","timestamp":"2021-01-29T19:30:33.822Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2021-01-29T19:30:33.823Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2021-01-29T19:30:33.823Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2021-01-29T19:30:34.115Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T19:30:34.116Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2021-01-29T19:30:34.116Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2021-01-29T19:30:34.116Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2021-01-29T19:30:34.116Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2021-01-29T19:30:34.116Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2021-01-29T19:30:34.116Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2021-01-29T19:30:34.116Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2021-01-29T19:30:34.119Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T19:30:34.119Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2021-01-29T19:30:34.120Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T19:30:34.121Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T19:30:34.121Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T19:30:34.122Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T19:30:34.122Z"}
+{"moduleName":"ListStorage","level":"info","message":"[ '0 located items found in storage' ]","timestamp":"2021-01-29T19:30:34.123Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T19:30:34.123Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-29T19:30:34.123Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2021-01-29T19:30:34.137Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2021-01-29T19:30:34.137Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Loading installs page' ]","timestamp":"2021-01-29T19:30:34.144Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'client process has connected to /tmp/Unity-hubIPCService.sock!' ]","timestamp":"2021-01-29T19:30:34.335Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.2f1: starting' ]","timestamp":"2021-01-29T19:30:41.941Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster total download size: 543.31MB' ]","timestamp":"2021-01-29T19:30:42.950Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.2f1: downloads starting' ]","timestamp":"2021-01-29T19:30:42.951Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorTargetInstaller/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz to /tmp/unityhub-797eb540-6268-11eb-ac8a-75a19960a048/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz' ]","timestamp":"2021-01-29T19:30:42.952Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg to /tmp/unityhub-797eb540-6268-11eb-ac8a-75a19960a048/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg' ]","timestamp":"2021-01-29T19:30:42.954Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://storage.googleapis.com/docscloudstorage/2020.2/UnityDocumentation.zip to /tmp/unityhub-797eb540-6268-11eb-ac8a-75a19960a048/UnityDocumentation.zip' ]","timestamp":"2021-01-29T19:30:42.954Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorInstaller/Unity.tar.xz to /tmp/unityhub-797eb540-6268-11eb-ac8a-75a19960a048/Unity.tar.xz' ]","timestamp":"2021-01-29T19:30:43.841Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.2f1: downloads starting, total size: 3.48GB)' ]","timestamp":"2021-01-29T19:30:43.842Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.2f1: end event for editor' ]","timestamp":"2021-01-29T19:39:51.873Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-797eb540-6268-11eb-ac8a-75a19960a048/Unity.tar.xz' ]","timestamp":"2021-01-29T19:39:51.873Z"}
+{"moduleName":"DownloadRequest","level":"warn","message":"[ 'Something went wrong while downloading https://download.unity3d.com/download_unity/068178b99f32/MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg Error: read ECONNRESET Error: read ECONNRESET\\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:182:27)' ]","timestamp":"2021-01-29T19:39:54.823Z"}
+{"moduleName":"DownloadRequest","level":"warn","message":"[ 'Something went wrong while checking progress of https://download.unity3d.com/download_unity/068178b99f32/MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg Error: read ECONNRESET Error: read ECONNRESET\\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:182:27)' ]","timestamp":"2021-01-29T19:39:54.823Z"}
+{"moduleName":"EditorDownloader","level":"warn","message":"[ 'Editor Downloader 2020.2.2f1: Cluster error, skipping windows-mono ' ]","timestamp":"2021-01-29T19:39:54.823Z"}
+{"moduleName":"DownloadsCluster","level":"warn","message":"[ 'Download cluster cluster-2020.2.2f1: Failed to download module windows-mono' ]","timestamp":"2021-01-29T19:39:54.824Z"}
+{"moduleName":"DownloadsCluster","level":"warn","message":"[ 'Download error: Error: read ECONNRESET' ]","timestamp":"2021-01-29T19:39:54.824Z"}
+{"moduleName":"DownloadManager","level":"warn","message":"[ 'Could not download from https://download.unity3d.com/download_unity/068178b99f32/MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg to /tmp/unityhub-797eb540-6268-11eb-ac8a-75a19960a048/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg Error: read ECONNRESET Error: read ECONNRESET\\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:182:27)' ]","timestamp":"2021-01-29T19:39:54.824Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-797eb540-6268-11eb-ac8a-75a19960a048/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz' ]","timestamp":"2021-01-29T19:40:12.780Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-797eb540-6268-11eb-ac8a-75a19960a048/UnityDocumentation.zip' ]","timestamp":"2021-01-29T20:08:08.170Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Download Cluster cluster-2020.2.2f1: Canceled' ]","timestamp":"2021-01-29T20:38:49.779Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.2f1: Canceled' ]","timestamp":"2021-01-29T20:38:49.779Z"}
+{"moduleName":"front-end","level":"error","message":"[ '[$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply',\n  'Error: [$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply\\n    at file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:676\\n    at g (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:101544)\\n    at d.$apply (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100014)\\n    at file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:115623\\n    at d.$emit (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100801)\\n    at e.removeEditorFromTheList (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:125392)\\n    at Ke.cancelDownload (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:117786)\\n    at fn (eval at compile (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:103032), <anonymous>:4:298)\\n    at i (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:146084)\\n    at e.$eval (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:99817)',\n  undefined ]","timestamp":"2021-01-29T20:38:49.781Z"}
+{"moduleName":"front-end","level":"error","message":"[ '[$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply',\n  'Error: [$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply\\n    at file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:676\\n    at g (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:101544)\\n    at d.$digest (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:97780)\\n    at d.$apply (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100092)\\n    at file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:115623\\n    at d.$emit (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100801)\\n    at e.removeEditorFromTheList (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:125392)\\n    at Ke.cancelDownload (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:117786)\\n    at fn (eval at compile (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:103032), <anonymous>:4:298)\\n    at i (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:146084)',\n  undefined ]","timestamp":"2021-01-29T20:38:49.781Z"}
+{"moduleName":"front-end","level":"error","message":"[ '[$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply',\n  'Error: [$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply\\n    at file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:676\\n    at g (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:101544)\\n    at d.$digest (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:97780)\\n    at d.$apply (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100092)\\n    at file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:115623\\n    at d.$emit (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100801)\\n    at e.removeEditorFromTheList (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:125392)\\n    at Ke.cancelDownload (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:117786)\\n    at fn (eval at compile (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:103032), <anonymous>:4:298)\\n    at i (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:146084)',\n  undefined ]","timestamp":"2021-01-29T20:38:49.782Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: license.change' ]","timestamp":"2021-01-29T20:45:13.450Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.opened' ]","timestamp":"2021-01-29T20:45:13.451Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.create' ]","timestamp":"2021-01-29T20:45:13.451Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.createTemp' ]","timestamp":"2021-01-29T20:45:13.451Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.openedFromCloud' ]","timestamp":"2021-01-29T20:45:13.451Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: main-window.change' ]","timestamp":"2021-01-29T20:45:13.451Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'stopping web socket server. closing connections' ]","timestamp":"2021-01-29T20:45:13.451Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'emit stop child process of /tmp/Unity-hubIPCService.sock' ]","timestamp":"2021-01-29T20:45:13.452Z"}
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2021-01-30T15:58:56.997Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2021-01-30T15:58:56.997Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.4.2' ]","timestamp":"2021-01-30T15:58:57.002Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: undefined' ]","timestamp":"2021-01-30T15:58:57.002Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'AMD Ryzen 5 2600X Six-Core Processor; Linux (5.10.11-arch1-1)' ]","timestamp":"2021-01-30T15:58:57.002Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/usr/share/unity3d/config' } ]","timestamp":"2021-01-30T15:58:57.007Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2021-01-30T15:58:57.007Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2021-01-30T15:58:57.370Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T15:58:57.374Z"}
+{"moduleName":"TokenManager","level":"warn","message":"[ 'Token storage is corrupted.',\n  [Error: The name org.freedesktop.secrets was not provided by any .service files] ]","timestamp":"2021-01-30T15:58:57.381Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T15:58:57.381Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T15:58:57.382Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]","timestamp":"2021-01-30T15:58:57.382Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2021-01-30T15:58:57.385Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/Unity/Hub/Editor' ]","timestamp":"2021-01-30T15:58:57.386Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/.unity-editors' ]","timestamp":"2021-01-30T15:58:57.387Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '0 located Editors found in storage' ]","timestamp":"2021-01-30T15:58:57.387Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T15:58:57.388Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T15:58:57.388Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Both tokens are expired, user will be logged out' ]","timestamp":"2021-01-30T15:58:57.388Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged out' ]","timestamp":"2021-01-30T15:58:57.391Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T15:58:57.393Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2021-01-30T15:58:57.393Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2021-01-30T15:58:57.409Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseValid' ]","timestamp":"2021-01-30T15:58:57.409Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license verified' ]","timestamp":"2021-01-30T15:58:57.409Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2021-01-30T15:58:57.409Z"}
+{"moduleName":"UnityPackageManagerService","level":"info","message":"[ 'Dynamic templates config loaded: [object Object]' ]","timestamp":"2021-01-30T15:58:57.588Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T15:58:57.588Z"}
+{"moduleName":"AutoUpdater","level":"warn","message":"[ 'Missing update server path' ]","timestamp":"2021-01-30T15:58:57.769Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2021-01-30T15:58:57.770Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2021-01-30T15:58:57.770Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2021-01-30T15:58:58.022Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T15:58:58.023Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2021-01-30T15:58:58.023Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2021-01-30T15:58:58.023Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2021-01-30T15:58:58.023Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2021-01-30T15:58:58.023Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2021-01-30T15:58:58.023Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2021-01-30T15:58:58.024Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2021-01-30T15:58:58.026Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T15:58:58.026Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2021-01-30T15:58:58.027Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T15:58:58.028Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T15:58:58.028Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T15:58:58.028Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T15:58:58.028Z"}
+{"moduleName":"ListStorage","level":"info","message":"[ '0 located items found in storage' ]","timestamp":"2021-01-30T15:58:58.029Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T15:58:58.030Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T15:58:58.030Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2021-01-30T15:58:58.045Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2021-01-30T15:58:58.046Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Loading installs page' ]","timestamp":"2021-01-30T15:58:58.052Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.2f1: starting' ]","timestamp":"2021-01-30T15:59:06.630Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster total download size: 543.31MB' ]","timestamp":"2021-01-30T15:59:07.295Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.2f1: downloads starting' ]","timestamp":"2021-01-30T15:59:07.296Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorTargetInstaller/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz to /tmp/unityhub-14e9bb50-6314-11eb-8709-a7780f892c73/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz' ]","timestamp":"2021-01-30T15:59:07.296Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg to /tmp/unityhub-14e9bb50-6314-11eb-8709-a7780f892c73/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg' ]","timestamp":"2021-01-30T15:59:07.298Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://storage.googleapis.com/docscloudstorage/2020.2/UnityDocumentation.zip to /tmp/unityhub-14e9bb50-6314-11eb-8709-a7780f892c73/UnityDocumentation.zip' ]","timestamp":"2021-01-30T15:59:07.299Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorInstaller/Unity.tar.xz to /tmp/unityhub-14e9bb50-6314-11eb-8709-a7780f892c73/Unity.tar.xz' ]","timestamp":"2021-01-30T15:59:07.559Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.2f1: downloads starting, total size: 3.48GB)' ]","timestamp":"2021-01-30T15:59:07.560Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-14e9bb50-6314-11eb-8709-a7780f892c73/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz' ]","timestamp":"2021-01-30T16:15:51.670Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-14e9bb50-6314-11eb-8709-a7780f892c73/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg' ]","timestamp":"2021-01-30T16:37:20.500Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: license.change' ]","timestamp":"2021-01-30T17:24:01.375Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.opened' ]","timestamp":"2021-01-30T17:24:01.375Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.create' ]","timestamp":"2021-01-30T17:24:01.375Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.createTemp' ]","timestamp":"2021-01-30T17:24:01.375Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.openedFromCloud' ]","timestamp":"2021-01-30T17:24:01.375Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: main-window.change' ]","timestamp":"2021-01-30T17:24:01.375Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'stopping web socket server. closing connections' ]","timestamp":"2021-01-30T17:24:01.376Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'emit stop child process of /tmp/Unity-hubIPCService.sock' ]","timestamp":"2021-01-30T17:24:01.376Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC server /tmp/Unity-hubIPCService.sock and client closed' ]","timestamp":"2021-01-30T17:24:01.376Z"}
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2021-01-30T17:34:56.844Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2021-01-30T17:34:56.844Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.4.2' ]","timestamp":"2021-01-30T17:34:56.850Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: undefined' ]","timestamp":"2021-01-30T17:34:56.850Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'AMD Ryzen 5 2600X Six-Core Processor; Linux (5.10.11-arch1-1)' ]","timestamp":"2021-01-30T17:34:56.851Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/usr/share/unity3d/config' } ]","timestamp":"2021-01-30T17:34:56.860Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2021-01-30T17:34:56.860Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2021-01-30T17:34:57.235Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T17:34:57.240Z"}
+{"moduleName":"TokenManager","level":"warn","message":"[ 'Token storage is corrupted.',\n  [Error: The name org.freedesktop.secrets was not provided by any .service files] ]","timestamp":"2021-01-30T17:34:57.246Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T17:34:57.246Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T17:34:57.247Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]","timestamp":"2021-01-30T17:34:57.247Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2021-01-30T17:34:57.251Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/Unity/Hub/Editor' ]","timestamp":"2021-01-30T17:34:57.252Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/.unity-editors' ]","timestamp":"2021-01-30T17:34:57.253Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '0 located Editors found in storage' ]","timestamp":"2021-01-30T17:34:57.254Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T17:34:57.254Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T17:34:57.255Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Both tokens are expired, user will be logged out' ]","timestamp":"2021-01-30T17:34:57.255Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged out' ]","timestamp":"2021-01-30T17:34:57.259Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T17:34:57.261Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2021-01-30T17:34:57.262Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2021-01-30T17:34:57.292Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseValid' ]","timestamp":"2021-01-30T17:34:57.292Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license verified' ]","timestamp":"2021-01-30T17:34:57.293Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2021-01-30T17:34:57.293Z"}
+{"moduleName":"UnityPackageManagerService","level":"info","message":"[ 'Dynamic templates config loaded: [object Object]' ]","timestamp":"2021-01-30T17:34:57.511Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T17:34:57.511Z"}
+{"moduleName":"AutoUpdater","level":"warn","message":"[ 'Missing update server path' ]","timestamp":"2021-01-30T17:34:57.718Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2021-01-30T17:34:57.718Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2021-01-30T17:34:57.719Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2021-01-30T17:34:58.022Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T17:34:58.022Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2021-01-30T17:34:58.023Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2021-01-30T17:34:58.023Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2021-01-30T17:34:58.023Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2021-01-30T17:34:58.023Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2021-01-30T17:34:58.023Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2021-01-30T17:34:58.023Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2021-01-30T17:34:58.026Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T17:34:58.026Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2021-01-30T17:34:58.028Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T17:34:58.029Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T17:34:58.030Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T17:34:58.030Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T17:34:58.030Z"}
+{"moduleName":"ListStorage","level":"info","message":"[ '0 located items found in storage' ]","timestamp":"2021-01-30T17:34:58.031Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T17:34:58.032Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2021-01-30T17:34:58.032Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2021-01-30T17:34:58.056Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2021-01-30T17:34:58.057Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Loading installs page' ]","timestamp":"2021-01-30T17:34:58.063Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.2f1: starting' ]","timestamp":"2021-01-30T17:35:06.341Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster total download size: 543.31MB' ]","timestamp":"2021-01-30T17:35:06.930Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.2f1: downloads starting' ]","timestamp":"2021-01-30T17:35:06.931Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorTargetInstaller/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz to /tmp/unityhub-7df7e240-6321-11eb-9029-7f9d3a652522/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz' ]","timestamp":"2021-01-30T17:35:06.931Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg to /tmp/unityhub-7df7e240-6321-11eb-9029-7f9d3a652522/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg' ]","timestamp":"2021-01-30T17:35:06.934Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://storage.googleapis.com/docscloudstorage/2020.2/UnityDocumentation.zip to /tmp/unityhub-7df7e240-6321-11eb-9029-7f9d3a652522/UnityDocumentation.zip' ]","timestamp":"2021-01-30T17:35:06.934Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/068178b99f32/LinuxEditorInstaller/Unity.tar.xz to /tmp/unityhub-7df7e240-6321-11eb-9029-7f9d3a652522/Unity.tar.xz' ]","timestamp":"2021-01-30T17:35:07.346Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.2f1: downloads starting, total size: 3.48GB)' ]","timestamp":"2021-01-30T17:35:07.346Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-7df7e240-6321-11eb-9029-7f9d3a652522/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.2f1.tar.xz' ]","timestamp":"2021-01-30T18:09:16.302Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-7df7e240-6321-11eb-9029-7f9d3a652522/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.2f1.pkg' ]","timestamp":"2021-01-30T18:13:25.306Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.2f1: Finished' ]","timestamp":"2021-01-30T19:15:23.314Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.2f1: end event for cluster' ]","timestamp":"2021-01-30T19:15:23.314Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-7df7e240-6321-11eb-9029-7f9d3a652522/UnityDocumentation.zip' ]","timestamp":"2021-01-30T19:15:23.314Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.2f1: end event for editor' ]","timestamp":"2021-01-30T19:28:22.996Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.2f1: Finished' ]","timestamp":"2021-01-30T19:28:22.996Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-7df7e240-6321-11eb-9029-7f9d3a652522/Unity.tar.xz' ]","timestamp":"2021-01-30T19:28:22.997Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Editor download ended successfully. Download id: 2020.2.2f1' ]","timestamp":"2021-01-30T19:28:29.760Z"}
+{"moduleName":"Installer","level":"info","message":"[ 'Install 2020.2.2f1: /tmp/unityhub-7df7e240-6321-11eb-9029-7f9d3a652522/Unity.tar.xz to /home/vhyrro/.unity-editors/2020.2.2f1 started' ]","timestamp":"2021-01-30T19:28:29.761Z"}
+{"moduleName":"UnityInstallerLinux","level":"warn","message":"[ { [Error: EACCES: permission denied, mkdir '/home/vhyrro/.unity-editors/2020.2.2f1']\n    errno: -13,\n    code: 'EACCES',\n    syscall: 'mkdir',\n    path: '/home/vhyrro/.unity-editors/2020.2.2f1' } ]","timestamp":"2021-01-30T19:28:29.765Z"}
+{"moduleName":"PackageFinder","level":"warn","message":"[ { [Error: ENOENT: no such file or directory, scandir '/home/vhyrro/.local/share/unity3d/Asset Store-5.x']\n    errno: -2,\n    code: 'ENOENT',\n    syscall: 'scandir',\n    path: '/home/vhyrro/.local/share/unity3d/Asset Store-5.x' } ]","timestamp":"2021-01-30T19:44:34.961Z"}
+{"moduleName":"learnContentService","level":"warn","message":"[ 'Removing learn content: {\"imageUrl\":\"https://connect-prd-cdn.unity.com/20200629/learn/images/b10c2b7d-30b9-4bf2-a41d-f25b441c39c4_GENART2020_0742_d_1920x1080.jpg.800x0x1.webp\",\"title\":\"What is DOTS and why is it important?\",\"skillLevel\":\"foundational\",\"duration\":30,\"summary\":\"In this tutorial, you’ll: Understand why Unity is moving to DOTS. Distinguish between object-oriented and data-oriented coding approaches. Identify use cases where moving to DOTS has short and long term benefits. Evaluate the key benefits and risks of working with DOTS. Discover resources for continuing to learn about DOTS.  \",\"tutorialUrl\":\"https://learn.unity.com/tutorial/what-is-dots-and-why-is-it-important\"} because it cannot be consumed by the frontend' ]","timestamp":"2021-01-30T19:44:34.962Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: license.change' ]","timestamp":"2021-01-30T19:44:42.835Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.opened' ]","timestamp":"2021-01-30T19:44:42.836Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.create' ]","timestamp":"2021-01-30T19:44:42.836Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.createTemp' ]","timestamp":"2021-01-30T19:44:42.836Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.openedFromCloud' ]","timestamp":"2021-01-30T19:44:42.836Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: main-window.change' ]","timestamp":"2021-01-30T19:44:42.836Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'stopping web socket server. closing connections' ]","timestamp":"2021-01-30T19:44:42.836Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'emit stop child process of /tmp/Unity-hubIPCService.sock' ]","timestamp":"2021-01-30T19:44:42.837Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC server /tmp/Unity-hubIPCService.sock and client closed' ]","timestamp":"2021-01-30T19:44:42.837Z"}
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2021-02-07T10:11:52.382Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2021-02-07T10:11:52.382Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.4.2' ]","timestamp":"2021-02-07T10:11:52.388Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: undefined' ]","timestamp":"2021-02-07T10:11:52.388Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'AMD Ryzen 5 2600X Six-Core Processor; Linux (5.10.13-arch1-1)' ]","timestamp":"2021-02-07T10:11:52.389Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/usr/share/unity3d/config' } ]","timestamp":"2021-02-07T10:11:52.393Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2021-02-07T10:11:52.394Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2021-02-07T10:11:52.726Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T10:11:52.731Z"}
+{"moduleName":"TokenManager","level":"warn","message":"[ 'Token storage is corrupted.',\n  [Error: The name org.freedesktop.secrets was not provided by any .service files] ]","timestamp":"2021-02-07T10:11:52.736Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T10:11:52.736Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T10:11:52.736Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]","timestamp":"2021-02-07T10:11:52.737Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2021-02-07T10:11:52.740Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/Unity/Hub/Editor' ]","timestamp":"2021-02-07T10:11:52.741Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/.unity-editors' ]","timestamp":"2021-02-07T10:11:52.742Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '0 located Editors found in storage' ]","timestamp":"2021-02-07T10:11:52.743Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T10:11:52.744Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T10:11:52.744Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Both tokens are expired, user will be logged out' ]","timestamp":"2021-02-07T10:11:52.744Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged out' ]","timestamp":"2021-02-07T10:11:52.747Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T10:11:52.748Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2021-02-07T10:11:52.749Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2021-02-07T10:11:52.767Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseValid' ]","timestamp":"2021-02-07T10:11:52.767Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license verified' ]","timestamp":"2021-02-07T10:11:52.767Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2021-02-07T10:11:52.768Z"}
+{"moduleName":"UnityPackageManagerService","level":"info","message":"[ 'Dynamic templates config loaded: [object Object]' ]","timestamp":"2021-02-07T10:11:53.103Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T10:11:53.103Z"}
+{"moduleName":"AutoUpdater","level":"warn","message":"[ 'Missing update server path' ]","timestamp":"2021-02-07T10:11:53.299Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2021-02-07T10:11:53.299Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2021-02-07T10:11:53.300Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2021-02-07T10:11:53.579Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T10:11:53.579Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2021-02-07T10:11:53.580Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2021-02-07T10:11:53.580Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2021-02-07T10:11:53.580Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2021-02-07T10:11:53.580Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2021-02-07T10:11:53.580Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2021-02-07T10:11:53.580Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2021-02-07T10:11:53.583Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T10:11:53.583Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2021-02-07T10:11:53.585Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T10:11:53.586Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T10:11:53.587Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T10:11:53.587Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T10:11:53.587Z"}
+{"moduleName":"ListStorage","level":"info","message":"[ '0 located items found in storage' ]","timestamp":"2021-02-07T10:11:53.588Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T10:11:53.589Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T10:11:53.589Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2021-02-07T10:11:53.614Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2021-02-07T10:11:53.615Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Loading installs page' ]","timestamp":"2021-02-07T10:11:53.621Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.3f1: starting' ]","timestamp":"2021-02-07T10:33:52.500Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster total download size: 543.40MB' ]","timestamp":"2021-02-07T10:33:53.425Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.3f1: downloads starting' ]","timestamp":"2021-02-07T10:33:53.426Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/8ff31bc5bf5b/LinuxEditorTargetInstaller/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.3f1.tar.xz to /tmp/unityhub-f8e3cc30-692f-11eb-87d4-399d00363fb7/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.3f1.tar.xz' ]","timestamp":"2021-02-07T10:33:53.426Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/8ff31bc5bf5b/MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.3f1.pkg to /tmp/unityhub-f8e3cc30-692f-11eb-87d4-399d00363fb7/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.3f1.pkg' ]","timestamp":"2021-02-07T10:33:53.428Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://storage.googleapis.com/docscloudstorage/2020.2/UnityDocumentation.zip to /tmp/unityhub-f8e3cc30-692f-11eb-87d4-399d00363fb7/UnityDocumentation.zip' ]","timestamp":"2021-02-07T10:33:53.429Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/8ff31bc5bf5b/LinuxEditorInstaller/Unity.tar.xz to /tmp/unityhub-f8e3cc30-692f-11eb-87d4-399d00363fb7/Unity.tar.xz' ]","timestamp":"2021-02-07T10:33:53.853Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.3f1: downloads starting, total size: 3.47GB)' ]","timestamp":"2021-02-07T10:33:53.854Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-f8e3cc30-692f-11eb-87d4-399d00363fb7/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.3f1.tar.xz' ]","timestamp":"2021-02-07T11:06:06.025Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-f8e3cc30-692f-11eb-87d4-399d00363fb7/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.3f1.pkg' ]","timestamp":"2021-02-07T11:08:05.021Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.3f1: Finished' ]","timestamp":"2021-02-07T12:01:02.666Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.3f1: end event for cluster' ]","timestamp":"2021-02-07T12:01:02.666Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-f8e3cc30-692f-11eb-87d4-399d00363fb7/UnityDocumentation.zip' ]","timestamp":"2021-02-07T12:01:02.666Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.3f1: end event for editor' ]","timestamp":"2021-02-07T12:02:08.620Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.3f1: Finished' ]","timestamp":"2021-02-07T12:02:08.620Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-f8e3cc30-692f-11eb-87d4-399d00363fb7/Unity.tar.xz' ]","timestamp":"2021-02-07T12:02:08.622Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Editor download ended successfully. Download id: 2020.2.3f1' ]","timestamp":"2021-02-07T12:02:15.352Z"}
+{"moduleName":"Installer","level":"info","message":"[ 'Install 2020.2.3f1: /tmp/unityhub-f8e3cc30-692f-11eb-87d4-399d00363fb7/Unity.tar.xz to /home/vhyrro/.unity-editors/2020.2.3f1 started' ]","timestamp":"2021-02-07T12:02:15.353Z"}
+{"moduleName":"UnityInstallerLinux","level":"warn","message":"[ { [Error: EACCES: permission denied, mkdir '/home/vhyrro/.unity-editors/2020.2.3f1']\n    errno: -13,\n    code: 'EACCES',\n    syscall: 'mkdir',\n    path: '/home/vhyrro/.unity-editors/2020.2.3f1' } ]","timestamp":"2021-02-07T12:02:15.356Z"}
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2021-02-07T12:47:05.186Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2021-02-07T12:47:05.187Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.4.2' ]","timestamp":"2021-02-07T12:47:05.195Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: /home/vhyrro/Downloads/UnityHub.AppImage' ]","timestamp":"2021-02-07T12:47:05.195Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'AMD Ryzen 5 2600X Six-Core Processor; Linux (5.10.13-arch1-1)' ]","timestamp":"2021-02-07T12:47:05.214Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/usr/share/unity3d/config' } ]","timestamp":"2021-02-07T12:47:05.220Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2021-02-07T12:47:05.220Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2021-02-07T12:47:06.058Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T12:47:06.064Z"}
+{"moduleName":"TokenManager","level":"warn","message":"[ 'Token storage is corrupted.',\n  [Error: The name org.freedesktop.secrets was not provided by any .service files] ]","timestamp":"2021-02-07T12:47:06.070Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T12:47:06.070Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T12:47:06.071Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]","timestamp":"2021-02-07T12:47:06.071Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2021-02-07T12:47:06.074Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/Unity/Hub/Editor' ]","timestamp":"2021-02-07T12:47:06.075Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/.unity-editors' ]","timestamp":"2021-02-07T12:47:06.076Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '0 located Editors found in storage' ]","timestamp":"2021-02-07T12:47:06.077Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T12:47:06.077Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T12:47:06.078Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Both tokens are expired, user will be logged out' ]","timestamp":"2021-02-07T12:47:06.078Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged out' ]","timestamp":"2021-02-07T12:47:06.082Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T12:47:06.084Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2021-02-07T12:47:06.084Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2021-02-07T12:47:06.112Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseValid' ]","timestamp":"2021-02-07T12:47:06.112Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license verified' ]","timestamp":"2021-02-07T12:47:06.112Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2021-02-07T12:47:06.113Z"}
+{"moduleName":"UnityPackageManagerService","level":"info","message":"[ 'Dynamic templates config loaded: [object Object]' ]","timestamp":"2021-02-07T12:47:06.585Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T12:47:06.586Z"}
+{"moduleName":"AutoUpdater","level":"warn","message":"[ 'Missing update server path' ]","timestamp":"2021-02-07T12:47:06.804Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2021-02-07T12:47:06.804Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2021-02-07T12:47:06.805Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2021-02-07T12:47:07.156Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T12:47:07.157Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2021-02-07T12:47:07.157Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2021-02-07T12:47:07.157Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2021-02-07T12:47:07.157Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2021-02-07T12:47:07.157Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2021-02-07T12:47:07.158Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2021-02-07T12:47:07.158Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2021-02-07T12:47:07.161Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T12:47:07.161Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2021-02-07T12:47:07.162Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T12:47:07.164Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T12:47:07.164Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T12:47:07.164Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T12:47:07.165Z"}
+{"moduleName":"ListStorage","level":"info","message":"[ '0 located items found in storage' ]","timestamp":"2021-02-07T12:47:07.166Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T12:47:07.166Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T12:47:07.167Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2021-02-07T12:47:07.198Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2021-02-07T12:47:07.198Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Loading installs page' ]","timestamp":"2021-02-07T12:47:07.209Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.3f1: starting' ]","timestamp":"2021-02-07T12:47:20.131Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster total download size: 543.40MB' ]","timestamp":"2021-02-07T12:47:20.591Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.3f1: downloads starting' ]","timestamp":"2021-02-07T12:47:20.591Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/8ff31bc5bf5b/LinuxEditorTargetInstaller/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.3f1.tar.xz to /tmp/unityhub-9dcf5220-6942-11eb-899a-cdd4e676ba8a/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.3f1.tar.xz' ]","timestamp":"2021-02-07T12:47:20.592Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/8ff31bc5bf5b/MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.3f1.pkg to /tmp/unityhub-9dcf5220-6942-11eb-899a-cdd4e676ba8a/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.3f1.pkg' ]","timestamp":"2021-02-07T12:47:20.594Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://storage.googleapis.com/docscloudstorage/2020.2/UnityDocumentation.zip to /tmp/unityhub-9dcf5220-6942-11eb-899a-cdd4e676ba8a/UnityDocumentation.zip' ]","timestamp":"2021-02-07T12:47:20.595Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/8ff31bc5bf5b/LinuxEditorInstaller/Unity.tar.xz to /tmp/unityhub-9dcf5220-6942-11eb-899a-cdd4e676ba8a/Unity.tar.xz' ]","timestamp":"2021-02-07T12:47:21.007Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.3f1: downloads starting, total size: 3.47GB)' ]","timestamp":"2021-02-07T12:47:21.007Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-9dcf5220-6942-11eb-899a-cdd4e676ba8a/UnityDocumentation.zip' ]","timestamp":"2021-02-07T13:09:34.524Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-9dcf5220-6942-11eb-899a-cdd4e676ba8a/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.3f1.tar.xz' ]","timestamp":"2021-02-07T13:15:30.985Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.3f1: Finished' ]","timestamp":"2021-02-07T13:18:26.286Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.3f1: end event for cluster' ]","timestamp":"2021-02-07T13:18:26.286Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-9dcf5220-6942-11eb-899a-cdd4e676ba8a/UnitySetup-Windows-Mono-Support-for-Editor-2020.2.3f1.pkg' ]","timestamp":"2021-02-07T13:18:26.286Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.3f1: end event for editor' ]","timestamp":"2021-02-07T14:12:29.090Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.3f1: Finished' ]","timestamp":"2021-02-07T14:12:29.090Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-9dcf5220-6942-11eb-899a-cdd4e676ba8a/Unity.tar.xz' ]","timestamp":"2021-02-07T14:12:29.091Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Editor download ended successfully. Download id: 2020.2.3f1' ]","timestamp":"2021-02-07T14:12:36.230Z"}
+{"moduleName":"Installer","level":"info","message":"[ 'Install 2020.2.3f1: /tmp/unityhub-9dcf5220-6942-11eb-899a-cdd4e676ba8a/Unity.tar.xz to /home/vhyrro/.unity-editors/2020.2.3f1 started' ]","timestamp":"2021-02-07T14:12:36.232Z"}
+{"moduleName":"UnityInstallerLinux","level":"warn","message":"[ { [Error: EACCES: permission denied, mkdir '/home/vhyrro/.unity-editors/2020.2.3f1']\n    errno: -13,\n    code: 'EACCES',\n    syscall: 'mkdir',\n    path: '/home/vhyrro/.unity-editors/2020.2.3f1' } ]","timestamp":"2021-02-07T14:12:36.238Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: license.change' ]","timestamp":"2021-02-07T16:17:35.327Z"}
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2021-02-07T16:23:47.253Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2021-02-07T16:23:47.253Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.4.2' ]","timestamp":"2021-02-07T16:23:47.259Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: /home/vhyrro/Downloads/UnityHub.AppImage' ]","timestamp":"2021-02-07T16:23:47.259Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'AMD Ryzen 5 2600X Six-Core Processor; Linux (5.10.13-arch1-1)' ]","timestamp":"2021-02-07T16:23:47.280Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/usr/share/unity3d/config' } ]","timestamp":"2021-02-07T16:23:47.288Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2021-02-07T16:23:47.288Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2021-02-07T16:23:47.599Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T16:23:47.605Z"}
+{"moduleName":"TokenManager","level":"warn","message":"[ 'Token storage is corrupted.',\n  [Error: The name org.freedesktop.secrets was not provided by any .service files] ]","timestamp":"2021-02-07T16:23:47.610Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T16:23:47.610Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T16:23:47.611Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]","timestamp":"2021-02-07T16:23:47.611Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2021-02-07T16:23:47.614Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/Unity/Hub/Editor' ]","timestamp":"2021-02-07T16:23:47.615Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/.unity-editors' ]","timestamp":"2021-02-07T16:23:47.616Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '0 located Editors found in storage' ]","timestamp":"2021-02-07T16:23:47.616Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T16:23:47.617Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T16:23:47.617Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Both tokens are expired, user will be logged out' ]","timestamp":"2021-02-07T16:23:47.618Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged out' ]","timestamp":"2021-02-07T16:23:47.621Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T16:23:47.624Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2021-02-07T16:23:47.624Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2021-02-07T16:23:47.653Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseValid' ]","timestamp":"2021-02-07T16:23:47.654Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license verified' ]","timestamp":"2021-02-07T16:23:47.654Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2021-02-07T16:23:47.654Z"}
+{"moduleName":"UnityPackageManagerService","level":"info","message":"[ 'Dynamic templates config loaded: [object Object]' ]","timestamp":"2021-02-07T16:23:47.878Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T16:23:47.878Z"}
+{"moduleName":"AutoUpdater","level":"warn","message":"[ 'Missing update server path' ]","timestamp":"2021-02-07T16:23:48.111Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2021-02-07T16:23:48.112Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2021-02-07T16:23:48.113Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2021-02-07T16:23:48.456Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T16:23:48.457Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2021-02-07T16:23:48.457Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2021-02-07T16:23:48.457Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2021-02-07T16:23:48.457Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2021-02-07T16:23:48.457Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2021-02-07T16:23:48.457Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2021-02-07T16:23:48.457Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2021-02-07T16:23:48.460Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T16:23:48.461Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2021-02-07T16:23:48.462Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T16:23:48.463Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T16:23:48.464Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T16:23:48.464Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T16:23:48.465Z"}
+{"moduleName":"ListStorage","level":"info","message":"[ '0 located items found in storage' ]","timestamp":"2021-02-07T16:23:48.466Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T16:23:48.466Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-07T16:23:48.467Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2021-02-07T16:23:48.497Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2021-02-07T16:23:48.498Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Loading installs page' ]","timestamp":"2021-02-07T16:23:48.509Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2019.4.19f1: starting' ]","timestamp":"2021-02-07T16:25:44.455Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster total download size: 474.99MB' ]","timestamp":"2021-02-07T16:25:45.057Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2019.4.19f1: downloads starting' ]","timestamp":"2021-02-07T16:25:45.058Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/ca5b14067cec/LinuxEditorTargetInstaller/UnitySetup-Linux-IL2CPP-Support-for-Editor-2019.4.19f1.tar.xz to /tmp/unityhub-20987a60-6961-11eb-a9b6-01912bfea0b2/UnitySetup-Linux-IL2CPP-Support-for-Editor-2019.4.19f1.tar.xz' ]","timestamp":"2021-02-07T16:25:45.058Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/ca5b14067cec/MacEditorTargetInstaller/UnitySetup-Windows-Mono-Support-for-Editor-2019.4.19f1.pkg to /tmp/unityhub-20987a60-6961-11eb-a9b6-01912bfea0b2/UnitySetup-Windows-Mono-Support-for-Editor-2019.4.19f1.pkg' ]","timestamp":"2021-02-07T16:25:45.061Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://storage.googleapis.com/docscloudstorage/2019.4/UnityDocumentation.zip to /tmp/unityhub-20987a60-6961-11eb-a9b6-01912bfea0b2/UnityDocumentation.zip' ]","timestamp":"2021-02-07T16:25:45.061Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/ca5b14067cec/LinuxEditorInstaller/Unity.tar.xz to /tmp/unityhub-20987a60-6961-11eb-a9b6-01912bfea0b2/Unity.tar.xz' ]","timestamp":"2021-02-07T16:25:45.309Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2019.4.19f1: downloads starting, total size: 2.24GB)' ]","timestamp":"2021-02-07T16:25:45.310Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-20987a60-6961-11eb-a9b6-01912bfea0b2/UnitySetup-Linux-IL2CPP-Support-for-Editor-2019.4.19f1.tar.xz' ]","timestamp":"2021-02-07T16:42:17.329Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-20987a60-6961-11eb-a9b6-01912bfea0b2/UnitySetup-Windows-Mono-Support-for-Editor-2019.4.19f1.pkg' ]","timestamp":"2021-02-07T16:53:03.030Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2019.4.19f1: Finished' ]","timestamp":"2021-02-07T17:13:48.269Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2019.4.19f1: end event for cluster' ]","timestamp":"2021-02-07T17:13:48.269Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-20987a60-6961-11eb-a9b6-01912bfea0b2/UnityDocumentation.zip' ]","timestamp":"2021-02-07T17:13:48.269Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2019.4.19f1: end event for editor' ]","timestamp":"2021-02-07T17:15:24.933Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2019.4.19f1: Finished' ]","timestamp":"2021-02-07T17:15:24.933Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-20987a60-6961-11eb-a9b6-01912bfea0b2/Unity.tar.xz' ]","timestamp":"2021-02-07T17:15:24.935Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Editor download ended successfully. Download id: 2019.4.19f1' ]","timestamp":"2021-02-07T17:15:28.952Z"}
+{"moduleName":"Installer","level":"info","message":"[ 'Install 2019.4.19f1: /tmp/unityhub-20987a60-6961-11eb-a9b6-01912bfea0b2/Unity.tar.xz to /home/vhyrro/.unity-editors/2019.4.19f1 started' ]","timestamp":"2021-02-07T17:15:28.954Z"}
+{"moduleName":"UnityInstallerLinux","level":"warn","message":"[ { [Error: EACCES: permission denied, mkdir '/home/vhyrro/.unity-editors/2019.4.19f1']\n    errno: -13,\n    code: 'EACCES',\n    syscall: 'mkdir',\n    path: '/home/vhyrro/.unity-editors/2019.4.19f1' } ]","timestamp":"2021-02-07T17:15:28.958Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: license.change' ]","timestamp":"2021-02-07T17:21:55.983Z"}
+{"moduleName":"App","level":"info","message":"[ 'Checking arguments for Windows custom URI scheme' ]","timestamp":"2021-02-22T07:50:36.446Z"}
+{"moduleName":"App","level":"info","message":"[ 'No custom URI argument found' ]","timestamp":"2021-02-22T07:50:36.447Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub version: 2.4.2' ]","timestamp":"2021-02-22T07:50:36.451Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'Hub path: undefined' ]","timestamp":"2021-02-22T07:50:36.451Z"}
+{"moduleName":"SystemInfo","level":"info","message":"[ 'AMD Ryzen 5 2600X Six-Core Processor; Linux (5.10.16-arch1-1)' ]","timestamp":"2021-02-22T07:50:36.452Z"}
+{"moduleName":"HubSettings","level":"info","message":"[ { cloudEnvironment: 'production',\n    accessTokenIntervalPeriod: 5000,\n    servicesUrlInterval: 900000,\n    hubConfigInterval: 3600000,\n    releasesRefreshInterval: 3600000,\n    recentProjectInterval: 60000,\n    downloadClusterInterval: 1000,\n    downloadEditorInterval: 1000,\n    refreshTokenValidity: 2592000000,\n    checkForUpdateInterval: 43200000,\n    sendAnalyticsEventsInterval: 60000,\n    maxSizeForAnalyticsQueue: 500,\n    downloadRequestTimeout: 30000,\n    globalConfigFolder: '/usr/share/unity3d/config' } ]","timestamp":"2021-02-22T07:50:36.457Z"}
+{"moduleName":"CloudConfig","level":"info","message":"[ 'Cloud Config endpoint: https://public-cdn.cloud.unity3d.com/config/production' ]","timestamp":"2021-02-22T07:50:36.458Z"}
+{"moduleName":"LocalConfig","level":"info","message":"[ 'Local Config endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/hubConfig.json' ]","timestamp":"2021-02-22T07:50:41.817Z"}
+{"moduleName":"TokenManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-22T07:50:41.820Z"}
+{"moduleName":"TokenManager","level":"warn","message":"[ 'Token storage is corrupted.',\n  [Error: The name org.freedesktop.secrets was not provided by any .service files] ]","timestamp":"2021-02-22T07:50:41.825Z"}
+{"moduleName":"Download","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-22T07:50:41.825Z"}
+{"moduleName":"EditorManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-22T07:50:41.826Z"}
+{"moduleName":"Releases","level":"info","message":"[ 'Releases endpoint: https://public-cdn.cloud.unity3d.com/hub/prod/releases-linux.json' ]","timestamp":"2021-02-22T07:50:41.826Z"}
+{"moduleName":"EditorList","level":"info","message":"[ 'init' ]","timestamp":"2021-02-22T07:50:41.830Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/Unity/Hub/Editor' ]","timestamp":"2021-02-22T07:50:41.831Z"}
+{"moduleName":"EditorFolderScanner","level":"info","message":"[ '0 out of 0 valid paths found in path: /home/vhyrro/.unity-editors' ]","timestamp":"2021-02-22T07:50:41.832Z"}
+{"moduleName":"LocatedEditorStorage","level":"info","message":"[ '0 located Editors found in storage' ]","timestamp":"2021-02-22T07:50:41.833Z"}
+{"moduleName":"EditorApp","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-22T07:50:41.833Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-22T07:50:41.834Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Both tokens are expired, user will be logged out' ]","timestamp":"2021-02-22T07:50:41.834Z"}
+{"moduleName":"Auth","level":"info","message":"[ 'Successfully logged out' ]","timestamp":"2021-02-22T07:50:41.837Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-22T07:50:41.856Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'uninitialized --> initializing' ]","timestamp":"2021-02-22T07:50:41.856Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'License initialized' ]","timestamp":"2021-02-22T07:50:41.874Z"}
+{"moduleName":"LicenseFSM","level":"info","message":"[ 'initializing --> licenseValid' ]","timestamp":"2021-02-22T07:50:41.874Z"}
+{"moduleName":"LicenseClient","level":"info","message":"[ 'New license verified' ]","timestamp":"2021-02-22T07:50:41.874Z"}
+{"moduleName":"learnContentService","level":"info","message":"[ 'Learn content endpoint: https://learn.unity.com/api/learn/hublist' ]","timestamp":"2021-02-22T07:50:41.874Z"}
+{"moduleName":"UnityPackageManagerService","level":"info","message":"[ 'Dynamic templates config loaded: [object Object]' ]","timestamp":"2021-02-22T07:50:42.119Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-22T07:50:42.119Z"}
+{"moduleName":"AutoUpdater","level":"warn","message":"[ 'Missing update server path' ]","timestamp":"2021-02-22T07:50:47.313Z"}
+{"moduleName":"AutoUpdater","level":"info","message":"[ 'Checking for hub updates' ]","timestamp":"2021-02-22T07:50:47.313Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'Checking for update' ]","timestamp":"2021-02-22T07:50:47.314Z"}
+{"moduleName":"AutoUpdater:EventHandler","level":"info","message":"[ 'No update available' ]","timestamp":"2021-02-22T07:50:47.629Z"}
+{"moduleName":"RestServer","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-22T07:50:47.629Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: license.change' ]","timestamp":"2021-02-22T07:50:47.629Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.opened' ]","timestamp":"2021-02-22T07:50:47.629Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.create' ]","timestamp":"2021-02-22T07:50:47.629Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.createTemp' ]","timestamp":"2021-02-22T07:50:47.630Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: project.openedFromCloud' ]","timestamp":"2021-02-22T07:50:47.630Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'subscribing to: main-window.change' ]","timestamp":"2021-02-22T07:50:47.630Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'starting listening for request' ]","timestamp":"2021-02-22T07:50:47.632Z"}
+{"moduleName":"HubIPCService","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-22T07:50:47.633Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC Server /tmp/Unity-hubIPCService.sock started' ]","timestamp":"2021-02-22T07:50:47.634Z"}
+{"moduleName":"LocalProject","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-22T07:50:47.636Z"}
+{"moduleName":"WindowManager","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-22T07:50:47.637Z"}
+{"moduleName":"SignInWindow","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-22T07:50:47.637Z"}
+{"moduleName":"CloudAnalytics","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-22T07:50:47.637Z"}
+{"moduleName":"ListStorage","level":"info","message":"[ '0 located items found in storage' ]","timestamp":"2021-02-22T07:50:47.638Z"}
+{"moduleName":"NetworkInterceptors","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-22T07:50:47.639Z"}
+{"moduleName":"TrayMenu","level":"info","message":"[ 'Init' ]","timestamp":"2021-02-22T07:50:47.639Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'hadOnboarding is false' ]","timestamp":"2021-02-22T07:50:47.656Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Getting initial route for Main Window' ]","timestamp":"2021-02-22T07:50:47.657Z"}
+{"moduleName":"ApplicationRouteHelper","level":"info","message":"[ 'Loading installs page' ]","timestamp":"2021-02-22T07:50:47.663Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.5f1: starting' ]","timestamp":"2021-02-22T07:51:50.402Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster total download size: 426.09MB' ]","timestamp":"2021-02-22T07:51:51.978Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.5f1: downloads starting' ]","timestamp":"2021-02-22T07:51:51.978Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/e2c53f129de5/LinuxEditorTargetInstaller/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.5f1.tar.xz to /tmp/unityhub-d2437800-74e2-11eb-83ad-f97f08c0df5a/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.5f1.tar.xz' ]","timestamp":"2021-02-22T07:51:51.978Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://storage.googleapis.com/docscloudstorage/2020.2/UnityDocumentation.zip to /tmp/unityhub-d2437800-74e2-11eb-83ad-f97f08c0df5a/UnityDocumentation.zip' ]","timestamp":"2021-02-22T07:51:51.980Z"}
+{"moduleName":"DownloadRequest","level":"info","message":"[ 'Starting the download of https://download.unity3d.com/download_unity/e2c53f129de5/LinuxEditorInstaller/Unity.tar.xz to /tmp/unityhub-d2437800-74e2-11eb-83ad-f97f08c0df5a/Unity.tar.xz' ]","timestamp":"2021-02-22T07:51:52.573Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.5f1: downloads starting, total size: 3.38GB)' ]","timestamp":"2021-02-22T07:51:52.573Z"}
+{"moduleName":"DownloadRequest","level":"warn","message":"[ 'Something went wrong while downloading https://download.unity3d.com/download_unity/e2c53f129de5/LinuxEditorTargetInstaller/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.5f1.tar.xz Error: ESOCKETTIMEDOUT Error: ESOCKETTIMEDOUT\\n    at ClientRequest.<anonymous> (/opt/unityhub/resources/app.asar/node_modules/request/request.js:816:19)\\n    at Object.onceWrapper (events.js:282:20)\\n    at ClientRequest.emit (events.js:194:13)\\n    at ClientRequest.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.emitRequestTimeout (_http_client.js:673:40)\\n    at Object.onceWrapper (events.js:282:20)\\n    at TLSSocket.emit (events.js:194:13)\\n    at TLSSocket.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.Socket._onTimeout (net.js:429:8)\\n    at listOnTimeout (internal/timers.js:535:17)' ]","timestamp":"2021-02-22T07:53:08.090Z"}
+{"moduleName":"DownloadRequest","level":"warn","message":"[ 'Something went wrong while checking progress of https://download.unity3d.com/download_unity/e2c53f129de5/LinuxEditorTargetInstaller/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.5f1.tar.xz Error: ESOCKETTIMEDOUT Error: ESOCKETTIMEDOUT\\n    at ClientRequest.<anonymous> (/opt/unityhub/resources/app.asar/node_modules/request/request.js:816:19)\\n    at Object.onceWrapper (events.js:282:20)\\n    at ClientRequest.emit (events.js:194:13)\\n    at ClientRequest.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.emitRequestTimeout (_http_client.js:673:40)\\n    at Object.onceWrapper (events.js:282:20)\\n    at TLSSocket.emit (events.js:194:13)\\n    at TLSSocket.EventEmitter.emit (domain.js:469:20)\\n    at TLSSocket.Socket._onTimeout (net.js:429:8)\\n    at listOnTimeout (internal/timers.js:535:17)' ]","timestamp":"2021-02-22T07:53:08.090Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-d2437800-74e2-11eb-83ad-f97f08c0df5a/UnitySetup-Linux-IL2CPP-Support-for-Editor-2020.2.5f1.tar.xz' ]","timestamp":"2021-02-22T07:53:08.090Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Download Cluster cluster-2020.2.5f1: Canceled' ]","timestamp":"2021-02-22T07:54:08.272Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.5f1: Canceled' ]","timestamp":"2021-02-22T07:54:08.272Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.5f1: end event for editor' ]","timestamp":"2021-02-22T07:54:08.272Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-d2437800-74e2-11eb-83ad-f97f08c0df5a/Unity.tar.xz' ]","timestamp":"2021-02-22T07:54:08.272Z"}
+{"moduleName":"DownloadsCluster","level":"info","message":"[ 'Cluster cluster-2020.2.5f1: Finished' ]","timestamp":"2021-02-22T07:54:08.272Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Downloader 2020.2.5f1: end event for cluster' ]","timestamp":"2021-02-22T07:54:08.272Z"}
+{"moduleName":"EditorDownloader","level":"info","message":"[ 'Editor Download 2020.2.5f1: Finished' ]","timestamp":"2021-02-22T07:54:08.272Z"}
+{"moduleName":"DownloadManager","level":"info","message":"[ 'download ended with status: 3 /tmp/unityhub-d2437800-74e2-11eb-83ad-f97f08c0df5a/UnityDocumentation.zip' ]","timestamp":"2021-02-22T07:54:08.272Z"}
+{"moduleName":"front-end","level":"error","message":"[ '[$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply',\n  'Error: [$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply\\n    at file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:676\\n    at g (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:101544)\\n    at d.$apply (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100014)\\n    at file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:115623\\n    at d.$emit (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100801)\\n    at e.removeEditorFromTheList (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:125392)\\n    at Ke.cancelDownload (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:117786)\\n    at fn (eval at compile (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:103032), <anonymous>:4:298)\\n    at i (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:146084)\\n    at e.$eval (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:99817)',\n  undefined ]","timestamp":"2021-02-22T07:54:08.274Z"}
+{"moduleName":"front-end","level":"error","message":"[ '[$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply',\n  'Error: [$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply\\n    at file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:676\\n    at g (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:101544)\\n    at d.$digest (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:97780)\\n    at d.$apply (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100092)\\n    at file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:115623\\n    at d.$emit (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100801)\\n    at e.removeEditorFromTheList (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:125392)\\n    at Ke.cancelDownload (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:117786)\\n    at fn (eval at compile (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:103032), <anonymous>:4:298)\\n    at i (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:146084)',\n  undefined ]","timestamp":"2021-02-22T07:54:08.275Z"}
+{"moduleName":"front-end","level":"error","message":"[ '[$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply',\n  'Error: [$rootScope:inprog] $apply already in progress\\nhttps://errors.angularjs.org/1.6.10/$rootScope/inprog?p0=%24apply\\n    at file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:676\\n    at g (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:101544)\\n    at d.$digest (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:97780)\\n    at d.$apply (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100092)\\n    at file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:115623\\n    at d.$emit (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:100801)\\n    at e.removeEditorFromTheList (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:125392)\\n    at Ke.cancelDownload (file:///opt/unityhub/resources/app.asar/client/dist/main.js:9:117786)\\n    at fn (eval at compile (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:103032), <anonymous>:4:298)\\n    at i (file:///opt/unityhub/resources/app.asar/client/dist/commons~main~newProject.js:33:146084)',\n  undefined ]","timestamp":"2021-02-22T07:54:08.275Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: license.change' ]","timestamp":"2021-02-22T13:28:17.745Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.opened' ]","timestamp":"2021-02-22T13:28:17.745Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.create' ]","timestamp":"2021-02-22T13:28:17.745Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.createTemp' ]","timestamp":"2021-02-22T13:28:17.745Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: project.openedFromCloud' ]","timestamp":"2021-02-22T13:28:17.745Z"}
+{"moduleName":"RestEventRouter","level":"info","message":"[ 'unsubscribing from: main-window.change' ]","timestamp":"2021-02-22T13:28:17.746Z"}
+{"moduleName":"WebSocketService","level":"info","message":"[ 'stopping web socket server. closing connections' ]","timestamp":"2021-02-22T13:28:17.746Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'emit stop child process of /tmp/Unity-hubIPCService.sock' ]","timestamp":"2021-02-22T13:28:17.746Z"}
+{"moduleName":"UnityIPCServer","level":"info","message":"[ 'IPC server /tmp/Unity-hubIPCService.sock and client closed' ]","timestamp":"2021-02-22T13:28:17.747Z"}

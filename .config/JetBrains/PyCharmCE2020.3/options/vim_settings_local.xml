@@ -1,0 +1,81 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd>
+        <entry>w</entry>
+      </history-cmd>
+    </history>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/dev/python/foralinka/zad6.py" timestamp="1613414746504">
+        <mark key="[" line="12" column="21" />
+        <mark key="]" line="12" column="21" />
+        <mark key="^" line="12" column="21" />
+        <mark key="." line="12" column="20" />
+      </file>
+      <file name="$USER_HOME$/dev/python/foralinka/main.py" timestamp="1613413742473">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="." line="3" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1613415123708">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/dev/python/foralinka/zad7.3.py" timestamp="1613415604463">
+        <mark key="[" line="37" column="4" />
+        <mark key="]" line="54" column="0" />
+        <mark key="." line="36" column="8" />
+        <mark key="^" line="54" column="23" />
+      </file>
+    </filemarks>
+    <jumps />
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIHByaW50KCJQcm9ncmFtIGMhIikK</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIHByaW50KCJQcm9ncmFtIGMhIikK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIHByaW50KCJQcm9ncmFtIGIhIikK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIHByaW50KCJQcm9ncmFtIGEhIikK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHBhc3MK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIHByaW50KCJQcm9ncmFtIGIhIikKCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIHBhc3MK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIHBhc3MK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">CmxhbWJkYSAodiA9IHMgLyB0KTo=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
+      </register>
+      <register name="-" type="4">
+        <text>a</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+</application>

@@ -1,0 +1,14 @@
+2021/02/18-17:45:34.055 44bb Reusing MANIFEST /home/vhyrro/.config/Session/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/02/18-17:45:34.055 44bb Recovering log #10
+2021/02/18-17:45:34.055 44bb Reusing old log /home/vhyrro/.config/Session/IndexedDB/file__0.indexeddb.leveldb/000010.log 
+2021/02/18-17:45:34.055 44bb Delete type=2 #8
+2021/02/18-17:45:34.239 44c3 Level-0 table #15: started
+2021/02/18-17:45:34.240 44c3 Level-0 table #15: 486 bytes OK
+2021/02/18-17:45:34.241 44c3 Delete type=0 #10
+2021/02/18-17:45:34.241 44c3 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 64 : 1
+2021/02/18-17:45:34.241 44c3 Compacting 1@0 + 1@1 files
+2021/02/18-17:45:34.242 44c3 Generated table #16@0: 7 keys, 391 bytes
+2021/02/18-17:45:34.242 44c3 Compacted 1@0 + 1@1 files => 391 bytes
+2021/02/18-17:45:34.244 44c3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/02/18-17:45:34.244 44c3 Delete type=2 #15
+2021/02/18-17:45:34.244 44c3 Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 64 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

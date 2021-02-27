@@ -1,0 +1,1 @@
+{"net":{"http_server_properties":{"servers":[{"https://connect-prd-cdn.unity.com":{"supports_spdy":true}},{"https://api.unity.com":{"supports_spdy":true}},{"https://unity3d.com":{"supports_spdy":true}},{"https://cdn.optimizely.com":{"supports_spdy":true}}],"version":5},"network_qualities":{"CAESABiAgICA+P////8B":"4G"}}}

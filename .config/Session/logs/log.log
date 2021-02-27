@@ -1,0 +1,435 @@
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"app ready","time":"2021-02-18T16:45:33.195Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"starting version 1.0.6-a5961de","time":"2021-02-18T16:45:33.196Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"updateSchema: Current schema version: 16; Most recent schema version: 11; SQLite version: 3.30.1; SQLCipher version: 4.3.0 community;","time":"2021-02-18T16:45:33.216Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"updateLokiSchema: Current loki schema version: 3; Most recent schema version: 3;","time":"2021-02-18T16:45:33.220Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Ensure attachments directory exists","time":"2021-02-18T16:45:33.223Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"updater/start: Updates disabled - not starting new version checks","time":"2021-02-18T16:45:33.226Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Initializing BrowserWindow config: {\"show\":true,\"width\":931,\"height\":820,\"minWidth\":880,\"minHeight\":820,\"autoHideMenuBar\":true,\"backgroundColor\":\"#fff\",\"webPreferences\":{\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"preload\":\"/opt/Session/resources/app.asar/preload.js\",\"nativeWindowOpen\":true,\"spellcheck\":true},\"icon\":\"/opt/Session/resources/app.asar/images/session/icon_64.png\",\"maximized\":false,\"x\":977,\"y\":582}","time":"2021-02-18T16:45:33.228Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"(electron) The default value of app.allowRendererProcessReuse is deprecated, it is currently \"false\".  It will change to be \"true\" in Electron 9.  For more information please check https://github.com/electron/electron/issues/18397","time":"2021-02-18T16:45:33.267Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"spellcheck: user locale: en-GB","time":"2021-02-18T16:45:33.312Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]","time":"2021-02-18T16:45:33.312Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"spellcheck: setting languages to:  [\"en-GB\"]","time":"2021-02-18T16:45:33.313Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"(electron) 'isMenuBarAutoHide function' is deprecated and will be removed. Please use 'autoHideMenuBar property' instead.","time":"2021-02-18T16:45:33.839Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":903,\"height\":1027,\"x\":1005,\"y\":41}","time":"2021-02-18T16:45:33.839Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:45:33.839Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"pre-main prep time: 2 ms","time":"2021-02-18T16:45:33.992Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"LokiAppDotNetAPI registered server https://file.getsession.org","time":"2021-02-18T16:45:34.025Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_snodes:::refreshRandomPoolPromise - Refreshing random snode pool","time":"2021-02-18T16:45:34.027Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"lokirpc:::lokiFetch - http communication http://storage.seed2.loki.network:38157/json_rpc","time":"2021-02-18T16:45:34.027Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"background page reloaded","time":"2021-02-18T16:45:34.054Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"environment: production","time":"2021-02-18T16:45:34.054Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Storage fetch","time":"2021-02-18T16:45:34.238Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Starting background data migration. Target version: 10","time":"2021-02-18T16:45:34.246Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"ConversationController: starting initial fetch","time":"2021-02-18T16:45:34.246Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"SignalProtocolStore: Finished caching identityKeys data","time":"2021-02-18T16:45:34.256Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"ConversationController: done with initial fetch","time":"2021-02-18T16:45:34.257Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"SignalProtocolStore: Finished caching sessions data","time":"2021-02-18T16:45:34.258Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"SignalProtocolStore: Finished caching preKeys data","time":"2021-02-18T16:45:34.259Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"SignalProtocolStore: Finished caching signedPreKeys data","time":"2021-02-18T16:45:34.260Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"BlockedNumberController: starting initial fetch","time":"2021-02-18T16:45:34.260Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Cleanup: starting...","time":"2021-02-18T16:45:34.261Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Cleanup: Found 0 messages for cleanup","time":"2021-02-18T16:45:34.262Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Cleanup: complete","time":"2021-02-18T16:45:34.263Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"listening for registration events","time":"2021-02-18T16:45:34.263Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"(electron) 'setAutoHideMenuBar function' is deprecated and will be removed. Please use 'autoHideMenuBar property' instead.","time":"2021-02-18T16:45:34.264Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Next signed key rotation scheduled for 2021-01-05T11:14:26.460Z","time":"2021-02-18T16:45:34.264Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"connect","time":"2021-02-18T16:45:34.265Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"building new onion paths","time":"2021-02-18T16:45:34.265Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:45:34.265Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Delaying expire banner determination for 5s","time":"2021-02-18T16:45:34.269Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Rotating signed prekey...","time":"2021-02-18T16:45:34.391Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Next signed key rotation scheduled for 2021-02-20T16:45:34.391Z","time":"2021-02-18T16:45:34.391Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Saving new signed prekey 7","time":"2021-02-18T16:45:34.558Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Confirming new signed prekey 7","time":"2021-02-18T16:45:34.566Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Most recent signed key: 7","time":"2021-02-18T16:45:34.572Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Most recent confirmed signed key: 7","time":"2021-02-18T16:45:34.572Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Total signed key count: 7 - 7 confirmed","time":"2021-02-18T16:45:34.572Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Removing confirmed signed prekey: 4 with timestamp: 1609672069180","time":"2021-02-18T16:45:34.572Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Removing confirmed signed prekey: 3 with timestamp: 1609672069030","time":"2021-02-18T16:45:34.573Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Removing confirmed signed prekey: 2 with timestamp: 1609671978341","time":"2021-02-18T16:45:34.573Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Removing confirmed signed prekey: 1 with timestamp: 1609671978218","time":"2021-02-18T16:45:34.573Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"(electron) 'setBadgeCount function' is deprecated and will be removed. Please use 'badgeCount property' instead.","time":"2021-02-18T16:45:35.254Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":947,\"height\":1027,\"x\":961,\"y\":41}","time":"2021-02-18T16:45:35.828Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:45:35.828Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_snodes:::refreshRandomPoolPromise - Refreshed random snode pool with 845 snodes","time":"2021-02-18T16:45:36.295Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_snodes:::refreshRandomPoolPromise - RESOLVED","time":"2021-02-18T16:45:36.296Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_snodes:::refreshRandomPoolPromise - RESOLVED","time":"2021-02-18T16:45:36.296Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"could not find some guard nodes: 1/3 left","time":"2021-02-18T16:45:36.389Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Built onion paths:  [{\"path\":[{\"ip\":\"88.198.107.181\",\"port\":22021,\"pubkey_x25519\":\"0a27a32402391ce95f3c88fcd78ba72a0f07182b9853c9e685b697e734f62f66\",\"pubkey_ed25519\":\"456d71a16ba48c7dfe72da9875ade4ef0d7692f69914a3fa54908672f16b8676\"},{\"ip\":\"51.158.115.12\",\"port\":22021,\"pubkey_x25519\":\"56e6d4a76fcfaba681a12a381ec3c684196552165698072ac31c7471d81dad04\",\"pubkey_ed25519\":\"ef1872a17064b6981218a450ac16e51614e914606020cdacdb0a8286cd0d2acf\"},{\"ip\":\"206.81.100.174\",\"port\":20002,\"pubkey_x25519\":\"095cef7a0691d7731549573c521f21006f2162e8143273e1423f200fd228036c\",\"pubkey_ed25519\":\"0cece2b19a2437a59d54e7dc1512d71d8c07776876fcaf887e96a21b1e3ad623\"}],\"bad\":false}]","time":"2021-02-18T16:45:36.389Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Registering HomeServer https://file.getsession.org","time":"2021-02-18T16:45:36.390Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"LokiAppDotNetAPI registered server https://file.getsession.org","time":"2021-02-18T16:45:36.390Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"getAllFromCache","time":"2021-02-18T16:45:36.425Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Binding open group events handler false","time":"2021-02-18T16:45:36.426Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"http-resource pollServer start","time":"2021-02-18T16:45:36.426Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Start idle detector","time":"2021-02-18T16:45:36.427Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message:::startLongPolling - start polling for 3 connections. We have swarmNodes 7 for [REDACTED]","time":"2021-02-18T16:45:36.427Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message: 0 116.203.146.221:22101","time":"2021-02-18T16:45:36.427Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message: 1 135.181.138.83:22129","time":"2021-02-18T16:45:36.427Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message: 2 167.114.155.91:22021","time":"2021-02-18T16:45:36.427Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message: 3 165.22.227.142:22021","time":"2021-02-18T16:45:36.427Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message: 4 94.23.205.209:22113","time":"2021-02-18T16:45:36.427Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message: 5 205.185.115.143:22021","time":"2021-02-18T16:45:36.428Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message: 6 128.199.85.219:22021","time":"2021-02-18T16:45:36.428Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"getAllFromCache loaded 0 saved envelopes","time":"2021-02-18T16:45:36.430Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:45:39.125Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"lokiRpc:::sendToProxy - snode 159.69.182.205:23028 to 116.203.146.221:22101 code 503 error Service node is not ready: not in any swarm; \n Try #0 removing randSnode leaving 844 in the random pool","time":"2021-02-18T16:45:39.127Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"lokiRpc:::sendToProxy - request succeeded, snode 94.23.205.209:22115 to 116.203.146.221:22101 on retry #1","time":"2021-02-18T16:45:39.541Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Starting handleDataMessage for message rss://loki.network/feed/.1 1606182352000 in conversation group([REDACTED]ed/)","time":"2021-02-18T16:45:39.769Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Add notification {\"conversationId\":\"group([REDACTED]ed/)\",\"isExpiringMessage\":false,\"messageSentAt\":1606182352000}","time":"2021-02-18T16:45:39.811Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Starting handleDataMessage for message rss://loki.network/feed/.1 1607067354000 in conversation group([REDACTED]ed/)","time":"2021-02-18T16:45:39.811Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Add notification {\"conversationId\":\"group([REDACTED]ed/)\",\"isExpiringMessage\":false,\"messageSentAt\":1607067354000}","time":"2021-02-18T16:45:39.832Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Starting handleDataMessage for message rss://loki.network/feed/.1 1606291593000 in conversation group([REDACTED]ed/)","time":"2021-02-18T16:45:39.832Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Add notification {\"conversationId\":\"group([REDACTED]ed/)\",\"isExpiringMessage\":false,\"messageSentAt\":1606291593000}","time":"2021-02-18T16:45:39.846Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Starting handleDataMessage for message rss://loki.network/feed/.1 1606800112000 in conversation group([REDACTED]ed/)","time":"2021-02-18T16:45:39.847Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Add notification {\"conversationId\":\"group([REDACTED]ed/)\",\"isExpiringMessage\":false,\"messageSentAt\":1606800112000}","time":"2021-02-18T16:45:39.859Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Starting handleDataMessage for message rss://loki.network/feed/.1 1606436980000 in conversation group([REDACTED]ed/)","time":"2021-02-18T16:45:39.860Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Add notification {\"conversationId\":\"group([REDACTED]ed/)\",\"isExpiringMessage\":false,\"messageSentAt\":1606436980000}","time":"2021-02-18T16:45:39.876Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Starting handleDataMessage for message rss://loki.network/feed/.1 1607396201000 in conversation group([REDACTED]ed/)","time":"2021-02-18T16:45:39.877Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Add notification {\"conversationId\":\"group([REDACTED]ed/)\",\"isExpiringMessage\":false,\"messageSentAt\":1607396201000}","time":"2021-02-18T16:45:39.893Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Starting handleDataMessage for message rss://loki.network/feed/.1 1608006625000 in conversation group([REDACTED]ed/)","time":"2021-02-18T16:45:39.893Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Add notification {\"conversationId\":\"group([REDACTED]ed/)\",\"isExpiringMessage\":false,\"messageSentAt\":1608006625000}","time":"2021-02-18T16:45:39.913Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Starting handleDataMessage for message rss://loki.network/feed/.1 1609740277000 in conversation group([REDACTED]ed/)","time":"2021-02-18T16:45:39.913Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Add notification {\"conversationId\":\"group([REDACTED]ed/)\",\"isExpiringMessage\":false,\"messageSentAt\":1609740277000}","time":"2021-02-18T16:45:39.937Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Starting handleDataMessage for message rss://loki.network/feed/.1 1609899762000 in conversation group([REDACTED]ed/)","time":"2021-02-18T16:45:39.937Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Add notification {\"conversationId\":\"group([REDACTED]ed/)\",\"isExpiringMessage\":false,\"messageSentAt\":1609899762000}","time":"2021-02-18T16:45:39.961Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Starting handleDataMessage for message rss://loki.network/feed/.1 1610449344000 in conversation group([REDACTED]ed/)","time":"2021-02-18T16:45:39.962Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Add notification {\"conversationId\":\"group([REDACTED]ed/)\",\"isExpiringMessage\":false,\"messageSentAt\":1610449344000}","time":"2021-02-18T16:45:39.982Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Starting handleDataMessage for message rss://loki.network/category/messenger-updates/feed/.1 1567429461000 in conversation group([REDACTED]ed/)","time":"2021-02-18T16:45:40.870Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Add notification {\"conversationId\":\"group([REDACTED]ed/)\",\"isExpiringMessage\":false,\"messageSentAt\":1567429461000}","time":"2021-02-18T16:45:40.888Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Starting handleDataMessage for message rss://loki.network/category/messenger-updates/feed/.1 1568852761000 in conversation group([REDACTED]ed/)","time":"2021-02-18T16:45:40.888Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Add notification {\"conversationId\":\"group([REDACTED]ed/)\",\"isExpiringMessage\":false,\"messageSentAt\":1568852761000}","time":"2021-02-18T16:45:40.912Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Starting handleDataMessage for message rss://loki.network/category/messenger-updates/feed/.1 1571800471000 in conversation group([REDACTED]ed/)","time":"2021-02-18T16:45:40.913Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Add notification {\"conversationId\":\"group([REDACTED]ed/)\",\"isExpiringMessage\":false,\"messageSentAt\":1571800471000}","time":"2021-02-18T16:45:40.936Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Starting handleDataMessage for message rss://loki.network/category/messenger-updates/feed/.1 1574792397000 in conversation group([REDACTED]ed/)","time":"2021-02-18T16:45:40.936Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Add notification {\"conversationId\":\"group([REDACTED]ed/)\",\"isExpiringMessage\":false,\"messageSentAt\":1574792397000}","time":"2021-02-18T16:45:40.956Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Upgrade message schema (with index): {\"done\":true,\"numProcessed\":0,\"fetchDuration\":1,\"upgradeDuration\":0,\"saveDuration\":0,\"totalDuration\":1}","time":"2021-02-18T16:45:41.472Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Background migration complete. Stopping idle detector.","time":"2021-02-18T16:45:41.472Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Stop idle detector","time":"2021-02-18T16:45:41.472Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:45:41.488Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"fetchMessages","time":"2021-02-18T16:45:41.506Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Conversation [REDACTED] took 191 milliseconds to load","time":"2021-02-18T16:45:41.701Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"disabled\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:45:42.958Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":947,\"height\":1027,\"x\":961,\"y\":41}","time":"2021-02-18T16:45:44.805Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:45:44.805Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:45:45.617Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"fetchMessages","time":"2021-02-18T16:45:45.631Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Conversation group([REDACTED]ed/) took 51 milliseconds to load","time":"2021-02-18T16:45:45.683Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove notification","time":"2021-02-18T16:45:45.688Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove notification","time":"2021-02-18T16:45:45.688Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove notification","time":"2021-02-18T16:45:45.688Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove notification","time":"2021-02-18T16:45:45.689Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove notification","time":"2021-02-18T16:45:45.689Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove notification","time":"2021-02-18T16:45:45.689Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove notification","time":"2021-02-18T16:45:45.689Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove notification","time":"2021-02-18T16:45:45.689Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove notification","time":"2021-02-18T16:45:45.689Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove notification","time":"2021-02-18T16:45:45.689Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:45:46.657Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"fetchMessages","time":"2021-02-18T16:45:46.667Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Conversation group([REDACTED]ed/) took 29 milliseconds to load","time":"2021-02-18T16:45:46.697Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove notification","time":"2021-02-18T16:45:46.700Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove notification","time":"2021-02-18T16:45:46.700Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove notification","time":"2021-02-18T16:45:46.700Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove notification","time":"2021-02-18T16:45:46.700Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:45:48.700Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:45:49.126Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:45:59.126Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":947,\"height\":1027,\"x\":961,\"y\":41}","time":"2021-02-18T16:46:01.063Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:46:01.064Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:46:04.637Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:46:05.014Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:46:05.015Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:46:05.178Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":979,\"height\":1027,\"x\":12,\"y\":41}","time":"2021-02-18T16:46:05.650Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:46:05.650Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":903,\"height\":1027,\"x\":1005,\"y\":41}","time":"2021-02-18T16:46:07.110Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:46:07.110Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:46:07.179Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::_openRetrieveConnection - retrieve error: ECONNREFUSED request to https://95.216.149.225:23023/proxy failed, reason: connect ECONNREFUSED 95.216.149.225:23023 on 135.181.138.83:22129","time":"2021-02-18T16:46:08.313Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:46:09.126Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::_openRetrieveConnection - too many successive failures, removing 135.181.138.83:22129 from our swarm pool. We have 4 usable swarm nodes left (6 in local db)","time":"2021-02-18T16:46:10.326Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:46:10.761Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"lokiRpc:::sendToProxy - snode 62.171.145.136:22021 to 165.22.227.142:22021 code 503 error Service node is not ready: not in any swarm; \n Try #0 removing randSnode leaving 843 in the random pool","time":"2021-02-18T16:46:10.763Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"lokiRpc:::sendToProxy - request succeeded, snode 95.217.238.237:22021 to 165.22.227.142:22021 on retry #1","time":"2021-02-18T16:46:11.855Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:46:19.127Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:46:19.716Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":903,\"height\":1027,\"x\":1005,\"y\":41}","time":"2021-02-18T16:46:20.212Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:46:20.212Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:46:20.767Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:46:21.525Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"fetchMessages","time":"2021-02-18T16:46:21.609Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Conversation [REDACTED] took 13 milliseconds to load","time":"2021-02-18T16:46:21.622Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:46:21.717Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"lokiRpc:::sendToProxy - fetch non-200 statusCode 504 from snode 104.210.60.84:22021 to 159.69.122.172:22021","time":"2021-02-18T16:46:22.509Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"lokiRpc:::lokiFetch - sendToProxy returned false","time":"2021-02-18T16:46:22.509Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::getSnodesForPubkey - lokiRpc on 159.69.122.172:22021 returned falsish value false","time":"2021-02-18T16:46:22.509Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Send pre-checks took 6 milliseconds","time":"2021-02-18T16:46:26.406Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Sending message to conversation [REDACTED] with timestamp 1613666786419","time":"2021-02-18T16:46:26.419Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"Failed to fetch contact prekey: [REDACTED]","time":"2021-02-18T16:46:26.465Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"Failed to fetch contact signed prekey: [REDACTED]","time":"2021-02-18T16:46:26.465Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"Failed to fetch contact prekey: [REDACTED]","time":"2021-02-18T16:46:27.356Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"Failed to fetch contact signed prekey: [REDACTED]","time":"2021-02-18T16:46:27.356Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Successfully fetched signed prekey: 7","time":"2021-02-18T16:46:27.358Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"attaching prekeys to outgoing message","time":"2021-02-18T16:46:27.374Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Worker job 1 (calcPoW) succeeded in 93ms","time":"2021-02-18T16:46:27.513Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::_sendToNode - send error: EHOSTUNREACH request to https://51.15.102.20:22021/proxy failed, reason: connect EHOSTUNREACH 51.15.102.20:22021 destination 51.222.124.202:22021","time":"2021-02-18T16:46:27.610Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":50,"msg":"loki_message:::_sendToNode - Too many successive failures trying to send to node 51.222.124.202:22021, undefined remaining swarm nodes","time":"2021-02-18T16:46:27.617Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message:::sendMessage - Successfully stored message to [REDACTED]","time":"2021-02-18T16:46:27.904Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:46:29.127Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:46:30.767Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:46:39.128Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:46:40.768Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:46:46.493Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:46:48.494Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:46:49.128Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":903,\"height\":1027,\"x\":1005,\"y\":41}","time":"2021-02-18T16:46:50.533Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:46:50.533Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:46:50.768Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:46:59.128Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:47:00.768Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:47:09.113Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:47:09.128Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":903,\"height\":1027,\"x\":1005,\"y\":41}","time":"2021-02-18T16:47:09.607Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:47:09.607Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:47:10.769Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:47:11.114Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:47:11.201Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":903,\"height\":1027,\"x\":1005,\"y\":41}","time":"2021-02-18T16:47:12.252Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:47:12.252Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:47:12.847Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:47:14.847Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:47:16.329Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:47:18.330Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:47:19.129Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:47:19.516Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:47:20.769Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:47:21.516Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:47:29.129Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:47:30.769Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:47:39.129Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:47:40.770Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::getVersion - Error ETIMEDOUT request to https://104.248.81.190:22021/get_stats/v1 failed, reason: connect ETIMEDOUT 104.248.81.190:22021 on 104.248.81.190:22021 retrying in 1s","time":"2021-02-18T16:47:45.485Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::_openRetrieveConnection - retrieve error: ETIMEDOUT request to https://62.171.145.107:22021/proxy failed, reason: connect ETIMEDOUT 62.171.145.107:22021 on 167.114.155.91:22021","time":"2021-02-18T16:47:45.486Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::_openRetrieveConnection - too many successive failures, removing 167.114.155.91:22021 from our swarm pool. We have 3 usable swarm nodes left (5 in local db)","time":"2021-02-18T16:47:47.493Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:47:48.317Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":903,\"height\":1027,\"x\":1005,\"y\":41}","time":"2021-02-18T16:47:48.814Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:47:48.814Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:47:49.130Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:47:50.318Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:47:50.770Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":903,\"height\":1027,\"x\":1005,\"y\":41}","time":"2021-02-18T16:47:52.629Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:47:52.629Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:47:53.774Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:47:54.311Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:47:55.774Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":903,\"height\":1027,\"x\":1005,\"y\":41}","time":"2021-02-18T16:47:56.231Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:47:56.231Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:47:59.130Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:48:00.770Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:48:03.034Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":909,\"height\":1027,\"x\":999,\"y\":41}","time":"2021-02-18T16:48:03.659Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:48:03.659Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::_openRetrieveConnection - retrieve error: ETIMEDOUT request to https://207.180.193.239:22021/proxy failed, reason: connect ETIMEDOUT 207.180.193.239:22021 on 116.203.146.221:22101","time":"2021-02-18T16:48:04.258Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":909,\"height\":1027,\"x\":999,\"y\":41}","time":"2021-02-18T16:48:04.260Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:48:04.260Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:48:04.702Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::_openRetrieveConnection - too many successive failures, removing 116.203.146.221:22101 from our swarm pool. We have 2 usable swarm nodes left (4 in local db)","time":"2021-02-18T16:48:06.263Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:48:06.702Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:48:09.130Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:48:10.771Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::_openRetrieveConnection - retrieve error: ECONNREFUSED request to https://54.37.234.226:22021/proxy failed, reason: connect ECONNREFUSED 54.37.234.226:22021 on 205.185.115.143:22021","time":"2021-02-18T16:48:12.940Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::_openRetrieveConnection - too many successive failures, removing 205.185.115.143:22021 from our swarm pool. We have 1 usable swarm nodes left (3 in local db)","time":"2021-02-18T16:48:14.947Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:48:14.982Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":909,\"height\":1027,\"x\":999,\"y\":41}","time":"2021-02-18T16:48:15.479Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:48:15.479Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:48:16.983Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:48:18.504Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"fetchMessages","time":"2021-02-18T16:48:18.516Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Conversation [REDACTED] took 8 milliseconds to load","time":"2021-02-18T16:48:18.527Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:48:19.131Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:48:20.771Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:48:22.310Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:48:26.827Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":909,\"height\":1027,\"x\":999,\"y\":41}","time":"2021-02-18T16:48:27.321Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:48:27.321Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:48:28.828Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:48:29.131Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:48:30.771Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::_openRetrieveConnection - retrieve error: ETIMEDOUT request to https://45.77.232.69:22021/proxy failed, reason: connect ETIMEDOUT 45.77.232.69:22021 on 165.22.227.142:22021","time":"2021-02-18T16:48:34.978Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:48:35.259Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"fetchMessages","time":"2021-02-18T16:48:35.334Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Conversation group([REDACTED]ed/) took 6 milliseconds to load","time":"2021-02-18T16:48:35.351Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::_openRetrieveConnection - too many successive failures, removing 165.22.227.142:22021 from our swarm pool. We have 0 usable swarm nodes left (2 in local db)","time":"2021-02-18T16:48:36.993Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":50,"msg":"loki_message:::_openRetrieveConnection - We no longer have any swarm nodes available to try in pool, closing retrieve connection","time":"2021-02-18T16:48:36.994Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message:::startLongPolling - There are 2 open retrieve connections left","time":"2021-02-18T16:48:36.994Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:48:37.096Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:48:39.131Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":50,"msg":"Model caught error triggering showNicknameDialog event: TypeError: Invalid template! Template should be a \"string\" but \"undefined\" was given as the first argument for mustache#render(template, view, partials)\n    at Object.render (file://[REDACTED]/app.asar/js/components.js:19536:13)\n    at child.render (file://[REDACTED]/app.asar/js/views/whisper_view.js:51:32)\n    at child.initialize (file://[REDACTED]/app.asar/js/views/nickname_dialog_view.js:24:12)\n    at child.Backbone.View (file://[REDACTED]/app.asar/js/components.js:22482:21)\n    at child.constructor (file://[REDACTED]/app.asar/js/views/whisper_view.js:32:23)\n    at new child (file://[REDACTED]/app.asar/js/components.js:23142:41)\n    at child.showNicknameDialog (file://[REDACTED]/app.asar/js/views/app_view.js:192:22)\n    at Object.<anonymous> (file://[REDACTED]/app.asar/js/background.js:1269:17)\n    at triggerEvents (file://[REDACTED]/app.asar/js/reliable_trigger.js:86:39)\n    at Object.trigger (file://[REDACTED]/app.asar/js/reliable_trigger.js:131:17)","time":"2021-02-18T16:48:39.195Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:48:40.771Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":50,"msg":"Model caught error triggering showNicknameDialog event: TypeError: Invalid template! Template should be a \"string\" but \"undefined\" was given as the first argument for mustache#render(template, view, partials)\n    at Object.render (file://[REDACTED]/app.asar/js/components.js:19536:13)\n    at child.render (file://[REDACTED]/app.asar/js/views/whisper_view.js:51:32)\n    at child.initialize (file://[REDACTED]/app.asar/js/views/nickname_dialog_view.js:24:12)\n    at child.Backbone.View (file://[REDACTED]/app.asar/js/components.js:22482:21)\n    at child.constructor (file://[REDACTED]/app.asar/js/views/whisper_view.js:32:23)\n    at new child (file://[REDACTED]/app.asar/js/components.js:23142:41)\n    at child.showNicknameDialog (file://[REDACTED]/app.asar/js/views/app_view.js:192:22)\n    at Object.<anonymous> (file://[REDACTED]/app.asar/js/background.js:1269:17)\n    at triggerEvents (file://[REDACTED]/app.asar/js/reliable_trigger.js:86:39)\n    at Object.trigger (file://[REDACTED]/app.asar/js/reliable_trigger.js:131:17)","time":"2021-02-18T16:48:41.115Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":50,"msg":"Model caught error triggering showNicknameDialog event: TypeError: Invalid template! Template should be a \"string\" but \"undefined\" was given as the first argument for mustache#render(template, view, partials)\n    at Object.render (file://[REDACTED]/app.asar/js/components.js:19536:13)\n    at child.render (file://[REDACTED]/app.asar/js/views/whisper_view.js:51:32)\n    at child.initialize (file://[REDACTED]/app.asar/js/views/nickname_dialog_view.js:24:12)\n    at child.Backbone.View (file://[REDACTED]/app.asar/js/components.js:22482:21)\n    at child.constructor (file://[REDACTED]/app.asar/js/views/whisper_view.js:32:23)\n    at new child (file://[REDACTED]/app.asar/js/components.js:23142:41)\n    at child.showNicknameDialog (file://[REDACTED]/app.asar/js/views/app_view.js:192:22)\n    at Object.<anonymous> (file://[REDACTED]/app.asar/js/background.js:1269:17)\n    at triggerEvents (file://[REDACTED]/app.asar/js/reliable_trigger.js:86:39)\n    at Object.trigger (file://[REDACTED]/app.asar/js/reliable_trigger.js:131:17)","time":"2021-02-18T16:48:48.057Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:48:48.995Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:48:49.131Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":909,\"height\":1027,\"x\":999,\"y\":41}","time":"2021-02-18T16:48:50.741Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:48:50.741Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:48:50.772Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:48:59.132Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:49:00.772Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:49:09.132Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:49:10.772Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:49:19.133Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:49:20.773Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:49:28.006Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:49:28.467Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:49:28.955Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:49:29.133Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:49:30.007Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:49:30.253Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:49:30.773Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Send pre-checks took 6 milliseconds","time":"2021-02-18T16:49:36.485Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Sending message to conversation [REDACTED] with timestamp 1613666976498","time":"2021-02-18T16:49:36.499Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"Failed to fetch contact prekey: [REDACTED]","time":"2021-02-18T16:49:36.550Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"Failed to fetch contact signed prekey: [REDACTED]","time":"2021-02-18T16:49:36.550Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:49:39.133Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:49:39.344Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:49:40.773Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:49:42.269Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"Failed to fetch contact prekey: [REDACTED]","time":"2021-02-18T16:49:44.039Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"Failed to fetch contact signed prekey: [REDACTED]","time":"2021-02-18T16:49:44.040Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Successfully fetched signed prekey: 7","time":"2021-02-18T16:49:44.041Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Successfully fetched prekey for recipient: [REDACTED]","time":"2021-02-18T16:49:44.042Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"attaching prekeys to outgoing message","time":"2021-02-18T16:49:44.043Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Worker job 2 (calcPoW) succeeded in 100ms","time":"2021-02-18T16:49:44.200Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message:::sendMessage - Successfully stored message to [REDACTED]","time":"2021-02-18T16:49:44.774Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:49:49.133Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":1161,\"height\":1027,\"x\":747,\"y\":41}","time":"2021-02-18T16:49:49.372Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:49:49.372Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:49:50.774Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":932,\"height\":1027,\"x\":976,\"y\":41}","time":"2021-02-18T16:49:50.781Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:49:50.781Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":932,\"height\":1027,\"x\":976,\"y\":41}","time":"2021-02-18T16:49:51.452Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:49:51.452Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:49:51.938Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::getVersion - Error ETIMEDOUT request to https://104.248.81.190:22021/get_stats/v1 failed, reason: connect ETIMEDOUT 104.248.81.190:22021 on 104.248.81.190:22021 retrying in 1s","time":"2021-02-18T16:49:55.192Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:49:56.497Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:49:57.869Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:49:58.105Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:49:58.486Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:49:58.497Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:49:59.134Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:50:00.774Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::_openRetrieveConnection - retrieve error: ETIMEDOUT request to https://95.217.79.44:22113/proxy failed, reason: connect ETIMEDOUT 95.217.79.44:22113 on 94.23.205.209:22113","time":"2021-02-18T16:50:05.432Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:50:06.204Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::_openRetrieveConnection - too many successive failures, removing 94.23.205.209:22113 from our swarm pool. We have 0 usable swarm nodes left (1 in local db)","time":"2021-02-18T16:50:07.439Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":50,"msg":"loki_message:::_openRetrieveConnection - We no longer have any swarm nodes available to try in pool, closing retrieve connection","time":"2021-02-18T16:50:07.439Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message:::startLongPolling - There are 1 open retrieve connections left","time":"2021-02-18T16:50:07.439Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:50:09.134Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:50:10.775Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:50:19.135Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:50:20.775Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:50:21.332Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":932,\"height\":1027,\"x\":976,\"y\":41}","time":"2021-02-18T16:50:22.112Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:50:22.112Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:50:23.333Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::_openRetrieveConnection - retrieve error: ETIMEDOUT request to https://174.138.51.218:22021/proxy failed, reason: connect ETIMEDOUT 174.138.51.218:22021 on 128.199.85.219:22021","time":"2021-02-18T16:50:24.205Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:50:24.758Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":932,\"height\":1027,\"x\":976,\"y\":41}","time":"2021-02-18T16:50:25.252Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:50:25.252Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:50:25.880Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"fetchMessages","time":"2021-02-18T16:50:25.897Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Conversation [REDACTED] took 13 milliseconds to load","time":"2021-02-18T16:50:25.917Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::_openRetrieveConnection - too many successive failures, removing 128.199.85.219:22021 from our swarm pool. We have 0 usable swarm nodes left (0 in local db)","time":"2021-02-18T16:50:26.213Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":50,"msg":"loki_message:::_openRetrieveConnection - We no longer have any swarm nodes available to try in pool, closing retrieve connection","time":"2021-02-18T16:50:26.214Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message:::startLongPolling - There are 0 open retrieve connections left","time":"2021-02-18T16:50:26.214Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":50,"msg":"loki_message:::startLongPolling - All our long poll swarm connections have been removed","time":"2021-02-18T16:50:26.214Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:50:26.757Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:50:29.135Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:50:30.778Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"http-resource: Exhausted all our snodes urls, trying again in 5s from scratch","time":"2021-02-18T16:50:31.220Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"http-resource pollServer start","time":"2021-02-18T16:50:31.220Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_message:::startLongPolling - Not enough SwarmNodes for our pubkey in local database, getting current list from blockchain","time":"2021-02-18T16:50:31.220Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"lokiRpc:::sendToProxy - fetch non-200 statusCode 504 from snode 157.230.34.168:22021 to 139.99.236.69:22021","time":"2021-02-18T16:50:32.881Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"lokiRpc:::lokiFetch - sendToProxy returned false","time":"2021-02-18T16:50:32.881Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::getSnodesForPubkey - lokiRpc on 139.99.236.69:22021 returned falsish value false","time":"2021-02-18T16:50:32.882Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message:::startLongPolling - start polling for 3 connections. We have swarmNodes 8 for [REDACTED]","time":"2021-02-18T16:50:34.111Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message: 0 52.53.149.124:22021","time":"2021-02-18T16:50:34.112Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message: 1 116.203.146.221:22101","time":"2021-02-18T16:50:34.112Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message: 2 135.181.138.83:22129","time":"2021-02-18T16:50:34.112Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message: 3 165.22.227.142:22021","time":"2021-02-18T16:50:34.112Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message: 4 128.199.85.219:22021","time":"2021-02-18T16:50:34.112Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message: 5 94.23.205.209:22113","time":"2021-02-18T16:50:34.112Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message: 6 205.185.115.143:22021","time":"2021-02-18T16:50:34.113Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"loki_message: 7 192.99.168.140:22021","time":"2021-02-18T16:50:34.113Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Worker job 3 (arrayBufferToStringBase64) succeeded in 1ms","time":"2021-02-18T16:50:34.505Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"200 OK","time":"2021-02-18T16:50:34.508Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"queueing envelope 8c6d4661-d237-41d0-bee6-3314a5b59ec9","time":"2021-02-18T16:50:34.508Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"received unidentified sender message","time":"2021-02-18T16:50:34.509Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":50,"msg":"queueEnvelope error handling envelope 8c6d4661-d237-41d0-bee6-3314a5b59ec9 : Error: Illegal wire type for unknown field 0 in Message .signalservice.UnidentifiedSenderMessage#decode: 6\n    at Message.ProtoBuf.Reflect.MessagePrototype.decode (file://[REDACTED]/app.asar/js/libtextsecure.js:33378:35)\n    at Function.Message.decode (file://[REDACTED]/app.asar/js/libtextsecure.js:33083:37)\n    at _createUnidentifiedSenderMessageFromBuffer ([REDACTED]/app.asar/js/modules/metadata/SecretSessionCipher.js:130:83)\n    at SecretSessionCipher.decrypt ([REDACTED]/app.asar/js/modules/metadata/SecretSessionCipher.js:341:21)","time":"2021-02-18T16:50:34.518Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":50,"msg":"Top-level unhandled promise rejection: Error: Illegal wire type for unknown field 0 in Message .signalservice.UnidentifiedSenderMessage#decode: 6","time":"2021-02-18T16:50:34.518Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 136.243.103.175:22114 retrying in 10s","time":"2021-02-18T16:50:36.978Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"lokiRpc:::sendToProxy - snode 136.243.103.175:22114 to 135.181.138.83:22129 code 503 error Service node is not ready: not in any swarm; \n Try #0 removing randSnode leaving 842 in the random pool","time":"2021-02-18T16:50:36.978Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:50:37.150Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":932,\"height\":1027,\"x\":976,\"y\":41}","time":"2021-02-18T16:50:37.645Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:50:37.645Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:50:39.038Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:50:39.135Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":932,\"height\":1027,\"x\":976,\"y\":41}","time":"2021-02-18T16:50:39.535Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:50:39.535Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"lokiRpc:::sendToProxy - request succeeded, snode 68.183.176.220:42321 to 135.181.138.83:22129 on retry #1","time":"2021-02-18T16:50:40.292Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:50:40.778Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"open inbox","time":"2021-02-18T16:50:40.918Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"fetchMessages","time":"2021-02-18T16:50:40.926Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Conversation [REDACTED] took 9 milliseconds to load","time":"2021-02-18T16:50:40.939Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:50:41.039Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":932,\"height\":1027,\"x\":976,\"y\":41}","time":"2021-02-18T16:50:42.568Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:50:42.568Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:50:45.869Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 136.243.103.175:22114 retrying in 10s","time":"2021-02-18T16:50:46.978Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":932,\"height\":1027,\"x\":976,\"y\":41}","time":"2021-02-18T16:50:47.044Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:50:47.045Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:50:47.869Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:50:49.135Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:50:50.778Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":50,"msg":"Top-level unhandled promise rejection: Error: Invalid arguments","time":"2021-02-18T16:50:50.944Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":932,\"height\":1027,\"x\":976,\"y\":41}","time":"2021-02-18T16:50:56.435Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:50:56.435Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 136.243.103.175:22114 retrying in 10s","time":"2021-02-18T16:50:56.978Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:50:59.136Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:51:00.778Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 136.243.103.175:22114 retrying in 10s","time":"2021-02-18T16:51:06.979Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:51:09.136Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:51:10.779Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 136.243.103.175:22114 retrying in 10s","time":"2021-02-18T16:51:16.979Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:51:19.136Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:51:20.779Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 136.243.103.175:22114 retrying in 10s","time":"2021-02-18T16:51:26.979Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 159.69.182.205:23028 retrying in 10s","time":"2021-02-18T16:51:29.137Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 62.171.145.136:22021 retrying in 10s","time":"2021-02-18T16:51:30.779Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:51:32.115Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":884,\"height\":1027,\"x\":1024,\"y\":41}","time":"2021-02-18T16:51:32.341Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:51:32.341Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:51:34.115Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":884,\"height\":1027,\"x\":1024,\"y\":41}","time":"2021-02-18T16:51:36.411Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:51:36.411Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":40,"msg":"loki_snode:::markRandomNodeUnreachable - No version for snode 136.243.103.175:22114 retrying in 10s","time":"2021-02-18T16:51:36.980Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Remove all notifications","time":"2021-02-18T16:51:37.520Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":true,\"width\":884,\"height\":1027,\"x\":1024,\"y\":41}","time":"2021-02-18T16:51:38.017Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"config/set: Saving ephemeral config to disk","time":"2021-02-18T16:51:38.017Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"close event {\"shouldQuit\":false}","time":"2021-02-18T16:51:38.254Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"requestShutdown: Requesting close of mainWindow...","time":"2021-02-18T16:51:38.254Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"MessageReceiver: stopProcessing requested","time":"2021-02-18T16:51:38.262Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"MessageReceiver.close()","time":"2021-02-18T16:51:38.263Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"drained","time":"2021-02-18T16:51:38.263Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"data.shutdown: starting process. 0 jobs outstanding","time":"2021-02-18T16:51:38.263Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"requestShutdown: Response received","time":"2021-02-18T16:51:38.265Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}","time":"2021-02-18T16:51:38.265Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}","time":"2021-02-18T16:51:38.265Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"unloading conversation [REDACTED] due to: windows closed","time":"2021-02-18T16:51:38.266Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"unloading conversation group([REDACTED]ed/) due to: windows closed","time":"2021-02-18T16:51:38.274Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"unloading conversation group([REDACTED]ed/) due to: windows closed","time":"2021-02-18T16:51:38.284Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"unloading conversation [REDACTED] due to: windows closed","time":"2021-02-18T16:51:38.286Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"unloading conversation [REDACTED] due to: windows closed","time":"2021-02-18T16:51:38.287Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"unloading conversation group([REDACTED]ed/) due to: windows closed","time":"2021-02-18T16:51:38.288Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"unloading conversation [REDACTED] due to: windows closed","time":"2021-02-18T16:51:38.289Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"unloading conversation [REDACTED] due to: windows closed","time":"2021-02-18T16:51:38.290Z","v":0}
+{"name":"log","hostname":"vhyrro","pid":17488,"level":30,"msg":"Update notifications: {\"shouldClearNotifications\":false,\"shouldPlayNotificationSound\":false,\"shouldShowNotifications\":false,\"type\":\"noNotifications\",\"isNotificationGroupingSupported\":true}","time":"2021-02-18T16:51:38.292Z","v":0}

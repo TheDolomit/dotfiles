@@ -1,0 +1,9 @@
+[Default Applications]
+x-scheme-handler/msteams=teams.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-E7RRX0.desktop
+image/png=org.kde.krita.desktop
+
+[Added Associations]
+application/javascript=freeoffice-textmaker.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-WWRHW0.desktop;userapp-Telegram Desktop-U358W0.desktop;userapp-Telegram Desktop-E7RRX0.desktop;
+image/png=org.kde.krita.desktop;sxiv.desktop;
