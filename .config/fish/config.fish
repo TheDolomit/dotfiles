@@ -23,9 +23,11 @@ alias vim nvim
 alias sudo "doas --"
 
 function fish_greeting
+
+	# Randomize the greeting message
+	set greetings "neofetch | lolcat" pfetch "pfetch | lolcat"
+	eval (random choice $greetings)
+
 end
 
-# Randomize the greeting message
-set greetings "neofetch | lolcat" pfetch "pfetch | lolcat"
 
-eval (random choice $greetings)

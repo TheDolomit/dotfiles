@@ -1,7 +1,7 @@
 setxkbmap -layout workman
 light-locker &
 flameshot &
-wal -R
+wal --theme base16-gruvbox-medium -s -n
 xset r rate 450 50
 xrandr --output HDMI-A-0 --set TearFree off
 xmodmap ~/.Xmodmap

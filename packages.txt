@@ -305,6 +305,7 @@ java-environment-common
 java-runtime-common
 jbig2dec
 jdk11-openjdk
+jedi-language-server
 jemalloc
 jp2a
 jq
@@ -318,21 +319,26 @@ karchive
 kauth
 kbd
 kbookmarks
+kcmutils
 kcodecs
 kcompletion
 kconfig
 kconfigwidgets
+kcontacts
 kcoreaddons
 kcrash
 kdbusaddons
+kdeclarative
 kded
 kdesu
+kdoctools
 keyutils
 kglobalaccel
 kguiaddons
 ki18n
 kiconthemes
 kio
+kirigami2
 kitemmodels
 kitemviews
 kitty
@@ -340,6 +346,9 @@ kitty-terminfo
 kjobwidgets
 kmod
 knotifications
+kpackage
+kpeople
+kpeoplevcard
 kpty
 krb5
 krita
@@ -597,6 +606,7 @@ libevdev
 libevent
 libexif
 libexttextcat
+libfakekey
 libfbclient
 libfdk-aac
 libffi
@@ -1041,6 +1051,7 @@ pugixml
 pulseaudio
 pulseaudio-alsa
 pulseaudio-equalizer
+pulseaudio-qt
 pulseeffects
 pulsemixer
 pv
@@ -1071,6 +1082,7 @@ python-cachecontrol
 python-cairo
 python-cffi
 python-chardet
+python-click
 python-colorama
 python-contextlib2
 python-coverage
@@ -1093,6 +1105,7 @@ python-imagesize
 python-importlib-metadata
 python-iniconfig
 python-isort
+python-jedi
 python-jinja
 python-kitchen
 python-lazy-object-proxy
@@ -1110,6 +1123,7 @@ python-notify2
 python-numpy
 python-ordered-set
 python-packaging
+python-parso
 python-pbr
 python-pep517
 python-pillow
@@ -1120,6 +1134,7 @@ python-progress
 python-psutil
 python-py
 python-pycparser
+python-pygls
 python-pygments
 python-pylint
 python-pynvim
@@ -1165,10 +1180,12 @@ python-yarl
 python-zipp
 python-zstandard
 qbittorrent
+qca
 qpdf
 qt5-base
 qt5ct
 qt5-declarative
+qt5-graphicaleffects
 qt5-imageformats
 qt5-location
 qt5-multimedia
@@ -1242,6 +1259,7 @@ sed
 semver
 serd
 serf
+sfml
 shaderc
 shadow
 shared-mime-info
