@@ -40,5 +40,6 @@ complete -c ssh-keygen -s v --description 'Verbose mode.'
 complete -c ssh-keygen -s w --description 'Specifies a path to a library that will be used when creating FIDO authentica…'
 complete -c ssh-keygen -s Y --description 'Find the principal(s) associated with the public key of a signature, provided…'
 complete -c ssh-keygen -s y --description 'This option will read a private OpenSSH format file and print an OpenSSH publ…'
+complete -c ssh-keygen -s Z --description 'Specifies the cipher to use for encryption when writing an OpenSSH-format pri…'
 complete -c ssh-keygen -s z --description 'Specifies a serial number to be embedded in the certificate to distinguish th…'
 

@@ -21,6 +21,6 @@ complete -c tor -l newpass --description 'option with.'
 complete -c tor -l DataDirectory --description 'to control where the keys and certificates will be stored, and.'
 complete -c tor -l SigningKeyLifetime --description 'to control their lifetimes.'
 complete -c tor -l passphrase-fd --description '.'
-complete -c tor -l key-expiration --description '.'
+complete -c tor -l key-expiration -l format --description '.'
 complete -c tor -l dbg- --description '.'
 

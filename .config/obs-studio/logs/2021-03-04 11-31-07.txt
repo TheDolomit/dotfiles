@@ -1,0 +1,578 @@
+11:31:07.719: CPU Name: AMD Ryzen 5 2600X Six-Core Processor
+11:31:07.719: CPU Speed: 3600.000MHz
+11:31:07.719: Physical Cores: 6, Logical Cores: 12
+11:31:07.719: Physical Memory: 16019MB Total, 7199MB Free
+11:31:07.719: Kernel Version: Linux 5.11.2-arch1-1
+11:31:07.719: Distribution: "Arch Linux" Unknown
+11:31:07.719: Session Type: x11
+11:31:07.719: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.10
+11:31:07.720: Portable mode: false
+11:31:07.835: OBS 26.1.2.r213.g09c389212 (linux)
+11:31:07.835: ---------------------------------
+11:31:07.836: ---------------------------------
+11:31:07.836: audio settings reset:
+11:31:07.836: 	samples per sec: 48000
+11:31:07.836: 	speakers:        2
+11:31:07.840: ---------------------------------
+11:31:07.840: Initializing OpenGL...
+11:31:07.939: Loading up OpenGL on adapter AMD Radeon RX 580 Series (POLARIS10, DRM 3.40.0, 5.11.2-arch1-1, LLVM 11.1.0)
+11:31:07.939: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 20.3.4, shading language 4.60
+11:31:07.951: ---------------------------------
+11:31:07.951: video settings reset:
+11:31:07.951: 	base resolution:   1920x1080
+11:31:07.951: 	output resolution: 1920x1080
+11:31:07.951: 	downscale filter:  Bicubic
+11:31:07.951: 	fps:               30/1
+11:31:07.951: 	format:            NV12
+11:31:07.951: 	YUV mode:          709/Partial
+11:31:07.951: NV12 texture support not available
+11:31:07.955: Audio monitoring device:
+11:31:07.955: 	name: Default
+11:31:07.955: 	id: default
+11:31:07.955: ---------------------------------
+11:31:07.956: Failed to load 'en-US' text for module: 'decklink-captions.so'
+11:31:07.958: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+11:31:08.091: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+11:31:08.091: No blackmagic support
+11:31:08.100: [obs-browser]: Version 2.13.1
+11:31:08.100: [obs-browser]: CEF Version 88.2.8+ge484012+chromium-88.0.4324.150
+11:31:08.106: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+11:31:08.106: 
+11:31:08.106: FFMPEG VAAPI supported
+11:31:08.115: VLC found, VLC video source enabled
+11:31:08.115: ---------------------------------
+11:31:08.115:   Loaded Modules:
+11:31:08.115:     vlc-video.so
+11:31:08.115:     text-freetype2.so
+11:31:08.115:     sndio.so
+11:31:08.115:     rtmp-services.so
+11:31:08.115:     obs-x264.so
+11:31:08.115:     obs-transitions.so
+11:31:08.115:     obs-outputs.so
+11:31:08.115:     obs-libfdk.so
+11:31:08.115:     obs-filters.so
+11:31:08.115:     obs-ffmpeg.so
+11:31:08.115:     obs-browser.so
+11:31:08.115:     linux-v4l2.so
+11:31:08.115:     linux-pulseaudio.so
+11:31:08.115:     linux-jack.so
+11:31:08.115:     linux-decklink.so
+11:31:08.115:     linux-capture.so
+11:31:08.115:     linux-alsa.so
+11:31:08.115:     image-source.so
+11:31:08.115:     frontend-tools.so
+11:31:08.115:     decklink-ouput-ui.so
+11:31:08.115:     decklink-captions.so
+11:31:08.115: ---------------------------------
+11:31:08.115: ==== Startup complete ===============================================
+11:31:08.118: All scene data cleared
+11:31:08.118: ------------------------------------------------
+11:31:08.123: pulse-input: Server name: 'pulseaudio 14.2'
+11:31:08.124: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+11:31:08.124: pulse-input: Started recording from 'alsa_output.pci-0000_21_00.3.analog-stereo.monitor'
+11:31:08.124: [Loaded global audio device]: 'Desktop Audio'
+11:31:08.124: pulse-input: Server name: 'pulseaudio 14.2'
+11:31:08.124: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+11:31:08.124: pulse-input: Started recording from 'alsa_input.pci-0000_21_00.3.analog-stereo'
+11:31:08.124: [Loaded global audio device]: 'Mic/Aux'
+11:31:08.130: xshm-input: Geometry 1920x1080 @ 0,0
+11:31:08.152: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:31:08.152: 	title: #dżenerali - Discord
+11:31:08.152: 	class: discord
+11:31:08.152: 	Bit depth: 24
+11:31:08.152: 	Found proper GLXFBConfig (in 368): yes
+11:31:08.152: 
+11:31:08.153: Switched to scene 'Scene 2'
+11:31:08.153: ------------------------------------------------
+11:31:08.153: Loaded scenes:
+11:31:08.153: - scene 'Scene':
+11:31:08.153:     - source: 'Screen Capture (XSHM)' (xshm_input)
+11:31:08.153:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+11:31:08.153: - scene 'Scene 2':
+11:31:08.153:     - source: 'Window Capture (Xcomposite) 2' (xcomposite_input)
+11:31:08.153: ------------------------------------------------
+11:31:08.764: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+11:31:08.764: 
+11:31:10.588: Failed to start virtual camera
+11:31:11.592: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:31:11.592: 	title: #dżenerali - Discord
+11:31:11.592: 	class: discord
+11:31:11.592: 	Bit depth: 24
+11:31:11.592: 	Found proper GLXFBConfig (in 368): yes
+11:31:11.592: 
+11:31:13.256: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:31:13.256: 	title: #dżenerali - Discord
+11:31:13.256: 	class: discord
+11:31:13.256: 	Bit depth: 24
+11:31:13.256: 	Found proper GLXFBConfig (in 368): yes
+11:31:13.256: 
+11:31:14.192: Failed to start virtual camera
+11:31:14.457: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:31:14.457: 	title: #dżenerali - Discord
+11:31:14.457: 	class: discord
+11:31:14.457: 	Bit depth: 24
+11:31:14.457: 	Found proper GLXFBConfig (in 368): yes
+11:31:14.457: 
+11:31:26.581: 
+11:31:26.581: ==== Auto-config wizard testing commencing ======
+
+11:31:26.622: ---------------------------------
+11:31:26.622: video settings reset:
+11:31:26.622: 	base resolution:   1920x1080
+11:31:26.622: 	output resolution: 1920x1080
+11:31:26.622: 	downscale filter:  Bicubic
+11:31:26.622: 	fps:               30/1
+11:31:26.622: 	format:            NV12
+11:31:26.622: 	YUV mode:          709/Partial
+11:31:26.622: NV12 texture support not available
+11:31:26.622: ---------------------------------
+11:31:26.622: [x264 encoder: 'test_x264'] preset: veryfast
+11:31:26.622: [x264 encoder: 'test_x264'] profile: high
+11:31:26.623: [x264 encoder: 'test_x264'] settings:
+11:31:26.623: 	rate_control: CRF
+11:31:26.623: 	bitrate:      0
+11:31:26.623: 	buffer size:  0
+11:31:26.623: 	crf:          20
+11:31:26.623: 	fps_num:      30
+11:31:26.623: 	fps_den:      1
+11:31:26.623: 	width:        1920
+11:31:26.623: 	height:       1080
+11:31:26.623: 	keyint:       250
+11:31:26.623: 
+11:31:26.636: ---------------------------------
+11:31:26.637: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:31:26.637: 
+11:31:31.638: Output 'null': stopping
+11:31:31.638: Output 'null': Total frames output: 117
+11:31:31.638: Output 'null': Total drawn frames: 150
+11:31:31.789: ---------------------------------
+11:31:31.789: video settings reset:
+11:31:31.789: 	base resolution:   1920x1080
+11:31:31.789: 	output resolution: 1280x720
+11:31:31.789: 	downscale filter:  Bicubic
+11:31:31.789: 	fps:               30/1
+11:31:31.789: 	format:            NV12
+11:31:31.789: 	YUV mode:          709/Partial
+11:31:31.789: NV12 texture support not available
+11:31:31.790: ---------------------------------
+11:31:31.790: [x264 encoder: 'test_x264'] preset: veryfast
+11:31:31.790: [x264 encoder: 'test_x264'] profile: high
+11:31:31.790: [x264 encoder: 'test_x264'] settings:
+11:31:31.790: 	rate_control: CRF
+11:31:31.790: 	bitrate:      0
+11:31:31.790: 	buffer size:  0
+11:31:31.790: 	crf:          20
+11:31:31.790: 	fps_num:      30
+11:31:31.790: 	fps_den:      1
+11:31:31.790: 	width:        1280
+11:31:31.790: 	height:       720
+11:31:31.790: 	keyint:       250
+11:31:31.790: 
+11:31:31.792: ---------------------------------
+11:31:31.793: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:31:31.793: 
+11:31:36.793: Output 'null': stopping
+11:31:36.793: Output 'null': Total frames output: 116
+11:31:36.793: Output 'null': Total drawn frames: 150
+11:31:36.890: ---------------------------------
+11:31:36.890: video settings reset:
+11:31:36.890: 	base resolution:   1920x1080
+11:31:36.890: 	output resolution: 852x480
+11:31:36.890: 	downscale filter:  Bicubic
+11:31:36.890: 	fps:               30/1
+11:31:36.890: 	format:            NV12
+11:31:36.890: 	YUV mode:          709/Partial
+11:31:36.890: NV12 texture support not available
+11:31:36.891: ---------------------------------
+11:31:36.891: [x264 encoder: 'test_x264'] preset: veryfast
+11:31:36.891: [x264 encoder: 'test_x264'] profile: high
+11:31:36.891: [x264 encoder: 'test_x264'] settings:
+11:31:36.891: 	rate_control: CRF
+11:31:36.891: 	bitrate:      0
+11:31:36.891: 	buffer size:  0
+11:31:36.891: 	crf:          20
+11:31:36.891: 	fps_num:      30
+11:31:36.891: 	fps_den:      1
+11:31:36.891: 	width:        852
+11:31:36.891: 	height:       480
+11:31:36.891: 	keyint:       250
+11:31:36.891: 
+11:31:36.894: ---------------------------------
+11:31:36.894: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:31:36.894: 
+11:31:41.895: Output 'null': stopping
+11:31:41.895: Output 'null': Total frames output: 120
+11:31:41.895: Output 'null': Total drawn frames: 150
+11:31:41.960: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:31:41.960: 	title: #dżenerali - Discord
+11:31:41.960: 	class: discord
+11:31:41.960: 	Bit depth: 24
+11:31:41.960: 	Found proper GLXFBConfig (in 368): yes
+11:31:41.960: 
+11:31:41.991: ---------------------------------
+11:31:41.991: video settings reset:
+11:31:41.991: 	base resolution:   1920x1080
+11:31:41.991: 	output resolution: 1920x1080
+11:31:41.991: 	downscale filter:  Bicubic
+11:31:41.991: 	fps:               30/1
+11:31:41.991: 	format:            NV12
+11:31:41.991: 	YUV mode:          709/Partial
+11:31:41.991: NV12 texture support not available
+11:31:47.160: ---------------------------------
+11:31:47.160: video settings reset:
+11:31:47.160: 	base resolution:   1920x1080
+11:31:47.160: 	output resolution: 1920x1080
+11:31:47.160: 	downscale filter:  Bicubic
+11:31:47.160: 	fps:               30/1
+11:31:47.160: 	format:            NV12
+11:31:47.160: 	YUV mode:          709/Partial
+11:31:47.160: NV12 texture support not available
+11:31:47.163: 
+11:31:47.163: ==== Auto-config wizard testing stopping ========
+
+11:31:48.256: Failed to start virtual camera
+11:32:28.296: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:32:28.296: 	title: #dżenerali - Discord
+11:32:28.296: 	class: discord
+11:32:28.296: 	Bit depth: 24
+11:32:28.296: 	Found proper GLXFBConfig (in 368): yes
+11:32:28.296: 
+11:32:42.431: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:32:42.431: 	title: #dżenerali - Discord
+11:32:42.431: 	class: discord
+11:32:42.431: 	Bit depth: 24
+11:32:42.431: 	Found proper GLXFBConfig (in 368): yes
+11:32:42.431: 
+11:32:45.878: Failed to start virtual camera
+11:32:47.465: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:32:47.465: 	title: #dżenerali - Discord
+11:32:47.465: 	class: discord
+11:32:47.465: 	Bit depth: 24
+11:32:47.465: 	Found proper GLXFBConfig (in 368): yes
+11:32:47.465: 
+11:32:47.499: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:32:47.499: 	title: #dżenerali - Discord
+11:32:47.499: 	class: discord
+11:32:47.499: 	Bit depth: 24
+11:32:47.499: 	Found proper GLXFBConfig (in 368): yes
+11:32:47.499: 
+11:32:47.533: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:32:47.533: 	title: #dżenerali - Discord
+11:32:47.533: 	class: discord
+11:32:47.533: 	Bit depth: 24
+11:32:47.533: 	Found proper GLXFBConfig (in 368): yes
+11:32:47.533: 
+11:32:47.565: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:32:47.565: 	title: #dżenerali - Discord
+11:32:47.565: 	class: discord
+11:32:47.565: 	Bit depth: 24
+11:32:47.565: 	Found proper GLXFBConfig (in 368): yes
+11:32:47.565: 
+11:32:47.597: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:32:47.597: 	title: #dżenerali - Discord
+11:32:47.597: 	class: discord
+11:32:47.597: 	Bit depth: 24
+11:32:47.597: 	Found proper GLXFBConfig (in 368): yes
+11:32:47.597: 
+11:32:47.629: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:32:47.629: 	title: #dżenerali - Discord
+11:32:47.629: 	class: discord
+11:32:47.629: 	Bit depth: 24
+11:32:47.629: 	Found proper GLXFBConfig (in 368): yes
+11:32:47.629: 
+11:32:47.663: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:32:47.663: 	title: #dżenerali - Discord
+11:32:47.663: 	class: discord
+11:32:47.663: 	Bit depth: 24
+11:32:47.663: 	Found proper GLXFBConfig (in 368): yes
+11:32:47.663: 
+11:32:58.096: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:32:58.096: 	title: #dżenerali - Discord
+11:32:58.096: 	class: discord
+11:32:58.096: 	Bit depth: 24
+11:32:58.096: 	Found proper GLXFBConfig (in 368): yes
+11:32:58.096: 
+11:32:58.267: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:32:58.267: 	title: #dżenerali - Discord
+11:32:58.267: 	class: discord
+11:32:58.267: 	Bit depth: 24
+11:32:58.267: 	Found proper GLXFBConfig (in 368): yes
+11:32:58.267: 
+11:33:03.331: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.331: 	title: #dżenerali - Discord
+11:33:03.331: 	class: discord
+11:33:03.331: 	Bit depth: 24
+11:33:03.331: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.331: 
+11:33:03.366: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.366: 	title: #dżenerali - Discord
+11:33:03.366: 	class: discord
+11:33:03.366: 	Bit depth: 24
+11:33:03.366: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.366: 
+11:33:03.397: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.397: 	title: #dżenerali - Discord
+11:33:03.397: 	class: discord
+11:33:03.397: 	Bit depth: 24
+11:33:03.397: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.397: 
+11:33:03.432: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.432: 	title: #dżenerali - Discord
+11:33:03.432: 	class: discord
+11:33:03.432: 	Bit depth: 24
+11:33:03.432: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.432: 
+11:33:03.467: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.467: 	title: #dżenerali - Discord
+11:33:03.467: 	class: discord
+11:33:03.467: 	Bit depth: 24
+11:33:03.467: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.467: 
+11:33:03.501: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.501: 	title: #dżenerali - Discord
+11:33:03.501: 	class: discord
+11:33:03.501: 	Bit depth: 24
+11:33:03.501: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.501: 
+11:33:03.531: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.531: 	title: #dżenerali - Discord
+11:33:03.531: 	class: discord
+11:33:03.531: 	Bit depth: 24
+11:33:03.531: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.531: 
+11:33:03.565: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.565: 	title: #dżenerali - Discord
+11:33:03.565: 	class: discord
+11:33:03.565: 	Bit depth: 24
+11:33:03.565: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.565: 
+11:33:03.601: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.601: 	title: #dżenerali - Discord
+11:33:03.601: 	class: discord
+11:33:03.601: 	Bit depth: 24
+11:33:03.601: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.601: 
+11:33:03.664: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.664: 	title: #dżenerali - Discord
+11:33:03.664: 	class: discord
+11:33:03.664: 	Bit depth: 24
+11:33:03.664: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.664: 
+11:33:03.703: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.703: 	title: #dżenerali - Discord
+11:33:03.703: 	class: discord
+11:33:03.703: 	Bit depth: 24
+11:33:03.703: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.703: 
+11:33:03.730: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.730: 	title: #dżenerali - Discord
+11:33:03.730: 	class: discord
+11:33:03.730: 	Bit depth: 24
+11:33:03.730: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.730: 
+11:33:03.770: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.770: 	title: #dżenerali - Discord
+11:33:03.770: 	class: discord
+11:33:03.770: 	Bit depth: 24
+11:33:03.770: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.770: 
+11:33:03.796: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.796: 	title: #dżenerali - Discord
+11:33:03.796: 	class: discord
+11:33:03.796: 	Bit depth: 24
+11:33:03.796: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.796: 
+11:33:03.898: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.898: 	title: #dżenerali - Discord
+11:33:03.898: 	class: discord
+11:33:03.898: 	Bit depth: 24
+11:33:03.898: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.898: 
+11:33:03.931: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.931: 	title: #dżenerali - Discord
+11:33:03.931: 	class: discord
+11:33:03.931: 	Bit depth: 24
+11:33:03.931: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.931: 
+11:33:03.963: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.963: 	title: #dżenerali - Discord
+11:33:03.963: 	class: discord
+11:33:03.963: 	Bit depth: 24
+11:33:03.963: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.963: 
+11:33:03.996: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:03.996: 	title: #dżenerali - Discord
+11:33:03.996: 	class: discord
+11:33:03.996: 	Bit depth: 24
+11:33:03.996: 	Found proper GLXFBConfig (in 368): yes
+11:33:03.996: 
+11:33:04.029: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:04.029: 	title: #dżenerali - Discord
+11:33:04.029: 	class: discord
+11:33:04.029: 	Bit depth: 24
+11:33:04.029: 	Found proper GLXFBConfig (in 368): yes
+11:33:04.029: 
+11:33:04.062: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:04.062: 	title: #dżenerali - Discord
+11:33:04.062: 	class: discord
+11:33:04.062: 	Bit depth: 24
+11:33:04.062: 	Found proper GLXFBConfig (in 368): yes
+11:33:04.062: 
+11:33:16.168: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:16.168: 	title: #dżenerali - Discord
+11:33:16.168: 	class: discord
+11:33:16.168: 	Bit depth: 24
+11:33:16.168: 	Found proper GLXFBConfig (in 368): yes
+11:33:16.168: 
+11:33:16.198: xcompcap: [window-capture: 'Window Capture (Xcomposite) 2'] update settings:
+11:33:16.198: 	title: #dżenerali - Discord
+11:33:16.198: 	class: discord
+11:33:16.198: 	Bit depth: 24
+11:33:16.198: 	Found proper GLXFBConfig (in 368): yes
+11:33:16.198: 
+11:33:27.635: Last log entry repeated for 3 more lines
+11:33:27.635: Failed to start virtual camera
+11:33:28.859: ==== Shutting down ==================================================
+11:33:28.862: X Error: BadWindow (invalid Window parameter), Major opcode: BadValue (integer parameter out of range for operation), Minor opcode: 0, Serial: 16745
+11:33:28.862: X Error: BadWindow (invalid Window parameter), Major opcode: 142, Minor opcode: BadWindow (invalid Window parameter), Serial: 16746
+11:33:28.862: pulse-input: Stopped recording from 'alsa_output.pci-0000_21_00.3.analog-stereo.monitor'
+11:33:28.862: pulse-input: Got 405139 packets with 6202254 frames
+11:33:28.862: pulse-input: Stopped recording from 'alsa_input.pci-0000_21_00.3.analog-stereo'
+11:33:28.862: pulse-input: Got 25470 packets with 6206239 frames
+11:33:28.863: All scene data cleared
+11:33:28.863: ------------------------------------------------
+11:33:28.943: [Scripting] Total detached callbacks: 0
+11:33:28.953: Freeing OBS context data
+11:33:28.975: == Profiler Results =============================
+11:33:28.975: run_program_init: 564.914 ms
+11:33:28.975:  ┣OBSApp::AppInit: 2.364 ms
+11:33:28.975:  ┃ ┗OBSApp::InitLocale: 1.082 ms
+11:33:28.975:  ┗OBSApp::OBSInit: 522.506 ms
+11:33:28.975:    ┣obs_startup: 18.747 ms
+11:33:28.975:    ┗OBSBasic::OBSInit: 388.181 ms
+11:33:28.975:      ┣OBSBasic::InitBasicConfig: 0.066 ms
+11:33:28.975:      ┣OBSBasic::ResetAudio: 0.091 ms
+11:33:28.975:      ┣OBSBasic::ResetVideo: 118.941 ms
+11:33:28.975:      ┣OBSBasic::InitOBSCallbacks: 0.003 ms
+11:33:28.975:      ┣OBSBasic::InitHotkeys: 0.034 ms
+11:33:28.975:      ┣obs_load_all_modules: 160.176 ms
+11:33:28.975:      ┃ ┣obs_init_module(decklink-captions.so): 0.065 ms
+11:33:28.975:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0.545 ms
+11:33:28.975:      ┃ ┣obs_init_module(frontend-tools.so): 100.329 ms
+11:33:28.975:      ┃ ┣obs_init_module(image-source.so): 0.006 ms
+11:33:28.975:      ┃ ┣obs_init_module(linux-alsa.so): 0.004 ms
+11:33:28.975:      ┃ ┣obs_init_module(linux-capture.so): 0.295 ms
+11:33:28.975:      ┃ ┣obs_init_module(linux-decklink.so): 0.103 ms
+11:33:28.975:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+11:33:28.975:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+11:33:28.975:      ┃ ┣obs_init_module(linux-v4l2.so): 0.156 ms
+11:33:28.975:      ┃ ┣obs_init_module(obs-browser.so): 0.049 ms
+11:33:28.975:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.163 ms
+11:33:28.975:      ┃ ┃ ┗nvenc_check: 0.15 ms
+11:33:28.975:      ┃ ┣obs_init_module(obs-filters.so): 0.015 ms
+11:33:28.975:      ┃ ┣obs_init_module(obs-libfdk.so): 0 ms
+11:33:28.975:      ┃ ┣obs_init_module(obs-outputs.so): 0.002 ms
+11:33:28.975:      ┃ ┣obs_init_module(obs-transitions.so): 0.004 ms
+11:33:28.975:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+11:33:28.975:      ┃ ┣obs_init_module(rtmp-services.so): 0.361 ms
+11:33:28.975:      ┃ ┣obs_init_module(sndio.so): 0.002 ms
+11:33:28.975:      ┃ ┣obs_init_module(text-freetype2.so): 0.007 ms
+11:33:28.975:      ┃ ┗obs_init_module(vlc-video.so): 1.664 ms
+11:33:28.975:      ┣OBSBasic::ResetOutputs: 0.096 ms
+11:33:28.975:      ┣OBSBasic::CreateHotkeys: 0.029 ms
+11:33:28.975:      ┣OBSBasic::InitService: 1.123 ms
+11:33:28.975:      ┣OBSBasic::InitPrimitives: 0.107 ms
+11:33:28.975:      ┗OBSBasic::Load: 36.801 ms
+11:33:28.975: obs_hotkey_thread(25 ms): min=0.056 ms, median=0.131 ms, max=8.893 ms, 99th percentile=2.387 ms, 100% below 25 ms
+11:33:28.975: audio_thread(Audio): min=0 ms, median=0.084 ms, max=1.665 ms, 99th percentile=0.34 ms
+11:33:28.975:  ┗receive_audio: min=0.005 ms, median=0.126 ms, max=1.5 ms, 99th percentile=0.449 ms, 0.107111 calls per parent call
+11:33:28.975:    ┣buffer_audio: min=0.001 ms, median=0.002 ms, max=0.027 ms, 99th percentile=0.012 ms
+11:33:28.975:    ┗do_encode: min=0.008 ms, median=0.12 ms, max=1.488 ms, 99th percentile=0.441 ms
+11:33:28.975:      ┗encode(test_aac): min=0.008 ms, median=0.117 ms, max=1.475 ms, 99th percentile=0.437 ms
+11:33:28.975: obs_graphics_thread(33.3333 ms): min=0.13 ms, median=0.664 ms, max=9.601 ms, 99th percentile=4.729 ms, 100% below 33.333 ms
+11:33:28.975:  ┣tick_sources: min=0 ms, median=0.248 ms, max=5.637 ms, 99th percentile=2.456 ms
+11:33:28.975:  ┣output_frame: min=0.089 ms, median=0.144 ms, max=7.467 ms, 99th percentile=0.415 ms
+11:33:28.975:  ┃ ┗gs_context(video->graphics): min=0.089 ms, median=0.144 ms, max=7.466 ms, 99th percentile=0.413 ms
+11:33:28.975:  ┃   ┣render_video: min=0.022 ms, median=0.082 ms, max=2.517 ms, 99th percentile=0.198 ms
+11:33:28.975:  ┃   ┃ ┗render_main_texture: min=0.019 ms, median=0.078 ms, max=2.505 ms, 99th percentile=0.191 ms
+11:33:28.975:  ┃   ┗gs_flush: min=0.031 ms, median=0.049 ms, max=4.929 ms, 99th percentile=0.172 ms
+11:33:28.975:  ┗render_displays: min=0.002 ms, median=0.201 ms, max=6.929 ms, 99th percentile=2.458 ms
+11:33:28.975: obs_graphics_thread(33.3333 ms): min=0.362 ms, median=4.066 ms, max=15.767 ms, 99th percentile=10.178 ms, 100% below 33.333 ms
+11:33:28.975:  ┣tick_sources: min=0.008 ms, median=0.011 ms, max=0.031 ms, 99th percentile=0.03 ms
+11:33:28.975:  ┣output_frame: min=0.148 ms, median=3.338 ms, max=15.179 ms, 99th percentile=6.9 ms
+11:33:28.975:  ┃ ┣gs_context(video->graphics): min=0.147 ms, median=2.723 ms, max=15.179 ms, 99th percentile=6.35 ms
+11:33:28.975:  ┃ ┃ ┣render_video: min=0.063 ms, median=2.698 ms, max=15.147 ms, 99th percentile=6.318 ms
+11:33:28.975:  ┃ ┃ ┃ ┣render_main_texture: min=0.047 ms, median=0.074 ms, max=0.234 ms, 99th percentile=0.207 ms
+11:33:28.975:  ┃ ┃ ┃ ┣render_convert_texture: min=0.025 ms, median=0.037 ms, max=4.093 ms, 99th percentile=0.091 ms
+11:33:28.975:  ┃ ┃ ┃ ┗stage_output_texture: min=2.154 ms, median=2.602 ms, max=10.979 ms, 99th percentile=6.174 ms
+11:33:28.975:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=0.002 ms, max=0.119 ms, 99th percentile=0.098 ms
+11:33:28.975:  ┃ ┃ ┗download_frame: min=0.001 ms, median=0.006 ms, max=0.017 ms, 99th percentile=0.016 ms
+11:33:28.975:  ┃ ┗output_video_data: min=0.404 ms, median=0.557 ms, max=1.551 ms, 99th percentile=1.309 ms
+11:33:28.975:  ┗render_displays: min=0.167 ms, median=0.556 ms, max=6.415 ms, 99th percentile=4.367 ms
+11:33:28.975: video_thread(video): min=1.336 ms, median=2.177 ms, max=5.013 ms, 99th percentile=4.353 ms
+11:33:28.975:  ┗receive_video: min=1.335 ms, median=2.175 ms, max=5.011 ms, 99th percentile=4.351 ms
+11:33:28.975:    ┗do_encode: min=1.335 ms, median=2.173 ms, max=5.009 ms, 99th percentile=4.349 ms
+11:33:28.975:      ┗encode(test_x264): min=1.252 ms, median=2.065 ms, max=4.212 ms, 99th percentile=4.12 ms
+11:33:28.975: obs_graphics_thread(33.3333 ms): min=0.394 ms, median=2.309 ms, max=22.529 ms, 99th percentile=6.578 ms, 100% below 33.333 ms
+11:33:28.975:  ┣tick_sources: min=0.008 ms, median=0.011 ms, max=0.027 ms, 99th percentile=0.024 ms
+11:33:28.975:  ┣output_frame: min=0.166 ms, median=1.915 ms, max=22.098 ms, 99th percentile=4.01 ms
+11:33:28.975:  ┃ ┣gs_context(video->graphics): min=0.166 ms, median=1.7 ms, max=22.097 ms, 99th percentile=3.367 ms
+11:33:28.975:  ┃ ┃ ┣render_video: min=0.074 ms, median=1.684 ms, max=22.078 ms, 99th percentile=3.345 ms
+11:33:28.975:  ┃ ┃ ┃ ┣render_main_texture: min=0.041 ms, median=0.06 ms, max=0.15 ms, 99th percentile=0.145 ms
+11:33:28.975:  ┃ ┃ ┃ ┣render_output_texture: min=0.017 ms, median=0.026 ms, max=7.445 ms, 99th percentile=0.095 ms
+11:33:28.975:  ┃ ┃ ┃ ┣render_convert_texture: min=0.017 ms, median=0.026 ms, max=0.115 ms, 99th percentile=0.058 ms
+11:33:28.975:  ┃ ┃ ┃ ┗stage_output_texture: min=1.43 ms, median=1.569 ms, max=14.483 ms, 99th percentile=3.248 ms
+11:33:28.975:  ┃ ┃ ┣gs_flush: min=0 ms, median=0.001 ms, max=0.095 ms, 99th percentile=0.085 ms
+11:33:28.975:  ┃ ┃ ┗download_frame: min=0 ms, median=0.004 ms, max=0.011 ms, 99th percentile=0.01 ms
+11:33:28.975:  ┃ ┗output_video_data: min=0.14 ms, median=0.21 ms, max=0.643 ms, 99th percentile=0.395 ms
+11:33:28.975:  ┗render_displays: min=0.18 ms, median=0.35 ms, max=3.261 ms, 99th percentile=2.519 ms
+11:33:28.975: video_thread(video): min=0.705 ms, median=1.036 ms, max=2.714 ms, 99th percentile=2.677 ms
+11:33:28.975:  ┗receive_video: min=0.704 ms, median=1.035 ms, max=2.712 ms, 99th percentile=2.676 ms
+11:33:28.975:    ┗do_encode: min=0.703 ms, median=1.034 ms, max=2.709 ms, 99th percentile=2.674 ms
+11:33:28.975:      ┗encode(test_x264): min=0.664 ms, median=0.955 ms, max=2.708 ms, 99th percentile=2.672 ms
+11:33:28.975: obs_graphics_thread(33.3333 ms): min=0.371 ms, median=1.814 ms, max=12.963 ms, 99th percentile=4.045 ms, 100% below 33.333 ms
+11:33:28.975:  ┣tick_sources: min=0.007 ms, median=0.011 ms, max=2.709 ms, 99th percentile=0.033 ms
+11:33:28.975:  ┣output_frame: min=0.129 ms, median=1.423 ms, max=12.484 ms, 99th percentile=2.675 ms
+11:33:28.976:  ┃ ┣gs_context(video->graphics): min=0.129 ms, median=1.324 ms, max=12.484 ms, 99th percentile=2.565 ms
+11:33:28.976:  ┃ ┃ ┣render_video: min=0.056 ms, median=1.31 ms, max=12.459 ms, 99th percentile=2.54 ms
+11:33:28.976:  ┃ ┃ ┃ ┣render_main_texture: min=0.041 ms, median=0.063 ms, max=0.142 ms, 99th percentile=0.127 ms
+11:33:28.976:  ┃ ┃ ┃ ┣render_output_texture: min=0.015 ms, median=0.026 ms, max=3.056 ms, 99th percentile=0.052 ms
+11:33:28.976:  ┃ ┃ ┃ ┣render_convert_texture: min=0.017 ms, median=0.027 ms, max=0.074 ms, 99th percentile=0.05 ms
+11:33:28.976:  ┃ ┃ ┃ ┗stage_output_texture: min=1.044 ms, median=1.192 ms, max=9.239 ms, 99th percentile=2.421 ms
+11:33:28.976:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=0.001 ms, max=0.094 ms, 99th percentile=0.071 ms
+11:33:28.976:  ┃ ┃ ┗download_frame: min=0 ms, median=0.004 ms, max=0.012 ms, 99th percentile=0.011 ms
+11:33:28.976:  ┃ ┗output_video_data: min=0.058 ms, median=0.094 ms, max=0.207 ms, 99th percentile=0.206 ms
+11:33:28.976:  ┗render_displays: min=0.16 ms, median=0.309 ms, max=2.679 ms, 99th percentile=2.514 ms
+11:33:28.976: video_thread(video): min=0.319 ms, median=0.52 ms, max=1.512 ms, 99th percentile=1.501 ms
+11:33:28.976:  ┗receive_video: min=0.318 ms, median=0.519 ms, max=1.506 ms, 99th percentile=1.498 ms
+11:33:28.976:    ┗do_encode: min=0.318 ms, median=0.517 ms, max=1.504 ms, 99th percentile=1.496 ms
+11:33:28.976:      ┗encode(test_x264): min=0.305 ms, median=0.503 ms, max=1.495 ms, 99th percentile=1.488 ms
+11:33:28.976: obs_graphics_thread(33.3333 ms): min=0.382 ms, median=0.615 ms, max=2.798 ms, 99th percentile=2.733 ms, 100% below 33.333 ms
+11:33:28.976:  ┣tick_sources: min=0.14 ms, median=0.219 ms, max=2.279 ms, 99th percentile=2.116 ms
+11:33:28.976:  ┣output_frame: min=0.086 ms, median=0.146 ms, max=0.267 ms, 99th percentile=0.246 ms
+11:33:28.976:  ┃ ┗gs_context(video->graphics): min=0.085 ms, median=0.145 ms, max=0.266 ms, 99th percentile=0.246 ms
+11:33:28.976:  ┃   ┣render_video: min=0.045 ms, median=0.083 ms, max=0.168 ms, 99th percentile=0.141 ms
+11:33:28.976:  ┃   ┃ ┗render_main_texture: min=0.043 ms, median=0.08 ms, max=0.162 ms, 99th percentile=0.136 ms
+11:33:28.976:  ┃   ┗gs_flush: min=0.034 ms, median=0.05 ms, max=0.105 ms, 99th percentile=0.102 ms
+11:33:28.976:  ┗render_displays: min=0.111 ms, median=0.184 ms, max=2.376 ms, 99th percentile=2.098 ms
+11:33:28.976: obs_graphics_thread(33.3333 ms): min=0.192 ms, median=0.574 ms, max=15.265 ms, 99th percentile=3.536 ms, 100% below 33.333 ms
+11:33:28.976:  ┣tick_sources: min=0.002 ms, median=0.251 ms, max=9.253 ms, 99th percentile=2.712 ms
+11:33:28.976:  ┣output_frame: min=0.084 ms, median=0.142 ms, max=1.118 ms, 99th percentile=0.345 ms
+11:33:28.976:  ┃ ┗gs_context(video->graphics): min=0.083 ms, median=0.141 ms, max=1.118 ms, 99th percentile=0.345 ms
+11:33:28.976:  ┃   ┣render_video: min=0.022 ms, median=0.08 ms, max=0.339 ms, 99th percentile=0.18 ms
+11:33:28.976:  ┃   ┃ ┗render_main_texture: min=0.019 ms, median=0.077 ms, max=0.334 ms, 99th percentile=0.174 ms
+11:33:28.976:  ┃   ┗gs_flush: min=0.03 ms, median=0.049 ms, max=0.955 ms, 99th percentile=0.147 ms
+11:33:28.976:  ┗render_displays: min=0.002 ms, median=0.155 ms, max=8.373 ms, 99th percentile=2.26 ms
+11:33:28.976: OBSBasic::ResetVideo: 52.166 ms
+11:33:28.976: OBSBasic::ResetOutputs: 0.211 ms
+11:33:28.976: =================================================
+11:33:28.976: == Profiler Time Between Calls ==================
+11:33:28.976: obs_hotkey_thread(25 ms): min=25.1 ms, median=25.197 ms, max=33.971 ms, 86.3849% within ±2% of 25 ms (0% lower, 13.6151% higher)
+11:33:28.976: obs_graphics_thread(33.3333 ms): min=33.201 ms, median=33.333 ms, max=33.482 ms, 100% within ±2% of 33.333 ms (0% lower, 0% higher)
+11:33:28.976: obs_graphics_thread(33.3333 ms): min=29.248 ms, median=33.333 ms, max=37.418 ms, 98.7013% within ±2% of 33.333 ms (0.649351% lower, 0.649351% higher)
+11:33:28.976: obs_graphics_thread(33.3333 ms): min=33.002 ms, median=33.333 ms, max=33.658 ms, 100% within ±2% of 33.333 ms (0% lower, 0% higher)
+11:33:28.976: obs_graphics_thread(33.3333 ms): min=33.289 ms, median=33.333 ms, max=33.386 ms, 100% within ±2% of 33.333 ms (0% lower, 0% higher)
+11:33:28.976: obs_graphics_thread(33.3333 ms): min=33.29 ms, median=33.333 ms, max=33.38 ms, 100% within ±2% of 33.333 ms (0% lower, 0% higher)
+11:33:28.976: obs_graphics_thread(33.3333 ms): min=31.163 ms, median=33.333 ms, max=35.489 ms, 99.9345% within ±2% of 33.333 ms (0.0327654% lower, 0.0327654% higher)
+11:33:28.976: =================================================
+11:33:29.001: Number of memory leaks: 0

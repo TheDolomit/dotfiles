@@ -1,0 +1,4 @@
+[Bookmarks]
+[Recent]
+/home/vhyrro/dev/blender/
+/home/vhyrro/dev/

@@ -8,10 +8,15 @@ source ~/.config/fish/functions/grc.fish
 abbr pac "sudo pacman -S"
 abbr ya "yay -S"
 abbr yar "yay -Run"
+abbr yau "yay -Sua"
 abbr mount "sudo mount"
 abbr umount "sudo umount"
 abbr pacu "sudo pacman -Syu"
 abbr pacr "sudo pacman -Run"
+abbr sc "sudo systemctl"
+abbr sce "sudo systemctl enable --now"
+abbr scs "sudo systemctl stop"
+abbr scd "sudo systemctl disable"
 
 alias uall "sudo umount -R /mnt/*"
 alias fdisk "sudo fdisk"
@@ -27,6 +32,8 @@ function fish_greeting
 	# Randomize the greeting message
 	set greetings "neofetch | lolcat" pfetch "pfetch | lolcat"
 	eval (random choice $greetings)
+
+	task -PROJECT list
 
 end
 

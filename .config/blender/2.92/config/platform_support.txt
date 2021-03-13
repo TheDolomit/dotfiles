@@ -1,0 +1,1 @@
+{AMD/Radeon RX 580 Series (POLARIS10, DRM 3.40.0, 5.11.2-arch1-1, LLVM 11.1.0)/4.6 (Core Profile) Mesa 20.3.4}=SUPPORTED

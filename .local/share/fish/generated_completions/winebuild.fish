@@ -30,6 +30,7 @@ complete -c winebuild -s N -l dll-name --description 'Set the internal name of t
 complete -c winebuild -l nm-cmd --description 'Specify the command to use to get the list of undefined symbols; the default …'
 complete -c winebuild -l nxcompat --description 'Specify whether the module is compatible with no-exec support.'
 complete -c winebuild -s o -l output --description 'Set the name of the output file (default is standard output).'
+complete -c winebuild -l prefer-native --description 'Specify that the native DLL should be preferred if available at run time.'
 complete -c winebuild -s r -l res --description 'Load resources from the specified binary resource file.  The rsrc.'
 complete -c winebuild -l safeseh --description 'Mark object files as SEH compatible.'
 complete -c winebuild -l save-temps --description 'Do not delete the various temporary files that winebuild generates.'

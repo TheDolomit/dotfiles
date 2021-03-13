@@ -1,3 +1,3 @@
 function cat
-bat --theme gruvbox $argv
+bat $argv
 end

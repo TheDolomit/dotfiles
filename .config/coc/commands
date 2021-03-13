@@ -1,3 +1,7 @@
+coc-explorer
+cord.reconnect
+cord.disconnect
+cmake.onlineHelp
 clangd.symbolInfo
 clangd.update
 clangd.switchSourceHeader

@@ -5,6 +5,7 @@ complete -c ausearch -l arch --description 'Search for events based on a specifi
 complete -c ausearch -s c -l comm --description 'Search for an event based on the given comm name.'
 complete -c ausearch -l debug --description 'Write malformed events that are skipped to stderr.'
 complete -c ausearch -l checkpoint --description 'Checkpoint the output between successive invocations of ausearch such that on…'
+complete -c ausearch -l eoe-timeout --description 'Set the end of event parsing timeout.  See end_of_event_timeout in auditd.'
 complete -c ausearch -s e -l exit --description 'Search for an event based on the given syscall exit code or errno.'
 complete -c ausearch -l escape --description 'This option determines if the output is escaped to make the content safer for…'
 complete -c ausearch -l extra-keys --description 'When the format mode is csv, this option will add a final column with key inf…'

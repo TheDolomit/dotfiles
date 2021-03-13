@@ -1,0 +1,1476 @@
+09:34:07.323: CPU Name: AMD Ryzen 5 2600X Six-Core Processor
+09:34:07.323: CPU Speed: 4115.661MHz
+09:34:07.344: Physical Cores: 6, Logical Cores: 12
+09:34:07.344: Physical Memory: 16019MB Total, 8236MB Free
+09:34:07.344: Kernel Version: Linux 5.11.4-arch1-1
+09:34:07.344: Distribution: "Arch Linux" Unknown
+09:34:07.344: Session Type: x11
+09:34:07.344: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.10
+09:34:07.344: Portable mode: false
+09:34:07.457: OBS 26.1.2.r228.g513bcb8e3 (linux)
+09:34:07.457: ---------------------------------
+09:34:07.457: ---------------------------------
+09:34:07.457: audio settings reset:
+09:34:07.457: 	samples per sec: 48000
+09:34:07.457: 	speakers:        2
+09:34:07.464: ---------------------------------
+09:34:07.464: Initializing OpenGL...
+09:34:07.541: Loading up OpenGL on adapter AMD Radeon RX 580 Series (POLARIS10, DRM 3.40.0, 5.11.4-arch1-1, LLVM 11.1.0)
+09:34:07.541: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 20.3.4, shading language 4.60
+09:34:07.554: ---------------------------------
+09:34:07.554: video settings reset:
+09:34:07.554: 	base resolution:   1920x1080
+09:34:07.554: 	output resolution: 1920x1080
+09:34:07.554: 	downscale filter:  Bicubic
+09:34:07.554: 	fps:               30/1
+09:34:07.554: 	format:            NV12
+09:34:07.554: 	YUV mode:          709/Partial
+09:34:07.554: NV12 texture support not available
+09:34:07.560: Audio monitoring device:
+09:34:07.560: 	name: Default
+09:34:07.560: 	id: default
+09:34:07.560: ---------------------------------
+09:34:07.562: Failed to load 'en-US' text for module: 'decklink-captions.so'
+09:34:07.564: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+09:34:07.765: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+09:34:07.765: No blackmagic support
+09:34:07.777: [obs-browser]: Version 2.13.1
+09:34:07.777: [obs-browser]: CEF Version 88.2.8+ge484012+chromium-88.0.4324.150
+09:34:07.796: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+09:34:07.796: 
+09:34:07.796: FFMPEG VAAPI supported
+09:34:07.814: Failed to load 'en-GB' text for module: 'v4l2sink.so'
+09:34:07.820: VLC found, VLC video source enabled
+09:34:07.820: ---------------------------------
+09:34:07.820:   Loaded Modules:
+09:34:07.820:     vlc-video.so
+09:34:07.820:     v4l2sink.so
+09:34:07.820:     text-freetype2.so
+09:34:07.820:     sndio.so
+09:34:07.820:     rtmp-services.so
+09:34:07.820:     obs-x264.so
+09:34:07.820:     obs-transitions.so
+09:34:07.820:     obs-outputs.so
+09:34:07.820:     obs-libfdk.so
+09:34:07.820:     obs-filters.so
+09:34:07.820:     obs-ffmpeg.so
+09:34:07.820:     obs-browser.so
+09:34:07.820:     linux-v4l2.so
+09:34:07.820:     linux-pulseaudio.so
+09:34:07.820:     linux-jack.so
+09:34:07.820:     linux-decklink.so
+09:34:07.820:     linux-capture.so
+09:34:07.820:     linux-alsa.so
+09:34:07.820:     image-source.so
+09:34:07.820:     frontend-tools.so
+09:34:07.820:     decklink-ouput-ui.so
+09:34:07.820:     decklink-captions.so
+09:34:07.820: ---------------------------------
+09:34:07.822: ==== Startup complete ===============================================
+09:34:07.826: All scene data cleared
+09:34:07.827: ------------------------------------------------
+09:34:07.834: pulse-input: Server name: 'pulseaudio 14.2'
+09:34:07.834: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+09:34:07.834: pulse-input: Started recording from 'alsa_output.pci-0000_21_00.3.analog-stereo.monitor'
+09:34:07.834: [Loaded global audio device]: 'Desktop Audio'
+09:34:07.834: pulse-input: Server name: 'pulseaudio 14.2'
+09:34:07.834: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+09:34:07.834: pulse-input: Started recording from 'alsa_input.pci-0000_21_00.3.analog-stereo'
+09:34:07.834: [Loaded global audio device]: 'Mic/Aux'
+09:34:07.865: xshm-input: Geometry 1920x1080 @ 0,0
+09:34:07.885: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:34:07.885: 	title: Meeting | Microsoft Teams
+09:34:07.885: 	class: microsoft teams - preview
+09:34:07.885: 	Bit depth: 24
+09:34:07.885: 	Found proper GLXFBConfig (in 368): yes
+09:34:07.885: 
+09:34:07.886: Switched to scene 'Scene 2'
+09:34:07.886: ------------------------------------------------
+09:34:07.886: Loaded scenes:
+09:34:07.886: - scene 'Scene':
+09:34:07.886:     - source: 'Screen Capture (XSHM)' (xshm_input)
+09:34:07.886:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+09:34:07.886: - scene 'Scene 2':
+09:34:07.891:     - source: 'Image' (image_source)
+09:34:07.891:         - filter: 'Sharpen' (sharpness_filter_v2)
+09:34:07.891:     - source: 'Image 2' (image_source)
+09:34:07.891:         - filter: 'Scroll' (scroll_filter)
+09:34:07.891: ------------------------------------------------
+09:34:08.385: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+09:34:08.385: 
+09:34:12.269: Failed to start virtual camera
+09:34:13.738: Failed to start virtual camera
+09:34:16.339: Failed to start virtual camera
+09:34:19.841: Failed to start virtual camera
+09:34:47.622: Failed to start virtual camera
+09:34:51.820: User switched to scene 'Scene'
+09:34:51.827: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:34:51.827: 	title: Meeting | Microsoft Teams
+09:34:51.827: 	class: microsoft teams - preview
+09:34:51.827: 	Bit depth: 24
+09:34:51.827: 	Found proper GLXFBConfig (in 368): yes
+09:34:51.827: 
+09:34:55.760: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:34:55.760: 	title: Meeting | Microsoft Teams
+09:34:55.760: 	class: microsoft teams - preview
+09:34:55.760: 	Bit depth: 24
+09:34:55.760: 	Found proper GLXFBConfig (in 368): yes
+09:34:55.760: 
+09:35:24.394: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:35:24.394: 	title: Meeting | Microsoft Teams
+09:35:24.394: 	class: microsoft teams - preview
+09:35:24.394: 	Bit depth: 24
+09:35:24.394: 	Found proper GLXFBConfig (in 368): yes
+09:35:24.394: 
+09:35:30.660: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:35:30.660: 	title: Meeting | Microsoft Teams
+09:35:30.660: 	class: microsoft teams - preview
+09:35:30.660: 	Bit depth: 24
+09:35:30.660: 	Found proper GLXFBConfig (in 368): yes
+09:35:30.660: 
+09:35:32.560: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:35:32.560: 	title: Meeting | Microsoft Teams
+09:35:32.560: 	class: microsoft teams - preview
+09:35:32.560: 	Bit depth: 24
+09:35:32.560: 	Found proper GLXFBConfig (in 368): yes
+09:35:32.560: 
+09:35:40.460: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:35:40.460: 	title: Meeting | Microsoft Teams
+09:35:40.460: 	class: microsoft teams - preview
+09:35:40.460: 	Bit depth: 24
+09:35:40.460: 	Found proper GLXFBConfig (in 368): yes
+09:35:40.460: 
+09:35:50.594: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:35:50.594: 	title: Meeting | Microsoft Teams
+09:35:50.594: 	class: microsoft teams - preview
+09:35:50.594: 	Bit depth: 24
+09:35:50.594: 	Found proper GLXFBConfig (in 368): yes
+09:35:50.594: 
+09:35:54.393: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:35:54.393: 	title: Meeting | Microsoft Teams
+09:35:54.393: 	class: microsoft teams - preview
+09:35:54.393: 	Bit depth: 24
+09:35:54.393: 	Found proper GLXFBConfig (in 368): yes
+09:35:54.393: 
+09:36:00.259: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:36:00.259: 	title: Meeting | Microsoft Teams
+09:36:00.259: 	class: microsoft teams - preview
+09:36:00.259: 	Bit depth: 24
+09:36:00.259: 	Found proper GLXFBConfig (in 368): yes
+09:36:00.259: 
+09:36:02.126: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:36:02.126: 	title: Meeting | Microsoft Teams
+09:36:02.126: 	class: microsoft teams - preview
+09:36:02.126: 	Bit depth: 24
+09:36:02.126: 	Found proper GLXFBConfig (in 368): yes
+09:36:02.126: 
+09:36:06.061: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:36:06.061: 	title: Meeting | Microsoft Teams
+09:36:06.061: 	class: microsoft teams - preview
+09:36:06.061: 	Bit depth: 24
+09:36:06.061: 	Found proper GLXFBConfig (in 368): yes
+09:36:06.061: 
+09:36:14.560: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:36:14.560: 	title: Meeting | Microsoft Teams
+09:36:14.560: 	class: microsoft teams - preview
+09:36:14.560: 	Bit depth: 24
+09:36:14.560: 	Found proper GLXFBConfig (in 368): yes
+09:36:14.560: 
+09:37:22.960: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:37:22.960: 	title: Meeting | Microsoft Teams
+09:37:22.960: 	class: microsoft teams - preview
+09:37:22.960: 	Bit depth: 24
+09:37:22.960: 	Found proper GLXFBConfig (in 368): yes
+09:37:22.960: 
+09:37:31.926: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:37:31.926: 	title: Meeting | Microsoft Teams
+09:37:31.926: 	class: microsoft teams - preview
+09:37:31.926: 	Bit depth: 24
+09:37:31.926: 	Found proper GLXFBConfig (in 368): yes
+09:37:31.926: 
+09:37:35.226: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:37:35.226: 	title: Meeting | Microsoft Teams
+09:37:35.226: 	class: microsoft teams - preview
+09:37:35.226: 	Bit depth: 24
+09:37:35.226: 	Found proper GLXFBConfig (in 368): yes
+09:37:35.226: 
+09:37:47.593: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:37:47.593: 	title: Meeting | Microsoft Teams
+09:37:47.593: 	class: microsoft teams - preview
+09:37:47.593: 	Bit depth: 24
+09:37:47.593: 	Found proper GLXFBConfig (in 368): yes
+09:37:47.593: 
+09:37:56.827: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:37:56.827: 	title: Meeting | Microsoft Teams
+09:37:56.827: 	class: microsoft teams - preview
+09:37:56.827: 	Bit depth: 24
+09:37:56.827: 	Found proper GLXFBConfig (in 368): yes
+09:37:56.827: 
+09:38:01.893: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:38:01.893: 	title: Meeting | Microsoft Teams
+09:38:01.893: 	class: microsoft teams - preview
+09:38:01.893: 	Bit depth: 24
+09:38:01.893: 	Found proper GLXFBConfig (in 368): yes
+09:38:01.893: 
+09:38:05.826: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:38:05.826: 	title: Meeting | Microsoft Teams
+09:38:05.826: 	class: microsoft teams - preview
+09:38:05.826: 	Bit depth: 24
+09:38:05.826: 	Found proper GLXFBConfig (in 368): yes
+09:38:05.826: 
+09:38:12.360: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:38:12.360: 	title: Meeting | Microsoft Teams
+09:38:12.360: 	class: microsoft teams - preview
+09:38:12.360: 	Bit depth: 24
+09:38:12.360: 	Found proper GLXFBConfig (in 368): yes
+09:38:12.360: 
+09:40:36.337: ---------------------------------
+09:40:36.337: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+09:40:36.337: [x264 encoder: 'simple_h264_recording'] profile: high
+09:40:36.337: [x264 encoder: 'simple_h264_recording'] settings:
+09:40:36.337: 	rate_control: CRF
+09:40:36.337: 	bitrate:      0
+09:40:36.337: 	buffer size:  0
+09:40:36.337: 	crf:          23
+09:40:36.337: 	fps_num:      30
+09:40:36.337: 	fps_den:      1
+09:40:36.337: 	width:        1920
+09:40:36.337: 	height:       1080
+09:40:36.337: 	keyint:       250
+09:40:36.337: 
+09:40:36.354: libfdk_aac encoder created
+09:40:36.354: libfdk_aac bitrate: 192, channels: 2
+09:40:36.363: ==== Recording Start ===============================================
+09:40:36.363: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/vhyrro/2021-03-10 09-40-36.mkv'...
+09:46:30.660: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:46:30.660: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:46:30.660: 	class: microsoft teams - preview
+09:46:30.660: 	Bit depth: 24
+09:46:30.660: 	Found proper GLXFBConfig (in 368): yes
+09:46:30.660: 
+09:46:30.661: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:46:30.661: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:46:30.661: 	class: microsoft teams - preview
+09:46:30.661: 	Bit depth: 24
+09:46:30.661: 	Found proper GLXFBConfig (in 368): yes
+09:46:30.661: 
+09:46:32.093: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:46:32.093: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:46:32.093: 	class: microsoft teams - preview
+09:46:32.093: 	Bit depth: 24
+09:46:32.093: 	Found proper GLXFBConfig (in 368): yes
+09:46:32.093: 
+09:47:58.260: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:47:58.260: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:47:58.260: 	class: microsoft teams - preview
+09:47:58.260: 	Bit depth: 24
+09:47:58.260: 	Found proper GLXFBConfig (in 368): yes
+09:47:58.260: 
+09:48:00.260: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:48:00.260: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:48:00.260: 	class: microsoft teams - preview
+09:48:00.260: 	Bit depth: 24
+09:48:00.260: 	Found proper GLXFBConfig (in 368): yes
+09:48:00.260: 
+09:48:06.159: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:48:06.159: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:48:06.159: 	class: microsoft teams - preview
+09:48:06.159: 	Bit depth: 24
+09:48:06.159: 	Found proper GLXFBConfig (in 368): yes
+09:48:06.159: 
+09:49:01.193: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:49:01.193: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:49:01.193: 	class: microsoft teams - preview
+09:49:01.193: 	Bit depth: 24
+09:49:01.193: 	Found proper GLXFBConfig (in 368): yes
+09:49:01.193: 
+09:49:04.426: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:49:04.426: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:49:04.426: 	class: microsoft teams - preview
+09:49:04.426: 	Bit depth: 24
+09:49:04.426: 	Found proper GLXFBConfig (in 368): yes
+09:49:04.426: 
+09:49:06.493: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:49:06.493: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:49:06.493: 	class: microsoft teams - preview
+09:49:06.493: 	Bit depth: 24
+09:49:06.493: 	Found proper GLXFBConfig (in 368): yes
+09:49:06.493: 
+09:49:12.693: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:49:12.693: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:49:12.693: 	class: microsoft teams - preview
+09:49:12.693: 	Bit depth: 24
+09:49:12.693: 	Found proper GLXFBConfig (in 368): yes
+09:49:12.693: 
+09:49:20.326: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:49:20.326: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:49:20.326: 	class: microsoft teams - preview
+09:49:20.326: 	Bit depth: 24
+09:49:20.326: 	Found proper GLXFBConfig (in 368): yes
+09:49:20.326: 
+09:49:40.926: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:49:40.926: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:49:40.926: 	class: microsoft teams - preview
+09:49:40.926: 	Bit depth: 24
+09:49:40.926: 	Found proper GLXFBConfig (in 368): yes
+09:49:40.926: 
+09:49:50.959: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:49:50.959: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:49:50.959: 	class: microsoft teams - preview
+09:49:50.959: 	Bit depth: 24
+09:49:50.959: 	Found proper GLXFBConfig (in 368): yes
+09:49:50.959: 
+09:50:02.126: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:50:02.126: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:50:02.126: 	class: microsoft teams - preview
+09:50:02.126: 	Bit depth: 24
+09:50:02.126: 	Found proper GLXFBConfig (in 368): yes
+09:50:02.126: 
+09:50:08.293: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:50:08.293: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:50:08.293: 	class: microsoft teams - preview
+09:50:08.293: 	Bit depth: 24
+09:50:08.293: 	Found proper GLXFBConfig (in 368): yes
+09:50:08.293: 
+09:50:11.526: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:50:11.526: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:50:11.526: 	class: microsoft teams - preview
+09:50:11.526: 	Bit depth: 24
+09:50:11.526: 	Found proper GLXFBConfig (in 368): yes
+09:50:11.526: 
+09:50:16.060: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:50:16.060: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:50:16.060: 	class: microsoft teams - preview
+09:50:16.060: 	Bit depth: 24
+09:50:16.060: 	Found proper GLXFBConfig (in 368): yes
+09:50:16.060: 
+09:50:46.126: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:50:46.126: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:50:46.126: 	class: microsoft teams - preview
+09:50:46.126: 	Bit depth: 24
+09:50:46.126: 	Found proper GLXFBConfig (in 368): yes
+09:50:46.126: 
+09:50:47.693: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:50:47.693: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:50:47.693: 	class: microsoft teams - preview
+09:50:47.693: 	Bit depth: 24
+09:50:47.693: 	Found proper GLXFBConfig (in 368): yes
+09:50:47.693: 
+09:50:52.693: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:50:52.693: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:50:52.693: 	class: microsoft teams - preview
+09:50:52.693: 	Bit depth: 24
+09:50:52.693: 	Found proper GLXFBConfig (in 368): yes
+09:50:52.693: 
+09:50:55.959: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:50:55.959: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:50:55.959: 	class: microsoft teams - preview
+09:50:55.959: 	Bit depth: 24
+09:50:55.959: 	Found proper GLXFBConfig (in 368): yes
+09:50:55.959: 
+09:50:57.994: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:50:57.994: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:50:57.994: 	class: microsoft teams - preview
+09:50:57.994: 	Bit depth: 24
+09:50:57.994: 	Found proper GLXFBConfig (in 368): yes
+09:50:57.994: 
+09:51:00.126: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:51:00.126: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:51:00.126: 	class: microsoft teams - preview
+09:51:00.126: 	Bit depth: 24
+09:51:00.126: 	Found proper GLXFBConfig (in 368): yes
+09:51:00.126: 
+09:51:03.427: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:51:03.427: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:51:03.427: 	class: microsoft teams - preview
+09:51:03.427: 	Bit depth: 24
+09:51:03.427: 	Found proper GLXFBConfig (in 368): yes
+09:51:03.427: 
+09:51:05.559: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:51:05.559: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:51:05.559: 	class: microsoft teams - preview
+09:51:05.559: 	Bit depth: 24
+09:51:05.559: 	Found proper GLXFBConfig (in 368): yes
+09:51:05.559: 
+09:51:29.093: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:51:29.093: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:51:29.093: 	class: microsoft teams - preview
+09:51:29.093: 	Bit depth: 24
+09:51:29.093: 	Found proper GLXFBConfig (in 368): yes
+09:51:29.093: 
+09:51:35.706: Failed to start virtual camera
+09:51:36.659: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:51:36.659: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:51:36.659: 	class: microsoft teams - preview
+09:51:36.659: 	Bit depth: 24
+09:51:36.659: 	Found proper GLXFBConfig (in 368): yes
+09:51:36.659: 
+09:51:44.060: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:51:44.060: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:51:44.060: 	class: microsoft teams - preview
+09:51:44.060: 	Bit depth: 24
+09:51:44.060: 	Found proper GLXFBConfig (in 368): yes
+09:51:44.060: 
+09:51:45.126: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:51:45.126: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:51:45.126: 	class: microsoft teams - preview
+09:51:45.126: 	Bit depth: 24
+09:51:45.126: 	Found proper GLXFBConfig (in 368): yes
+09:51:45.126: 
+09:52:12.560: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:52:12.560: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:52:12.560: 	class: microsoft teams - preview
+09:52:12.560: 	Bit depth: 24
+09:52:12.560: 	Found proper GLXFBConfig (in 368): yes
+09:52:12.560: 
+09:52:19.793: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:52:19.793: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:52:19.793: 	class: microsoft teams - preview
+09:52:19.793: 	Bit depth: 24
+09:52:19.793: 	Found proper GLXFBConfig (in 368): yes
+09:52:19.793: 
+09:52:21.259: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:52:21.259: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:52:21.259: 	class: microsoft teams - preview
+09:52:21.259: 	Bit depth: 24
+09:52:21.259: 	Found proper GLXFBConfig (in 368): yes
+09:52:21.259: 
+09:52:32.926: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:52:32.926: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:52:32.926: 	class: microsoft teams - preview
+09:52:32.926: 	Bit depth: 24
+09:52:32.926: 	Found proper GLXFBConfig (in 368): yes
+09:52:32.926: 
+09:52:39.493: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:52:39.493: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:52:39.493: 	class: microsoft teams - preview
+09:52:39.493: 	Bit depth: 24
+09:52:39.493: 	Found proper GLXFBConfig (in 368): yes
+09:52:39.493: 
+09:52:40.726: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:52:40.726: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:52:40.726: 	class: microsoft teams - preview
+09:52:40.726: 	Bit depth: 24
+09:52:40.726: 	Found proper GLXFBConfig (in 368): yes
+09:52:40.726: 
+09:52:47.726: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:52:47.726: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:52:47.726: 	class: microsoft teams - preview
+09:52:47.726: 	Bit depth: 24
+09:52:47.726: 	Found proper GLXFBConfig (in 368): yes
+09:52:47.726: 
+09:52:55.193: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:52:55.193: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:52:55.193: 	class: microsoft teams - preview
+09:52:55.193: 	Bit depth: 24
+09:52:55.193: 	Found proper GLXFBConfig (in 368): yes
+09:52:55.193: 
+09:52:59.892: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:52:59.892: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:52:59.892: 	class: microsoft teams - preview
+09:52:59.892: 	Bit depth: 24
+09:52:59.892: 	Found proper GLXFBConfig (in 368): yes
+09:52:59.892: 
+09:53:16.660: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:53:16.660: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:53:16.660: 	class: microsoft teams - preview
+09:53:16.660: 	Bit depth: 24
+09:53:16.660: 	Found proper GLXFBConfig (in 368): yes
+09:53:16.660: 
+09:53:22.493: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:53:22.493: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:53:22.493: 	class: microsoft teams - preview
+09:53:22.493: 	Bit depth: 24
+09:53:22.493: 	Found proper GLXFBConfig (in 368): yes
+09:53:22.493: 
+09:53:27.226: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:53:27.226: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:53:27.226: 	class: microsoft teams - preview
+09:53:27.226: 	Bit depth: 24
+09:53:27.226: 	Found proper GLXFBConfig (in 368): yes
+09:53:27.226: 
+09:53:29.359: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:53:29.359: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:53:29.359: 	class: microsoft teams - preview
+09:53:29.359: 	Bit depth: 24
+09:53:29.359: 	Found proper GLXFBConfig (in 368): yes
+09:53:29.359: 
+09:53:38.226: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:53:38.226: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:53:38.226: 	class: microsoft teams - preview
+09:53:38.226: 	Bit depth: 24
+09:53:38.226: 	Found proper GLXFBConfig (in 368): yes
+09:53:38.226: 
+09:53:57.393: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:53:57.393: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:53:57.393: 	class: microsoft teams - preview
+09:53:57.393: 	Bit depth: 24
+09:53:57.393: 	Found proper GLXFBConfig (in 368): yes
+09:53:57.393: 
+09:54:24.459: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:54:24.459: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:54:24.459: 	class: microsoft teams - preview
+09:54:24.459: 	Bit depth: 24
+09:54:24.459: 	Found proper GLXFBConfig (in 368): yes
+09:54:24.459: 
+09:54:33.927: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:54:33.927: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:54:33.927: 	class: microsoft teams - preview
+09:54:33.927: 	Bit depth: 24
+09:54:33.927: 	Found proper GLXFBConfig (in 368): yes
+09:54:33.927: 
+09:54:54.526: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:54:54.526: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:54:54.526: 	class: microsoft teams - preview
+09:54:54.526: 	Bit depth: 24
+09:54:54.526: 	Found proper GLXFBConfig (in 368): yes
+09:54:54.526: 
+09:55:03.193: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:55:03.193: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:55:03.193: 	class: microsoft teams - preview
+09:55:03.193: 	Bit depth: 24
+09:55:03.193: 	Found proper GLXFBConfig (in 368): yes
+09:55:03.193: 
+09:55:05.694: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:55:05.694: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:55:05.694: 	class: microsoft teams - preview
+09:55:05.694: 	Bit depth: 24
+09:55:05.694: 	Found proper GLXFBConfig (in 368): yes
+09:55:05.694: 
+09:55:05.727: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:55:05.727: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:55:05.727: 	class: microsoft teams - preview
+09:55:05.727: 	Bit depth: 24
+09:55:05.727: 	Found proper GLXFBConfig (in 368): yes
+09:55:05.727: 
+09:55:05.759: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:55:05.759: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:55:05.759: 	class: microsoft teams - preview
+09:55:05.759: 	Bit depth: 24
+09:55:05.759: 	Found proper GLXFBConfig (in 368): yes
+09:55:05.759: 
+09:55:05.794: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:55:05.794: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:55:05.794: 	class: microsoft teams - preview
+09:55:05.794: 	Bit depth: 24
+09:55:05.794: 	Found proper GLXFBConfig (in 368): yes
+09:55:05.794: 
+09:55:05.827: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:55:05.827: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:55:05.827: 	class: microsoft teams - preview
+09:55:05.827: 	Bit depth: 24
+09:55:05.827: 	Found proper GLXFBConfig (in 368): yes
+09:55:05.827: 
+09:55:05.861: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:55:05.861: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:55:05.861: 	class: microsoft teams - preview
+09:55:05.861: 	Bit depth: 24
+09:55:05.861: 	Found proper GLXFBConfig (in 368): yes
+09:55:05.861: 
+09:55:05.893: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:55:05.893: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:55:05.893: 	class: microsoft teams - preview
+09:55:05.893: 	Bit depth: 24
+09:55:05.893: 	Found proper GLXFBConfig (in 368): yes
+09:55:05.893: 
+09:55:05.928: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:55:05.928: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:55:05.928: 	class: microsoft teams - preview
+09:55:05.928: 	Bit depth: 24
+09:55:05.928: 	Found proper GLXFBConfig (in 368): yes
+09:55:05.928: 
+09:55:05.960: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:55:05.960: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:55:05.960: 	class: microsoft teams - preview
+09:55:05.960: 	Bit depth: 24
+09:55:05.960: 	Found proper GLXFBConfig (in 368): yes
+09:55:05.960: 
+09:59:51.626: Last log entry repeated for 39 more lines
+09:59:51.626: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:59:51.626: 	title: General (Chemia 2IB) | Microsoft Teams
+09:59:51.626: 	class: microsoft teams - preview
+09:59:51.626: 	Bit depth: 24
+09:59:51.626: 	Found proper GLXFBConfig (in 368): yes
+09:59:51.626: 
+09:59:59.593: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+09:59:59.593: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+09:59:59.593: 	class: microsoft teams - preview
+09:59:59.593: 	Bit depth: 24
+09:59:59.593: 	Found proper GLXFBConfig (in 368): yes
+09:59:59.593: 
+10:00:02.959: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:00:02.959: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:00:02.959: 	class: microsoft teams - preview
+10:00:02.959: 	Bit depth: 24
+10:00:02.959: 	Found proper GLXFBConfig (in 368): yes
+10:00:02.959: 
+10:00:06.559: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:00:06.559: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:00:06.559: 	class: microsoft teams - preview
+10:00:06.559: 	Bit depth: 24
+10:00:06.559: 	Found proper GLXFBConfig (in 368): yes
+10:00:06.559: 
+10:00:18.393: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:00:18.393: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:00:18.393: 	class: microsoft teams - preview
+10:00:18.393: 	Bit depth: 24
+10:00:18.393: 	Found proper GLXFBConfig (in 368): yes
+10:00:18.393: 
+10:01:06.626: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:01:06.626: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:01:06.626: 	class: microsoft teams - preview
+10:01:06.626: 	Bit depth: 24
+10:01:06.626: 	Found proper GLXFBConfig (in 368): yes
+10:01:06.626: 
+10:01:14.559: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:01:14.559: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:01:14.559: 	class: microsoft teams - preview
+10:01:14.559: 	Bit depth: 24
+10:01:14.559: 	Found proper GLXFBConfig (in 368): yes
+10:01:14.559: 
+10:01:21.892: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:01:21.892: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:01:21.892: 	class: microsoft teams - preview
+10:01:21.892: 	Bit depth: 24
+10:01:21.892: 	Found proper GLXFBConfig (in 368): yes
+10:01:21.892: 
+10:01:38.726: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:01:38.726: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:01:38.726: 	class: microsoft teams - preview
+10:01:38.726: 	Bit depth: 24
+10:01:38.726: 	Found proper GLXFBConfig (in 368): yes
+10:01:38.726: 
+10:01:59.593: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:01:59.593: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:01:59.593: 	class: microsoft teams - preview
+10:01:59.593: 	Bit depth: 24
+10:01:59.593: 	Found proper GLXFBConfig (in 368): yes
+10:01:59.593: 
+10:02:10.560: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:02:10.560: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:02:10.560: 	class: microsoft teams - preview
+10:02:10.560: 	Bit depth: 24
+10:02:10.560: 	Found proper GLXFBConfig (in 368): yes
+10:02:10.560: 
+10:02:20.826: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:02:20.826: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:02:20.826: 	class: microsoft teams - preview
+10:02:20.826: 	Bit depth: 24
+10:02:20.826: 	Found proper GLXFBConfig (in 368): yes
+10:02:20.826: 
+10:02:35.227: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:02:35.227: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:02:35.227: 	class: microsoft teams - preview
+10:02:35.227: 	Bit depth: 24
+10:02:35.227: 	Found proper GLXFBConfig (in 368): yes
+10:02:35.227: 
+10:03:04.026: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:03:04.026: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:03:04.026: 	class: microsoft teams - preview
+10:03:04.026: 	Bit depth: 24
+10:03:04.026: 	Found proper GLXFBConfig (in 368): yes
+10:03:04.026: 
+10:03:05.959: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:03:05.959: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:03:05.959: 	class: microsoft teams - preview
+10:03:05.959: 	Bit depth: 24
+10:03:05.959: 	Found proper GLXFBConfig (in 368): yes
+10:03:05.959: 
+10:03:12.826: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:03:12.826: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:03:12.826: 	class: microsoft teams - preview
+10:03:12.826: 	Bit depth: 24
+10:03:12.826: 	Found proper GLXFBConfig (in 368): yes
+10:03:12.826: 
+10:03:18.726: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:03:18.726: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:03:18.726: 	class: microsoft teams - preview
+10:03:18.726: 	Bit depth: 24
+10:03:18.726: 	Found proper GLXFBConfig (in 368): yes
+10:03:18.726: 
+10:03:21.693: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:03:21.693: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:03:21.693: 	class: microsoft teams - preview
+10:03:21.693: 	Bit depth: 24
+10:03:21.693: 	Found proper GLXFBConfig (in 368): yes
+10:03:21.693: 
+10:03:29.327: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:03:29.327: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:03:29.327: 	class: microsoft teams - preview
+10:03:29.327: 	Bit depth: 24
+10:03:29.327: 	Found proper GLXFBConfig (in 368): yes
+10:03:29.327: 
+10:03:34.593: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:03:34.593: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:03:34.593: 	class: microsoft teams - preview
+10:03:34.593: 	Bit depth: 24
+10:03:34.593: 	Found proper GLXFBConfig (in 368): yes
+10:03:34.593: 
+10:03:49.660: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:03:49.660: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:03:49.660: 	class: microsoft teams - preview
+10:03:49.660: 	Bit depth: 24
+10:03:49.660: 	Found proper GLXFBConfig (in 368): yes
+10:03:49.660: 
+10:03:52.659: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:03:52.659: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:03:52.659: 	class: microsoft teams - preview
+10:03:52.659: 	Bit depth: 24
+10:03:52.659: 	Found proper GLXFBConfig (in 368): yes
+10:03:52.659: 
+10:03:59.160: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:03:59.160: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:03:59.160: 	class: microsoft teams - preview
+10:03:59.160: 	Bit depth: 24
+10:03:59.160: 	Found proper GLXFBConfig (in 368): yes
+10:03:59.160: 
+10:04:17.593: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:04:17.593: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:04:17.593: 	class: microsoft teams - preview
+10:04:17.593: 	Bit depth: 24
+10:04:17.593: 	Found proper GLXFBConfig (in 368): yes
+10:04:17.593: 
+10:04:22.159: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:04:22.159: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:04:22.159: 	class: microsoft teams - preview
+10:04:22.159: 	Bit depth: 24
+10:04:22.159: 	Found proper GLXFBConfig (in 368): yes
+10:04:22.159: 
+10:04:35.459: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:04:35.459: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:04:35.459: 	class: microsoft teams - preview
+10:04:35.459: 	Bit depth: 24
+10:04:35.459: 	Found proper GLXFBConfig (in 368): yes
+10:04:35.459: 
+10:04:40.226: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:04:40.226: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:04:40.226: 	class: microsoft teams - preview
+10:04:40.226: 	Bit depth: 24
+10:04:40.226: 	Found proper GLXFBConfig (in 368): yes
+10:04:40.226: 
+10:05:11.560: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:05:11.560: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:05:11.560: 	class: microsoft teams - preview
+10:05:11.560: 	Bit depth: 24
+10:05:11.560: 	Found proper GLXFBConfig (in 368): yes
+10:05:11.560: 
+10:05:20.793: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:05:20.793: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:05:20.793: 	class: microsoft teams - preview
+10:05:20.793: 	Bit depth: 24
+10:05:20.793: 	Found proper GLXFBConfig (in 368): yes
+10:05:20.793: 
+10:05:53.893: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:05:53.893: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:05:53.893: 	class: microsoft teams - preview
+10:05:53.893: 	Bit depth: 24
+10:05:53.893: 	Found proper GLXFBConfig (in 368): yes
+10:05:53.893: 
+10:06:01.927: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:06:01.927: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:06:01.927: 	class: microsoft teams - preview
+10:06:01.927: 	Bit depth: 24
+10:06:01.927: 	Found proper GLXFBConfig (in 368): yes
+10:06:01.927: 
+10:06:06.959: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:06:06.959: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:06:06.959: 	class: microsoft teams - preview
+10:06:06.959: 	Bit depth: 24
+10:06:06.959: 	Found proper GLXFBConfig (in 368): yes
+10:06:06.959: 
+10:12:41.728: Last log entry repeated for 90 more lines
+10:12:41.728: glCopyImageSubData failed, glGetError returned GL_INVALID_VALUE(0x501)
+10:12:41.728: device_copy_texture (GL) failed
+10:12:41.760: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:41.760: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:41.760: 	class: microsoft teams - preview
+10:12:41.760: 	Bit depth: 24
+10:12:41.760: 	Found proper GLXFBConfig (in 368): yes
+10:12:41.760: 
+10:12:41.795: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:41.795: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:41.795: 	class: microsoft teams - preview
+10:12:41.795: 	Bit depth: 24
+10:12:41.795: 	Found proper GLXFBConfig (in 368): yes
+10:12:41.795: 
+10:12:41.832: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:41.832: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:41.832: 	class: microsoft teams - preview
+10:12:41.832: 	Bit depth: 24
+10:12:41.832: 	Found proper GLXFBConfig (in 368): yes
+10:12:41.832: 
+10:12:41.863: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:41.863: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:41.863: 	class: microsoft teams - preview
+10:12:41.863: 	Bit depth: 24
+10:12:41.863: 	Found proper GLXFBConfig (in 368): yes
+10:12:41.863: 
+10:12:41.898: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:41.898: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:41.898: 	class: microsoft teams - preview
+10:12:41.898: 	Bit depth: 24
+10:12:41.898: 	Found proper GLXFBConfig (in 368): yes
+10:12:41.898: 
+10:12:42.127: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:42.127: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:42.127: 	class: microsoft teams - preview
+10:12:42.127: 	Bit depth: 24
+10:12:42.127: 	Found proper GLXFBConfig (in 368): yes
+10:12:42.127: 
+10:12:42.162: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:42.162: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:42.162: 	class: microsoft teams - preview
+10:12:42.162: 	Bit depth: 24
+10:12:42.162: 	Found proper GLXFBConfig (in 368): yes
+10:12:42.162: 
+10:12:42.194: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:42.194: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:42.194: 	class: microsoft teams - preview
+10:12:42.194: 	Bit depth: 24
+10:12:42.194: 	Found proper GLXFBConfig (in 368): yes
+10:12:42.194: 
+10:12:42.230: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:42.230: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:42.230: 	class: microsoft teams - preview
+10:12:42.230: 	Bit depth: 24
+10:12:42.230: 	Found proper GLXFBConfig (in 368): yes
+10:12:42.230: 
+10:12:42.262: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:42.262: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:42.262: 	class: microsoft teams - preview
+10:12:42.262: 	Bit depth: 24
+10:12:42.262: 	Found proper GLXFBConfig (in 368): yes
+10:12:42.262: 
+10:12:42.527: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:42.527: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:42.527: 	class: microsoft teams - preview
+10:12:42.527: 	Bit depth: 24
+10:12:42.527: 	Found proper GLXFBConfig (in 368): yes
+10:12:42.527: 
+10:12:42.562: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:42.562: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:42.562: 	class: microsoft teams - preview
+10:12:42.562: 	Bit depth: 24
+10:12:42.562: 	Found proper GLXFBConfig (in 368): yes
+10:12:42.562: 
+10:12:43.027: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:43.027: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:43.027: 	class: microsoft teams - preview
+10:12:43.027: 	Bit depth: 24
+10:12:43.027: 	Found proper GLXFBConfig (in 368): yes
+10:12:43.027: 
+10:12:43.062: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:43.062: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:43.062: 	class: microsoft teams - preview
+10:12:43.062: 	Bit depth: 24
+10:12:43.062: 	Found proper GLXFBConfig (in 368): yes
+10:12:43.062: 
+10:12:43.094: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:43.094: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:43.094: 	class: microsoft teams - preview
+10:12:43.094: 	Bit depth: 24
+10:12:43.094: 	Found proper GLXFBConfig (in 368): yes
+10:12:43.094: 
+10:12:43.127: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:43.127: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:43.127: 	class: microsoft teams - preview
+10:12:43.127: 	Bit depth: 24
+10:12:43.127: 	Found proper GLXFBConfig (in 368): yes
+10:12:43.127: 
+10:12:43.162: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:43.162: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:43.162: 	class: microsoft teams - preview
+10:12:43.162: 	Bit depth: 24
+10:12:43.162: 	Found proper GLXFBConfig (in 368): yes
+10:12:43.162: 
+10:12:43.193: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:43.193: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:43.193: 	class: microsoft teams - preview
+10:12:43.193: 	Bit depth: 24
+10:12:43.193: 	Found proper GLXFBConfig (in 368): yes
+10:12:43.193: 
+10:12:43.227: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:43.227: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:43.227: 	class: microsoft teams - preview
+10:12:43.227: 	Bit depth: 24
+10:12:43.227: 	Found proper GLXFBConfig (in 368): yes
+10:12:43.227: 
+10:12:43.359: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:43.359: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:43.359: 	class: microsoft teams - preview
+10:12:43.359: 	Bit depth: 24
+10:12:43.359: 	Found proper GLXFBConfig (in 368): yes
+10:12:43.359: 
+10:12:43.394: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:43.394: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:43.394: 	class: microsoft teams - preview
+10:12:43.394: 	Bit depth: 24
+10:12:43.394: 	Found proper GLXFBConfig (in 368): yes
+10:12:43.394: 
+10:12:46.426: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:12:46.426: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:12:46.426: 	class: microsoft teams - preview
+10:12:46.426: 	Bit depth: 24
+10:12:46.426: 	Found proper GLXFBConfig (in 368): yes
+10:12:46.426: 
+10:13:16.494: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:13:16.494: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:13:16.494: 	class: microsoft teams - preview
+10:13:16.494: 	Bit depth: 24
+10:13:16.494: 	Found proper GLXFBConfig (in 368): yes
+10:13:16.494: 
+10:13:21.126: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:13:21.126: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:13:21.126: 	class: microsoft teams - preview
+10:13:21.126: 	Bit depth: 24
+10:13:21.126: 	Found proper GLXFBConfig (in 368): yes
+10:13:21.126: 
+10:13:23.760: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:13:23.760: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:13:23.760: 	class: microsoft teams - preview
+10:13:23.760: 	Bit depth: 24
+10:13:23.760: 	Found proper GLXFBConfig (in 368): yes
+10:13:23.760: 
+10:13:33.859: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:13:33.859: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:13:33.859: 	class: microsoft teams - preview
+10:13:33.859: 	Bit depth: 24
+10:13:33.859: 	Found proper GLXFBConfig (in 368): yes
+10:13:33.859: 
+10:13:34.826: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:13:34.826: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:13:34.826: 	class: microsoft teams - preview
+10:13:34.826: 	Bit depth: 24
+10:13:34.826: 	Found proper GLXFBConfig (in 368): yes
+10:13:34.826: 
+10:13:43.226: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:13:43.226: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:13:43.226: 	class: microsoft teams - preview
+10:13:43.226: 	Bit depth: 24
+10:13:43.226: 	Found proper GLXFBConfig (in 368): yes
+10:13:43.226: 
+10:13:59.026: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:13:59.026: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:13:59.026: 	class: microsoft teams - preview
+10:13:59.026: 	Bit depth: 24
+10:13:59.026: 	Found proper GLXFBConfig (in 368): yes
+10:13:59.026: 
+10:14:22.159: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:14:22.159: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:14:22.159: 	class: microsoft teams - preview
+10:14:22.159: 	Bit depth: 24
+10:14:22.159: 	Found proper GLXFBConfig (in 368): yes
+10:14:22.159: 
+10:14:35.993: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:14:35.993: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:14:35.993: 	class: microsoft teams - preview
+10:14:35.993: 	Bit depth: 24
+10:14:35.993: 	Found proper GLXFBConfig (in 368): yes
+10:14:35.993: 
+10:18:01.760: Last log entry repeated for 28 more lines
+10:18:01.760: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:01.760: 	title: Microsoft Teams
+10:18:01.760: 	class: microsoft teams - preview
+10:18:01.760: 	Bit depth: 24
+10:18:01.760: 	Found proper GLXFBConfig (in 368): yes
+10:18:01.760: 
+10:18:01.793: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:01.793: 	title: Microsoft Teams
+10:18:01.793: 	class: microsoft teams - preview
+10:18:01.793: 	Bit depth: 24
+10:18:01.793: 	Found proper GLXFBConfig (in 368): yes
+10:18:01.793: 
+10:18:01.827: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:01.827: 	title: Microsoft Teams
+10:18:01.827: 	class: microsoft teams - preview
+10:18:01.827: 	Bit depth: 24
+10:18:01.827: 	Found proper GLXFBConfig (in 368): yes
+10:18:01.827: 
+10:18:01.861: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:01.861: 	title: Microsoft Teams
+10:18:01.861: 	class: microsoft teams - preview
+10:18:01.861: 	Bit depth: 24
+10:18:01.861: 	Found proper GLXFBConfig (in 368): yes
+10:18:01.861: 
+10:18:01.896: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:01.896: 	title: Microsoft Teams
+10:18:01.896: 	class: microsoft teams - preview
+10:18:01.896: 	Bit depth: 24
+10:18:01.896: 	Found proper GLXFBConfig (in 368): yes
+10:18:01.896: 
+10:18:01.927: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:01.927: 	title: Microsoft Teams
+10:18:01.927: 	class: microsoft teams - preview
+10:18:01.927: 	Bit depth: 24
+10:18:01.927: 	Found proper GLXFBConfig (in 368): yes
+10:18:01.927: 
+10:18:01.959: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:01.959: 	title: Microsoft Teams
+10:18:01.959: 	class: microsoft teams - preview
+10:18:01.959: 	Bit depth: 24
+10:18:01.959: 	Found proper GLXFBConfig (in 368): yes
+10:18:01.959: 
+10:18:01.993: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:01.993: 	title: Microsoft Teams
+10:18:01.993: 	class: microsoft teams - preview
+10:18:01.993: 	Bit depth: 24
+10:18:01.993: 	Found proper GLXFBConfig (in 368): yes
+10:18:01.993: 
+10:18:02.029: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:02.029: 	title: Microsoft Teams
+10:18:02.029: 	class: microsoft teams - preview
+10:18:02.029: 	Bit depth: 24
+10:18:02.029: 	Found proper GLXFBConfig (in 368): yes
+10:18:02.029: 
+10:18:02.060: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:02.060: 	title: Microsoft Teams
+10:18:02.060: 	class: microsoft teams - preview
+10:18:02.060: 	Bit depth: 24
+10:18:02.060: 	Found proper GLXFBConfig (in 368): yes
+10:18:02.060: 
+10:18:02.093: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:02.093: 	title: Microsoft Teams
+10:18:02.093: 	class: microsoft teams - preview
+10:18:02.093: 	Bit depth: 24
+10:18:02.093: 	Found proper GLXFBConfig (in 368): yes
+10:18:02.093: 
+10:18:02.126: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:02.126: 	title: Microsoft Teams
+10:18:02.126: 	class: microsoft teams - preview
+10:18:02.126: 	Bit depth: 24
+10:18:02.126: 	Found proper GLXFBConfig (in 368): yes
+10:18:02.126: 
+10:18:02.160: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:02.160: 	title: Microsoft Teams
+10:18:02.160: 	class: microsoft teams - preview
+10:18:02.160: 	Bit depth: 24
+10:18:02.160: 	Found proper GLXFBConfig (in 368): yes
+10:18:02.160: 
+10:18:02.193: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:02.193: 	title: Microsoft Teams
+10:18:02.193: 	class: microsoft teams - preview
+10:18:02.193: 	Bit depth: 24
+10:18:02.193: 	Found proper GLXFBConfig (in 368): yes
+10:18:02.193: 
+10:18:02.226: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:02.226: 	title: Microsoft Teams
+10:18:02.226: 	class: microsoft teams - preview
+10:18:02.226: 	Bit depth: 24
+10:18:02.226: 	Found proper GLXFBConfig (in 368): yes
+10:18:02.226: 
+10:18:02.260: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:02.260: 	title: Microsoft Teams
+10:18:02.260: 	class: microsoft teams - preview
+10:18:02.260: 	Bit depth: 24
+10:18:02.260: 	Found proper GLXFBConfig (in 368): yes
+10:18:02.260: 
+10:18:04.393: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:04.393: 	title: Microsoft Teams
+10:18:04.393: 	class: microsoft teams - preview
+10:18:04.393: 	Bit depth: 24
+10:18:04.393: 	Found proper GLXFBConfig (in 368): yes
+10:18:04.393: 
+10:18:04.427: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:04.427: 	title: Microsoft Teams
+10:18:04.427: 	class: microsoft teams - preview
+10:18:04.427: 	Bit depth: 24
+10:18:04.427: 	Found proper GLXFBConfig (in 368): yes
+10:18:04.427: 
+10:18:04.461: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:04.461: 	title: Microsoft Teams
+10:18:04.461: 	class: microsoft teams - preview
+10:18:04.461: 	Bit depth: 24
+10:18:04.461: 	Found proper GLXFBConfig (in 368): yes
+10:18:04.461: 
+10:18:04.494: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:04.494: 	title: Microsoft Teams
+10:18:04.494: 	class: microsoft teams - preview
+10:18:04.494: 	Bit depth: 24
+10:18:04.494: 	Found proper GLXFBConfig (in 368): yes
+10:18:04.494: 
+10:18:04.526: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:04.526: 	title: Microsoft Teams
+10:18:04.526: 	class: microsoft teams - preview
+10:18:04.526: 	Bit depth: 24
+10:18:04.526: 	Found proper GLXFBConfig (in 368): yes
+10:18:04.526: 
+10:18:04.562: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:04.562: 	title: Microsoft Teams
+10:18:04.562: 	class: microsoft teams - preview
+10:18:04.562: 	Bit depth: 24
+10:18:04.562: 	Found proper GLXFBConfig (in 368): yes
+10:18:04.562: 
+10:18:04.594: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:04.594: 	title: Microsoft Teams
+10:18:04.594: 	class: microsoft teams - preview
+10:18:04.594: 	Bit depth: 24
+10:18:04.594: 	Found proper GLXFBConfig (in 368): yes
+10:18:04.594: 
+10:18:04.628: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:04.628: 	title: Microsoft Teams
+10:18:04.628: 	class: microsoft teams - preview
+10:18:04.628: 	Bit depth: 24
+10:18:04.628: 	Found proper GLXFBConfig (in 368): yes
+10:18:04.628: 
+10:18:04.661: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:04.661: 	title: Microsoft Teams
+10:18:04.661: 	class: microsoft teams - preview
+10:18:04.661: 	Bit depth: 24
+10:18:04.661: 	Found proper GLXFBConfig (in 368): yes
+10:18:04.661: 
+10:18:04.694: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:04.694: 	title: Microsoft Teams
+10:18:04.694: 	class: microsoft teams - preview
+10:18:04.694: 	Bit depth: 24
+10:18:04.694: 	Found proper GLXFBConfig (in 368): yes
+10:18:04.694: 
+10:18:04.726: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:04.726: 	title: Microsoft Teams
+10:18:04.726: 	class: microsoft teams - preview
+10:18:04.726: 	Bit depth: 24
+10:18:04.726: 	Found proper GLXFBConfig (in 368): yes
+10:18:04.726: 
+10:18:04.760: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:04.760: 	title: Microsoft Teams
+10:18:04.760: 	class: microsoft teams - preview
+10:18:04.760: 	Bit depth: 24
+10:18:04.760: 	Found proper GLXFBConfig (in 368): yes
+10:18:04.760: 
+10:18:04.794: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:04.794: 	title: Microsoft Teams
+10:18:04.794: 	class: microsoft teams - preview
+10:18:04.794: 	Bit depth: 24
+10:18:04.794: 	Found proper GLXFBConfig (in 368): yes
+10:18:04.794: 
+10:18:04.827: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:04.827: 	title: Microsoft Teams
+10:18:04.827: 	class: microsoft teams - preview
+10:18:04.827: 	Bit depth: 24
+10:18:04.827: 	Found proper GLXFBConfig (in 368): yes
+10:18:04.827: 
+10:18:04.860: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:04.860: 	title: Microsoft Teams
+10:18:04.860: 	class: microsoft teams - preview
+10:18:04.860: 	Bit depth: 24
+10:18:04.860: 	Found proper GLXFBConfig (in 368): yes
+10:18:04.860: 
+10:18:32.793: Last log entry repeated for 5 more lines
+10:18:32.793: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:32.793: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:32.793: 	class: microsoft teams - preview
+10:18:32.793: 	Bit depth: 24
+10:18:32.793: 	Found proper GLXFBConfig (in 368): yes
+10:18:32.793: 
+10:18:52.699: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:52.699: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:52.699: 	class: microsoft teams - preview
+10:18:52.699: 	Bit depth: 24
+10:18:52.699: 	Found proper GLXFBConfig (in 368): yes
+10:18:52.699: 
+10:18:52.728: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:52.728: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:52.728: 	class: microsoft teams - preview
+10:18:52.728: 	Bit depth: 24
+10:18:52.728: 	Found proper GLXFBConfig (in 368): yes
+10:18:52.728: 
+10:18:52.760: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:52.760: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:52.760: 	class: microsoft teams - preview
+10:18:52.760: 	Bit depth: 24
+10:18:52.760: 	Found proper GLXFBConfig (in 368): yes
+10:18:52.760: 
+10:18:52.796: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:52.796: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:52.796: 	class: microsoft teams - preview
+10:18:52.796: 	Bit depth: 24
+10:18:52.796: 	Found proper GLXFBConfig (in 368): yes
+10:18:52.796: 
+10:18:52.828: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:52.828: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:52.828: 	class: microsoft teams - preview
+10:18:52.828: 	Bit depth: 24
+10:18:52.828: 	Found proper GLXFBConfig (in 368): yes
+10:18:52.828: 
+10:18:52.861: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:52.861: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:52.861: 	class: microsoft teams - preview
+10:18:52.861: 	Bit depth: 24
+10:18:52.861: 	Found proper GLXFBConfig (in 368): yes
+10:18:52.861: 
+10:18:52.894: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:52.894: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:52.894: 	class: microsoft teams - preview
+10:18:52.894: 	Bit depth: 24
+10:18:52.894: 	Found proper GLXFBConfig (in 368): yes
+10:18:52.894: 
+10:18:52.927: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:52.927: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:52.927: 	class: microsoft teams - preview
+10:18:52.927: 	Bit depth: 24
+10:18:52.927: 	Found proper GLXFBConfig (in 368): yes
+10:18:52.927: 
+10:18:52.960: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:52.960: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:52.960: 	class: microsoft teams - preview
+10:18:52.960: 	Bit depth: 24
+10:18:52.960: 	Found proper GLXFBConfig (in 368): yes
+10:18:52.960: 
+10:18:52.993: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:52.993: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:52.993: 	class: microsoft teams - preview
+10:18:52.993: 	Bit depth: 24
+10:18:52.993: 	Found proper GLXFBConfig (in 368): yes
+10:18:52.993: 
+10:18:53.026: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:53.026: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:53.026: 	class: microsoft teams - preview
+10:18:53.026: 	Bit depth: 24
+10:18:53.026: 	Found proper GLXFBConfig (in 368): yes
+10:18:53.026: 
+10:18:53.060: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:53.060: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:53.060: 	class: microsoft teams - preview
+10:18:53.060: 	Bit depth: 24
+10:18:53.060: 	Found proper GLXFBConfig (in 368): yes
+10:18:53.060: 
+10:18:53.093: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:53.093: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:53.093: 	class: microsoft teams - preview
+10:18:53.093: 	Bit depth: 24
+10:18:53.093: 	Found proper GLXFBConfig (in 368): yes
+10:18:53.093: 
+10:18:53.128: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:53.128: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:53.128: 	class: microsoft teams - preview
+10:18:53.128: 	Bit depth: 24
+10:18:53.128: 	Found proper GLXFBConfig (in 368): yes
+10:18:53.128: 
+10:18:53.160: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:53.160: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:53.160: 	class: microsoft teams - preview
+10:18:53.160: 	Bit depth: 24
+10:18:53.160: 	Found proper GLXFBConfig (in 368): yes
+10:18:53.160: 
+10:18:53.193: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:53.193: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:53.193: 	class: microsoft teams - preview
+10:18:53.193: 	Bit depth: 24
+10:18:53.193: 	Found proper GLXFBConfig (in 368): yes
+10:18:53.193: 
+10:18:53.260: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:18:53.260: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:18:53.260: 	class: microsoft teams - preview
+10:18:53.260: 	Bit depth: 24
+10:18:53.260: 	Found proper GLXFBConfig (in 368): yes
+10:18:53.260: 
+10:19:00.326: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:19:00.326: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:19:00.326: 	class: microsoft teams - preview
+10:19:00.326: 	Bit depth: 24
+10:19:00.326: 	Found proper GLXFBConfig (in 368): yes
+10:19:00.326: 
+10:19:04.426: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:19:04.426: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:19:04.426: 	class: microsoft teams - preview
+10:19:04.426: 	Bit depth: 24
+10:19:04.426: 	Found proper GLXFBConfig (in 368): yes
+10:19:04.426: 
+10:19:04.759: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:19:04.759: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:19:04.759: 	class: microsoft teams - preview
+10:19:04.759: 	Bit depth: 24
+10:19:04.759: 	Found proper GLXFBConfig (in 368): yes
+10:19:04.759: 
+10:19:04.794: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:19:04.794: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:19:04.794: 	class: microsoft teams - preview
+10:19:04.794: 	Bit depth: 24
+10:19:04.794: 	Found proper GLXFBConfig (in 368): yes
+10:19:04.794: 
+10:19:04.826: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:19:04.826: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:19:04.826: 	class: microsoft teams - preview
+10:19:04.826: 	Bit depth: 24
+10:19:04.826: 	Found proper GLXFBConfig (in 368): yes
+10:19:04.826: 
+10:19:04.860: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:19:04.860: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:19:04.860: 	class: microsoft teams - preview
+10:19:04.860: 	Bit depth: 24
+10:19:04.860: 	Found proper GLXFBConfig (in 368): yes
+10:19:04.860: 
+10:19:04.893: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:19:04.893: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:19:04.893: 	class: microsoft teams - preview
+10:19:04.893: 	Bit depth: 24
+10:19:04.893: 	Found proper GLXFBConfig (in 368): yes
+10:19:04.893: 
+10:19:13.894: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:19:13.894: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:19:13.894: 	class: microsoft teams - preview
+10:19:13.894: 	Bit depth: 24
+10:19:13.894: 	Found proper GLXFBConfig (in 368): yes
+10:19:13.894: 
+10:19:13.927: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:19:13.927: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:19:13.927: 	class: microsoft teams - preview
+10:19:13.927: 	Bit depth: 24
+10:19:13.927: 	Found proper GLXFBConfig (in 368): yes
+10:19:13.927: 
+10:19:13.961: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:19:13.961: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:19:13.961: 	class: microsoft teams - preview
+10:19:13.961: 	Bit depth: 24
+10:19:13.961: 	Found proper GLXFBConfig (in 368): yes
+10:19:13.961: 
+10:19:13.994: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:19:13.994: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:19:13.994: 	class: microsoft teams - preview
+10:19:13.994: 	Bit depth: 24
+10:19:13.994: 	Found proper GLXFBConfig (in 368): yes
+10:19:13.994: 
+10:19:14.027: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:19:14.027: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:19:14.027: 	class: microsoft teams - preview
+10:19:14.027: 	Bit depth: 24
+10:19:14.027: 	Found proper GLXFBConfig (in 368): yes
+10:19:14.027: 
+10:19:15.293: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:19:15.293: 	title: Nowe spotkanie w kanale (Meeting) | Microsoft Teams
+10:19:15.293: 	class: microsoft teams - preview
+10:19:15.293: 	Bit depth: 24
+10:19:15.293: 	Found proper GLXFBConfig (in 368): yes
+10:19:15.293: 
+10:22:19.627: Last log entry repeated for 85 more lines
+10:22:19.627: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:22:19.627: 	title: General (Chemia 2IB) | Microsoft Teams
+10:22:19.627: 	class: microsoft teams - preview
+10:22:19.627: 	Bit depth: 24
+10:22:19.627: 	Found proper GLXFBConfig (in 368): yes
+10:22:19.627: 
+10:22:19.660: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:22:19.660: 	title: General (Chemia 2IB) | Microsoft Teams
+10:22:19.660: 	class: microsoft teams - preview
+10:22:19.660: 	Bit depth: 24
+10:22:19.660: 	Found proper GLXFBConfig (in 368): yes
+10:22:19.660: 
+10:22:19.695: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:22:19.695: 	title: General (Chemia 2IB) | Microsoft Teams
+10:22:19.695: 	class: microsoft teams - preview
+10:22:19.695: 	Bit depth: 24
+10:22:19.695: 	Found proper GLXFBConfig (in 368): yes
+10:22:19.695: 
+10:22:19.727: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:22:19.727: 	title: General (Chemia 2IB) | Microsoft Teams
+10:22:19.727: 	class: microsoft teams - preview
+10:22:19.727: 	Bit depth: 24
+10:22:19.727: 	Found proper GLXFBConfig (in 368): yes
+10:22:19.727: 
+10:22:19.759: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:22:19.759: 	title: General (Chemia 2IB) | Microsoft Teams
+10:22:19.759: 	class: microsoft teams - preview
+10:22:19.759: 	Bit depth: 24
+10:22:19.759: 	Found proper GLXFBConfig (in 368): yes
+10:22:19.759: 
+10:22:19.793: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:22:19.793: 	title: General (Chemia 2IB) | Microsoft Teams
+10:22:19.793: 	class: microsoft teams - preview
+10:22:19.793: 	Bit depth: 24
+10:22:19.793: 	Found proper GLXFBConfig (in 368): yes
+10:22:19.793: 
+10:22:19.829: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:22:19.829: 	title: General (Chemia 2IB) | Microsoft Teams
+10:22:19.829: 	class: microsoft teams - preview
+10:22:19.829: 	Bit depth: 24
+10:22:19.829: 	Found proper GLXFBConfig (in 368): yes
+10:22:19.829: 
+10:22:19.860: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+10:22:19.860: 	title: General (Chemia 2IB) | Microsoft Teams
+10:22:19.860: 	class: microsoft teams - preview
+10:22:19.860: 	Bit depth: 24
+10:22:19.860: 	Found proper GLXFBConfig (in 368): yes
+10:22:19.860: 
+10:22:22.265: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/vhyrro/2021-03-10 09-40-36.mkv' stopped
+10:22:22.265: Output 'simple_file_output': stopping
+10:22:22.265: Output 'simple_file_output': Total frames output: 75145
+10:22:22.265: Output 'simple_file_output': Total drawn frames: 75177
+10:22:22.265: ==== Recording Stop ================================================
+10:22:22.273: libfdk_aac encoder destroyed
+10:22:27.208: ==== Shutting down ==================================================
+10:22:27.210: pulse-input: Stopped recording from 'alsa_output.pci-0000_21_00.3.analog-stereo.monitor'
+10:22:27.210: pulse-input: Got 8591862 packets with 127858578 frames
+10:22:27.210: pulse-input: Stopped recording from 'alsa_input.pci-0000_21_00.3.analog-stereo'
+10:22:27.210: pulse-input: Got 455814 packets with 127862712 frames
+10:22:27.210: All scene data cleared
+10:22:27.210: ------------------------------------------------
+10:22:27.264: [Scripting] Total detached callbacks: 0
+10:22:27.267: Freeing OBS context data
+10:22:27.276: == Profiler Results =============================
+10:22:27.276: run_program_init: 691.217 ms
+10:22:27.276:  ┣OBSApp::AppInit: 3.91 ms
+10:22:27.276:  ┃ ┗OBSApp::InitLocale: 2.149 ms
+10:22:27.276:  ┗OBSApp::OBSInit: 653.437 ms
+10:22:27.276:    ┣obs_startup: 34.855 ms
+10:22:27.276:    ┗OBSBasic::OBSInit: 505.799 ms
+10:22:27.276:      ┣OBSBasic::InitBasicConfig: 0.064 ms
+10:22:27.276:      ┣OBSBasic::ResetAudio: 0.078 ms
+10:22:27.276:      ┣OBSBasic::ResetVideo: 102.566 ms
+10:22:27.276:      ┣OBSBasic::InitOBSCallbacks: 0.003 ms
+10:22:27.276:      ┣OBSBasic::InitHotkeys: 0.228 ms
+10:22:27.276:      ┣obs_load_all_modules: 259.714 ms
+10:22:27.276:      ┃ ┣obs_init_module(decklink-captions.so): 0.024 ms
+10:22:27.276:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0.359 ms
+10:22:27.276:      ┃ ┣obs_init_module(frontend-tools.so): 90.744 ms
+10:22:27.276:      ┃ ┣obs_init_module(image-source.so): 0.005 ms
+10:22:27.276:      ┃ ┣obs_init_module(linux-alsa.so): 0.002 ms
+10:22:27.276:      ┃ ┣obs_init_module(linux-capture.so): 0.3 ms
+10:22:27.276:      ┃ ┣obs_init_module(linux-decklink.so): 0.1 ms
+10:22:27.276:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+10:22:27.276:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+10:22:27.276:      ┃ ┣obs_init_module(linux-v4l2.so): 0.124 ms
+10:22:27.276:      ┃ ┣obs_init_module(obs-browser.so): 0.032 ms
+10:22:27.276:      ┃ ┣obs_init_module(obs-ffmpeg.so): 1.728 ms
+10:22:27.276:      ┃ ┃ ┗nvenc_check: 1.716 ms
+10:22:27.276:      ┃ ┣obs_init_module(obs-filters.so): 0.016 ms
+10:22:27.276:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+10:22:27.276:      ┃ ┣obs_init_module(obs-outputs.so): 0.002 ms
+10:22:27.276:      ┃ ┣obs_init_module(obs-transitions.so): 0.005 ms
+10:22:27.276:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+10:22:27.276:      ┃ ┣obs_init_module(rtmp-services.so): 1.267 ms
+10:22:27.276:      ┃ ┣obs_init_module(sndio.so): 0.002 ms
+10:22:27.276:      ┃ ┣obs_init_module(text-freetype2.so): 0.008 ms
+10:22:27.276:      ┃ ┣obs_init_module(v4l2sink.so): 0.648 ms
+10:22:27.276:      ┃ ┗obs_init_module(vlc-video.so): 3.836 ms
+10:22:27.276:      ┣OBSBasic::ResetOutputs: 0.55 ms
+10:22:27.276:      ┣OBSBasic::CreateHotkeys: 0.028 ms
+10:22:27.276:      ┣OBSBasic::InitService: 1.629 ms
+10:22:27.276:      ┣OBSBasic::InitPrimitives: 0.079 ms
+10:22:27.276:      ┗OBSBasic::Load: 70.357 ms
+10:22:27.276: obs_hotkey_thread(25 ms): min=0.048 ms, median=0.095 ms, max=6.511 ms, 99th percentile=0.291 ms, 100% below 25 ms
+10:22:27.276: audio_thread(Audio): min=0 ms, median=0.283 ms, max=2.507 ms, 99th percentile=0.608 ms
+10:22:27.276:  ┗receive_audio: min=0.006 ms, median=0.232 ms, max=2.42 ms, 99th percentile=0.506 ms, 0.864316 calls per parent call
+10:22:27.276:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.117 ms, 99th percentile=0.002 ms
+10:22:27.276:    ┗do_encode: min=0.043 ms, median=0.23 ms, max=2.416 ms, 99th percentile=0.502 ms
+10:22:27.276:      ┗encode(simple_aac_recording): min=0.042 ms, median=0.225 ms, max=2.152 ms, 99th percentile=0.495 ms
+10:22:27.276: obs_graphics_thread(33.3333 ms): min=0.082 ms, median=2.656 ms, max=34.114 ms, 99th percentile=3.926 ms, 99.9989% below 33.333 ms
+10:22:27.276:  ┣tick_sources: min=0 ms, median=0.159 ms, max=25.377 ms, 99th percentile=0.436 ms
+10:22:27.276:  ┣output_frame: min=0.059 ms, median=1.983 ms, max=7.542 ms, 99th percentile=2.69 ms
+10:22:27.276:  ┃ ┣gs_context(video->graphics): min=0.059 ms, median=1.557 ms, max=6.678 ms, 99th percentile=2.161 ms
+10:22:27.276:  ┃ ┃ ┣render_video: min=0.011 ms, median=1.539 ms, max=6.347 ms, 99th percentile=2.132 ms
+10:22:27.276:  ┃ ┃ ┃ ┣render_main_texture: min=0.009 ms, median=0.057 ms, max=5.585 ms, 99th percentile=0.107 ms
+10:22:27.276:  ┃ ┃ ┃ ┣render_convert_texture: min=0.015 ms, median=0.023 ms, max=0.863 ms, 99th percentile=0.054 ms, 0.864204 calls per parent call
+10:22:27.276:  ┃ ┃ ┃ ┗stage_output_texture: min=1 ms, median=1.481 ms, max=6.196 ms, 99th percentile=2.039 ms, 0.864204 calls per parent call
+10:22:27.276:  ┃ ┃ ┣gs_flush: min=0 ms, median=0.001 ms, max=1.645 ms, 99th percentile=0.076 ms
+10:22:27.276:  ┃ ┃ ┗download_frame: min=0 ms, median=0.004 ms, max=2.825 ms, 99th percentile=0.01 ms, 0.864204 calls per parent call
+10:22:27.276:  ┃ ┗output_video_data: min=0.316 ms, median=0.43 ms, max=4.241 ms, 99th percentile=0.595 ms, 0.864193 calls per parent call
+10:22:27.276:  ┗render_displays: min=0.002 ms, median=0.463 ms, max=10.091 ms, 99th percentile=0.918 ms
+10:22:27.276: video_thread(video): min=0.899 ms, median=1.213 ms, max=11.633 ms, 99th percentile=1.989 ms
+10:22:27.276:  ┗receive_video: min=0.897 ms, median=1.212 ms, max=11.63 ms, 99th percentile=1.986 ms
+10:22:27.276:    ┗do_encode: min=0.896 ms, median=1.21 ms, max=11.628 ms, 99th percentile=1.984 ms
+10:22:27.276:      ┗encode(simple_h264_recording): min=0.887 ms, median=1.203 ms, max=11.621 ms, 99th percentile=1.973 ms
+10:22:27.276: =================================================
+10:22:27.276: == Profiler Time Between Calls ==================
+10:22:27.276: obs_hotkey_thread(25 ms): min=25.064 ms, median=25.155 ms, max=31.766 ms, 99.606% within ±2% of 25 ms (0% lower, 0.393998% higher)
+10:22:27.276: obs_graphics_thread(33.3333 ms): min=30.184 ms, median=33.333 ms, max=36.48 ms, 99.9632% within ±2% of 33.333 ms (0.0183929% lower, 0.0183929% higher)
+10:22:27.276: =================================================
+10:22:27.312: Number of memory leaks: 0

@@ -37,6 +37,7 @@ complete -c pdftoppm -o aaVector --description 'Enable or disable vector anti-al
 complete -c pdftoppm -o opw --description 'Specify the owner password for the PDF file.'
 complete -c pdftoppm -o upw --description 'Specify the user password for the PDF file.'
 complete -c pdftoppm -s q --description 'Don\'t print any messages or errors.'
+complete -c pdftoppm -o progress --description 'Print progress info as each page is generated.'
 complete -c pdftoppm -o sep --description 'Specify single character separator between name and page number, default - .'
 complete -c pdftoppm -o forcenum --description 'Force page number even if there is only one page.'
 complete -c pdftoppm -s v --description 'Print copyright and version information.'

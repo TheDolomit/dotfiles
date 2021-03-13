@@ -30,4 +30,7 @@ complete -c integritysetup -l journal-crypt --description 'Encryption algorithm 
 complete -c integritysetup -l journal-crypt-key-size --description 'The size of the journal encryption key.'
 complete -c integritysetup -l journal-crypt-key-file --description 'The file with the journal encryption key.'
 complete -c integritysetup -l allow-discards --description 'Allow the use of discard (TRIM) requests for the device.'
+complete -c integritysetup -l integrity-legacy-padding --description 'Use inefficient legacy padding.'
+complete -c integritysetup -l integrity-legacy-hmac --description 'Use old flawed HMAC calclation (also does not protect superblock).'
+complete -c integritysetup -l integrity-legacy-recalculate --description 'Allow insecure recalculating of volumes with HMAC keys (recalcualtion offset …'
 

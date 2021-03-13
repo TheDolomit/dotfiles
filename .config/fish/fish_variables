@@ -1,10 +1,11 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export BAT_THEME:gruvbox
+SETUVAR --export BAT_THEME:gruvbox\x2ddark
 SETUVAR --export BROWSER:/usr/bin/librewolf
 SETUVAR --export GITHUB_FILES:\x2elocal\x20\x2econfig\x20\x2exprofile\x20pacman_package_list\x2epacks
 SETUVAR --export MANPAGER:sh\x20\x2dc\x20\x27col\x20\x2dbx\x20\x7c\x20bat\x20\x2dl\x20man\x20\x2dp\x27
 SETUVAR --export MANROFFOPT:\x2dc
+SETUVAR --export --path PATH:/usr/local/bin\x1e/usr/bin\x1e/bin\x1e/usr/local/sbin\x1e/usr/lib/jvm/default/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl\x20/home/vhyrro/\x2elocal/bin\x20/home/vhyrro/\x2elocal/bin
 SETUVAR SXHKD_SHELL:/usr/bin/bash
 SETUVAR --export TESSDATA_PREFIX:/usr/share/tessdata
 SETUVAR --export TTRV_BROWSER:sxiv
@@ -21,13 +22,18 @@ SETUVAR _fish_abbr_mount:sudo\x20mount
 SETUVAR _fish_abbr_pac:sudo\x20pacman\x20\x2dS
 SETUVAR _fish_abbr_pacr:sudo\x20pacman\x20\x2dRun
 SETUVAR _fish_abbr_pacu:sudo\x20pacman\x20\x2dSyu
+SETUVAR _fish_abbr_sc:sudo\x20systemctl
+SETUVAR _fish_abbr_scd:sudo\x20systemctl\x20disable
+SETUVAR _fish_abbr_sce:sudo\x20systemctl\x20enable\x20\x2d\x2dnow
+SETUVAR _fish_abbr_scs:sudo\x20systemctl\x20stop
 SETUVAR _fish_abbr_umount:sudo\x20umount
 SETUVAR _fish_abbr_ya:yay\x20\x2dS
 SETUVAR _fish_abbr_yar:yay\x20\x2dRun
+SETUVAR _fish_abbr_yau:yay\x20\x2dSua
 SETUVAR _fisher_PatrickF1_2F_fzf_2E_fish_files:/home/vhyrro/\x2econfig/fish/functions/__fzf_extract_var_info\x2efish\x1e/home/vhyrro/\x2econfig/fish/functions/__fzf_preview_file\x2efish\x1e/home/vhyrro/\x2econfig/fish/functions/__fzf_report_file_type\x2efish\x1e/home/vhyrro/\x2econfig/fish/functions/__fzf_search_current_dir\x2efish\x1e/home/vhyrro/\x2econfig/fish/functions/__fzf_search_git_log\x2efish\x1e/home/vhyrro/\x2econfig/fish/functions/__fzf_search_git_status\x2efish\x1e/home/vhyrro/\x2econfig/fish/functions/__fzf_search_history\x2efish\x1e/home/vhyrro/\x2econfig/fish/functions/__fzf_search_shell_variables\x2efish\x1e/home/vhyrro/\x2econfig/fish/conf\x2ed/fzf\x2efish
 SETUVAR _fisher_jethrokuan_2F_z_files:/home/vhyrro/\x2econfig/fish/functions/__z\x2efish\x1e/home/vhyrro/\x2econfig/fish/functions/__z_add\x2efish\x1e/home/vhyrro/\x2econfig/fish/functions/__z_clean\x2efish\x1e/home/vhyrro/\x2econfig/fish/functions/__z_complete\x2efish\x1e/home/vhyrro/\x2econfig/fish/conf\x2ed/z\x2efish
 SETUVAR _fisher_jorgebucaran_2F_autopair_2E_fish_files:/home/vhyrro/\x2econfig/fish/functions/_autopair_backspace\x2efish\x1e/home/vhyrro/\x2econfig/fish/functions/_autopair_insert_left\x2efish\x1e/home/vhyrro/\x2econfig/fish/functions/_autopair_insert_right\x2efish\x1e/home/vhyrro/\x2econfig/fish/functions/_autopair_insert_same\x2efish\x1e/home/vhyrro/\x2econfig/fish/functions/_autopair_tab\x2efish\x1e/home/vhyrro/\x2econfig/fish/conf\x2ed/autopair\x2efish
-SETUVAR _fisher_jorgebucaran_2F_bax_2E_fish_files:/home/vhyrro/\x2econfig/fish/functions/bax\x2efish\x1e/home/vhyrro/\x2econfig/fish/functions/replay\x2efish\x1e/home/vhyrro/\x2econfig/fish/completions/replay\x2efish
+SETUVAR _fisher_jorgebucaran_2F_bax_2E_fish_files:/home/vhyrro/\x2econfig/fish/functions/replay\x2efish\x1e/home/vhyrro/\x2econfig/fish/completions/replay\x2efish
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:/home/vhyrro/\x2econfig/fish/functions/fisher\x2efish\x1e/home/vhyrro/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_jorgebucaran_2F_getopts_2E_fish_files:/home/vhyrro/\x2econfig/fish/functions/getopts\x2efish
 SETUVAR _fisher_jorgebucaran_2F_gitio_2E_fish_files:/home/vhyrro/\x2econfig/fish/functions/gitio\x2efish\x1e/home/vhyrro/\x2econfig/fish/completions/gitio\x2efish

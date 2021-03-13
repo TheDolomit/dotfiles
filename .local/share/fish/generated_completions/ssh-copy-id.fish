@@ -3,6 +3,7 @@
 complete -c ssh-copy-id -s i --description 'Use only the key(s) contained in identity_file (rather than looking for ident…'
 complete -c ssh-copy-id -s f --description 'Forced mode: doesn\'t check if the keys are present on the remote server.'
 complete -c ssh-copy-id -s n --description 'do a dry-run.'
+complete -c ssh-copy-id -s s --description 'SFTP mode: usually the public keys are installed by executing commands on the…'
 complete -c ssh-copy-id -s h --description 'Print Usage summary.'
 complete -c ssh-copy-id -s p --description 'These two options are simply passed through untouched, along with their argum…'
 
