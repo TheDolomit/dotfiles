@@ -380,3 +380,28 @@
 13:46:29.836311 table@remove removed @82
 13:46:29.836329 table@remove removed @79
 13:46:29.836357 table@remove removed @78
+20:45:08.130697 db@close closing
+20:45:08.130783 db@close done T·85.932µs
+=============== Mar 14, 2021 (CET) ===============
+09:52:22.883945 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:52:22.884886 version@stat F·[0 1] S·3KiB[0B 3KiB] Sc·[0.00 0.00]
+09:52:22.884904 db@open opening
+09:52:22.884958 journal@recovery F·1
+09:52:22.885570 journal@recovery recovering @89
+09:52:22.892744 memdb@flush created L0@92 N·7 S·239B "\x04ld..can,v24742":"\x04ld..can,v24736"
+09:52:22.893024 version@stat F·[1 1] S·3KiB[239B 3KiB] Sc·[0.25 0.00]
+09:52:22.898891 db@janitor F·5 G·1
+09:52:22.898900 db@janitor removing table-88
+09:52:22.898934 db@open done T·14.024258ms
+09:53:24.115462 memdb@flush N·1 S·43B
+09:53:24.116739 memdb@flush created L0@96 N·1 S·149B "\x04ld..can,v24744":"\x04ld..can,v24744"
+09:53:24.116787 version@stat F·[2 1] S·3KiB[388B 3KiB] Sc·[0.50 0.00]
+09:53:24.117750 memdb@flush committed F·1 T·2.221861ms
+09:53:24.117816 journal@remove removed @93
+09:53:24.117843 table@compaction range L-1 "":""
+09:53:24.117872 table@compaction L0·2 -> L1·1 S·3KiB Q·24744
+09:53:24.119250 table@build created L1@97 N·91 S·3KiB "\x00\x00\x00..mp4,v13403":"\x0e\x00\x00..mp3,v23837"
+09:53:24.119309 version@stat F·[0 1] S·3KiB[0B 3KiB] Sc·[0.00 0.00]
+09:53:24.120294 table@compaction committed F-2 S-388B Ke·0 D·8 T·2.400422ms
+09:53:24.120399 table@remove removed @96
+09:53:24.120441 table@remove removed @91

@@ -33,6 +33,7 @@ megatools-bin
 minecraft-launcher
 mingw-w64-tools
 neovim-gruvbox-material-git
+neovim-nightly-bin
 nestopia
 nodejs-less
 nordvpn-bin

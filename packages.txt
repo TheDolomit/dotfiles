@@ -195,7 +195,6 @@ gdbm
 gdk-pixbuf2
 geeqie
 gendesk
-genius
 gettext
 ghc-libs
 ghostscript
@@ -1064,7 +1063,6 @@ ndctl
 neofetch
 neomutt
 neon
-neovim
 neovim-qt
 nethogs
 netpbm

@@ -114,7 +114,7 @@ set encoding=utf-8
 scriptencoding utf-8
 
 set mouse=a
-set mousefocus=true
+set mousefocus
 set number
 
 " Start scrolling when we are 5 lines away from margins
