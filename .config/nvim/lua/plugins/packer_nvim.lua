@@ -23,7 +23,13 @@ require('plugins.configs.startify')
 require('plugins.configs.gruvbox-material')
 require('plugins.configs.neogit')
 require('plugins.configs.presence_nvim')
-require('plugins.configs.neuron_nvim')
+require('plugins.configs.notoire')
+require('plugins.configs.telescope_nvim')
+require('plugins.configs.autopairs')
+require('plugins.configs.toggleterm')
+require('plugins.configs.barbar')
+require('plugins.configs.peekup')
+require('plugins.configs.suda')
 
 -- Set up packer and load all the plugins
 

@@ -2,6 +2,8 @@
 /home/vhyrro/Fleur/bin/Release/netcoreapp2.1|2|1613648971
 /home/vhyrro/coreutils-8.32/src|1|1611248301
 /home/vhyrro/Downloads/Among.Us.v2020.12.9s.Incl.Pets/Among Us/Among Us_Data|2|1613031262
+/home/vhyrro/.retro-games|2|1616160509
+/etc/default|3|1616172279
 /home/vhyrro/dev/SRH/docs/manuals/cpcwiki_backup|2|1615192830
 /home/vhyrro/Music/Neovaii/In Time|1|1615188387
 /home/vhyrro/.local/share/nvim/plugged/vim-repeat|1|1614019973
@@ -18,6 +20,7 @@
 /home/vhyrro/Downloads/Binds/Memes|1|1613981179
 /home/vhyrro/Downloads/Among.Us.v2020.12.9s.Incl.Pets|2|1613031351
 /home/vhyrro/.wine|1|1613245340
+/home/vhyrro/.config/ttrv|1|1616000505
 /home/vhyrro/dev/elektronik_mythology|1|1615628501
 /mnt/fs2/Users/thedo/AppData|3|1610723565
 /home/vhyrro/dev/C++/PDSTo6502/src/cmake-build-Release|1|1614593991
@@ -29,174 +32,184 @@
 /mnt/usb1/System Volume Information|1|1611585511
 /home/vhyrro/dev/C++/PDSTo6502/cmake-build-RelWithDebInfo|1|1614593834
 /home/vhyrro/Downloads/Ableton Live Suite 10.1.30/Crack|3|1611687031
-/home/vhyrro/Games|21|1615734580
+/home/vhyrro/Games|27|1615983725
 /home/vhyrro/dev/NES/external_projects/concentration_room/src|1|1614672311
 /opt/qbthemes|1|1611517250
-/home/vhyrro/Sync|1|1614962820
 /home/vhyrro/.wine/drive_c/Program Files|1|1613245351
-/home/vhyrro/.wine/drive_c|1|1613245344
-/home/vhyrro/.config/nvim/lua/keybinds|6|1615742809
+/home/vhyrro/Sync|1|1614962820
 /home/vhyrro/www.cpcwiki.eu/resources/assets|1|1615190562
-/home/vhyrro/.config/nvim/lua|15|1615742114
+/home/vhyrro/.config/nvim/lua/keybinds|10|1615980929
+/home/vhyrro/.wine/drive_c|1|1613245344
 /home/vhyrro/Downloads/PaplePapePlease.v1.1.67-S/PapePlease.v1.1.67-S|2|1613039603
-/mnt|5|1611321504
+/home/vhyrro/.config/nvim/lua|15|1615742114
 /home/vhyrro/dev/SRH/Source|15|1615449264
+/mnt|5|1611321504
 /home/vhyrro/.config/fish/functions|3|1613227025
-/mnt/fs2/Users/thedo|1|1610723565
-/home/vhyrro/d|1|1613415732
-/home/vhyrro/.config/fontconfig|1|1614096563
+/home/vhyrro/dev/NES|12|1616160495
 /mnt/fs2/Users/thedo/AppData/Roaming|2|1610723564
-/home/vhyrro/dev/NES|11|1615027137
+/home/vhyrro/.config/fontconfig|1|1614096563
+/home/vhyrro/d|1|1613415732
+/mnt/fs2/Users/thedo|1|1610723565
 /home/vhyrro/.config/rofi/scripts|16|1610646333
 /home/vhyrro/.config/nvim.old|1|1615739505
 /home/vhyrro/.config/nvim/lua/colourscheme|4|1615715370
-/home/vhyrro/Games/Celeste/Celeste Farewell|6|1614369084
 /home/vhyrro/.mozilla/firefox|2|1610648459
-/home/vhyrro/dev/stupid alinka|4|1612289103
+/home/vhyrro/Games/Celeste/Celeste Farewell|6|1614369084
 /home/vhyrro/Games/noe|1|1615363389
-/home/vhyrro/dev/SRH/docs/manuals/cpcwiki_backup/www.cpcwiki.eu/index.php|1|1615192799
-/home/vhyrro/Music/Neovaii/Onward|2|1614840599
+/home/vhyrro/dev/stupid alinka|4|1612289103
 /home/vhyrro/Downloads/Binds/Obecnosc|2|1613219999
+/home/vhyrro/Music/Neovaii/Onward|2|1614840599
+/home/vhyrro/dev/SRH/docs/manuals/cpcwiki_backup/www.cpcwiki.eu/index.php|1|1615192799
 /home/vhyrro/alinka|2|1612284822
-/home/vhyrro/dev/SRH/docs/content/lua_scripts|1|1615576123
 /home/vhyrro/dev|12|1615628443
+/home/vhyrro/dev/SRH/docs/content/lua_scripts|1|1615576123
 /home/vhyrro/.gd|1|1614519664
-/home/vhyrro/Fleur|4|1613649013
-/home/vhyrro/.unity-editors|1|1611926799
+/home/vhyrro/betlej_to_debil|4|1616072714
 /home/vhyrro/www.cpcwiki.eu/skins|1|1615190923
+/home/vhyrro/.unity-editors|1|1611926799
+/home/vhyrro/Fleur|4|1613649013
 /home/vhyrro/Downloads/Celeste.v1.3.1.2/Celeste Farewell|1|1613066862
-/home/vhyrro/vimwiki/SRH|1|1614797563
-/home/vhyrro/Downloads/Image-Line - FL Studio Producer Edition + Signature Bundle v20.7.2.1863|1|1613244816
-/home/vhyrro/Downloads/gruvbox-master/src|1|1613229268
 /home/vhyrro/.wine/drive_c/Program Files/Image-Line|1|1613245354
+/home/vhyrro/Downloads/gruvbox-master/src|1|1613229268
+/home/vhyrro/Downloads/Image-Line - FL Studio Producer Edition + Signature Bundle v20.7.2.1863|1|1613244816
+/home/vhyrro/vimwiki/SRH|1|1614797563
 /home/vhyrro/Fleur/bin/Release|3|1613649012
 /home/vhyrro/Downloads/Binds/Jachec|1|1613995469
+/home/vhyrro/.retro-games/SuperMarioUnlimitedDeluxe/SuperMarioUnlimitedDeluxe-2.3|1|1616160476
 /mnt/fs1|7|1610730619
-/home/vhyrro/Downloads/TB_IP1_Pliki_cwiczeniowe_Temat C4/Python|2|1613412142
 /mnt/fs2|2|1610730615
+/home/vhyrro/Downloads/TB_IP1_Pliki_cwiczeniowe_Temat C4/Python|2|1613412142
 /mnt/fs3|1|1610730543
-/home/vhyrro/Desktop|3|1614241487
 /home/vhyrro/.local/share/z|1|1610214546
+/home/vhyrro/Desktop|3|1614241487
 /home/vhyrro/.local/share/nvim/plugged|11|1614704356
 /home/vhyrro/Fleur/bin/Debug/netcoreapp2.1|1|1613648760
 /mnt/fs2/Users/thedo/AppData/Roaming/BetterDiscord|1|1610723630
 /home/vhyrro/dev/python/foralinka|1|1613413067
-/home/vhyrro/.local/share/nvim/plugged/gruvbox-material/autoload|1|1614019982
 /home/vhyrro/dev/NES/pong|3|1614887663
-/|3|1614456952
+/home/vhyrro/.local/share/nvim/plugged/gruvbox-material/autoload|1|1614019982
 /home/vhyrro/alinks|1|1612282856
-/home/vhyrro/Games/Phasmophobia.v0.25.5|9|1615646668
-/home/vhyrro/.config/picom|3|1610454000
+/|3|1614456952
+/home/vhyrro/Games/Phasmophobia.v0.25.5|12|1615983724
+/home/vhyrro/.config/nvim/lua/plugins|60|1616172239
 /home/vhyrro/Downloads/packettracer/packettracer|1|1614246465
-/home/vhyrro/.config/nvim/lua/plugins|28|1615745139
-/home/vhyrro/dev/SRH/docs/content|4|1615581843
-/home/vhyrro/dev/SRH/docs/game/Qua|1|1614974164
-/home/vhyrro/.wine/drive_c/Program Files/Image-Line/FL Studio 20|1|1613245359
-/home/vhyrro/.config/com.github.babluboy.nutty|1|1614427397
-/home/vhyrro/.config|27|1614767836
+/home/vhyrro/.config/picom|3|1610454000
+/home/vhyrro/.config|29|1616151830
 /home/vhyrro/dev/SRH/docs/game|5|1615574356
+/home/vhyrro/.config/com.github.babluboy.nutty|1|1614427397
+/home/vhyrro/.wine/drive_c/Program Files/Image-Line/FL Studio 20|1|1613245359
+/home/vhyrro/dev/SRH/docs/game/Qua|1|1614974164
+/home/vhyrro/dev/SRH/docs/content|4|1615581843
 /home/vhyrro/sync/FileSync|10|1615191298
-/home/vhyrro/.config/fish/completions|1|1610211360
-/mnt/fs2/Users/thedo/AppData/Local/Zerebos|1|1610723518
 /home/vhyrro/dev/C++/PDSTo6502|9|1614594214
-/home/vhyrro/.config/nvim|24|1615737623
+/mnt/fs2/Users/thedo/AppData/Local/Zerebos|1|1610723518
+/home/vhyrro/.config/fish/completions|1|1610211360
+/home/vhyrro/.config/nvim|25|1615803980
 /home/vhyrro/dev/SRH/rewrite|6|1615573222
-/home/vhyrro/www.cpcwiki.eu|5|1615192507
-/home/vhyrro/.config/fontconfig/conf.d|1|1614096569
-/home/vhyrro/TAS|5|1612377430
 /mnt/fs2/Users/thedo/AppData/Roaming/Discord|1|1610723547
-/home/vhyrro/Games/Just.Shapes.&.Beats.v1.4.12|4|1615733210
+/home/vhyrro/TAS|5|1612377430
+/home/vhyrro/.config/fontconfig/conf.d|1|1614096569
+/home/vhyrro/www.cpcwiki.eu|5|1615192507
 /home/vhyrro/BizHawk_master/output|1|1613990865
+/home/vhyrro/Games/Just.Shapes.&.Beats.v1.4.12|4|1615733210
 /home/vhyrro/Fleur/bin|5|1613649012
 /mnt/Users/thedo/Desktop|1|1610648694
 /home/vhyrro/Games/Just.Shapes.&.Beats.v1.4.12/Just.Shapes.&.Beats.v1.4.12|2|1615732677
-/home/vhyrro/dev/NES/learning/yychr20200119|2|1614699571
 /home/vhyrro/sync/FileSync/.stfolder|1|1614944114
-/home/vhyrro/.themes|2|1610214974
+/home/vhyrro/dev/NES/learning/yychr20200119|2|1614699571
 /home/vhyrro/bizhawk|2|1613991505
+/home/vhyrro/.themes|2|1610214974
 /home/vhyrro/Downloads/Celeste.v1.3.1.2|2|1613068187
-/home/vhyrro/dev/NES/external_projects|3|1614974132
-/home/vhyrro/Downloads/Binds/Oleksin|1|1614329532
 /home/vhyrro/vimwiki/school/homework|4|1615718483
+/home/vhyrro/Downloads/Binds/Oleksin|1|1614329532
+/home/vhyrro/dev/NES/external_projects|3|1614974132
 /home/vhyrro/coreutils-8.32|1|1611247983
-/home/vhyrro/YouCompleteMe|1|1613763359
 /mnt/fs1/Retro Games|3|1610724083
-/home/vhyrro/.config/bat/themes|1|1613229567
-/home/vhyrro/.config/BetterDiscord/plugins|3|1611682488
+/home/vhyrro/YouCompleteMe|1|1613763359
+/home/vhyrro/betlej_to_debil/betlej|1|1616072701
 /home/vhyrro/dev/SRH/docs/manuals/cpcwiki_backup/www.cpcwiki.eu|2|1615192830
+/home/vhyrro/.config/BetterDiscord/plugins|3|1611682488
+/home/vhyrro/.config/bat/themes|1|1613229567
 /home/vhyrro/.config/nvim/plugins|4|1615714590
 /home/vhyrro/dev/SRH/docs|26|1615581845
 /home|7|1614457114
-/home/vhyrro/emotees|1|1612259818
 /home/vhyrro/.mozilla|1|1610647370
+/home/vhyrro/emotees|1|1612259818
 /home/vhyrro/www.cpcwiki.eu/resources|2|1615190565
-/home/vhyrro/.config/nvim/lua/plugins/startify|1|1615720992
-/home/vhyrro/.local/share/nvim/plugged/gruvbox-material|2|1614019978
 /home/vhyrro/.local/share/fish|1|1610211388
-/opt|3|1614331020
+/home/vhyrro/.local/share/nvim/plugged/gruvbox-material|2|1614019978
+/home/vhyrro/.config/nvim/lua/plugins/startify|1|1615720992
 /home/vhyrro/.themes/oomox-gruvbox-dark|1|1610214688
-/home/vhyrro/Downloads/Telegram Desktop/tymek|1|1615455103
+/opt|3|1614331020
+/home/vhyrro/Games/Danganronpa|2|1615798282
 /home/vhyrro/Music/Neovaii/Dawn|2|1615274432
+/home/vhyrro/Downloads/Telegram Desktop/tymek|1|1615455103
 /home/vhyrro/vimwiki|1|1614797570
-/home/vhyrro/.config/fish/conf.d|2|1614457005
-/home/vhyrro/Downloads/Binds|11|1615227725
+/home/vhyrro/.config/fish/conf.d|3|1616000962
 /home/vhyrro/decpac|1|1610110922
-/mnt/fs2/Users/thedo/AppData/Local|2|1610723520
+/home/vhyrro/Downloads/Binds|11|1615227725
+/home/vhyrro/Downloads/nerd-fonts-complete|1|1616165385
 /home/vhyrro/Music|5|1614926764
-/home/vhyrro/.config/nvim/lua/plugins/configs|27|1615745231
-/home/vhyrro/dev/SRH/pds_src|3|1615641736
+/mnt/fs2/Users/thedo/AppData/Local|2|1610723520
+/home/vhyrro/.config/nvim/lua/plugins/configs|60|1616061937
 /home/vhyrro/Downloads/packettracer|1|1614246458
+/home/vhyrro/dev/SRH/pds_src|3|1615641736
 /home/vhyrro/dev/C++|2|1614602222
-/home/vhyrro/Games/Phasmophobia.v0.25.5/Phasmophobia.v0.25.5|6|1615646621
-/home/vhyrro/.local/share/nvim/plugged/python-mode|1|1614249083
-/mnt/usb1|9|1611585596
+/home/vhyrro/Games/Phasmophobia.v0.25.5/Phasmophobia.v0.25.5|8|1615983572
+/home/vhyrro/notes|2|1615819034
 /home/vhyrro/.config/rofi|8|1610646331
-/mnt/usb2|1|1610654708
-/home/vhyrro/.config/fish|14|1614457111
+/mnt/usb1|9|1611585596
+/home/vhyrro/.local/share/nvim/plugged/python-mode|1|1614249083
+/home/vhyrro/.config/fish|15|1616000932
 /home/vhyrro/Documents|3|1615057467
+/mnt/usb2|1|1610654708
 /home/vhyrro/Music/Neovaii/Horizon|2|1615197825
-/home/vhyrro/Downloads|68|1615455168
-/home/vhyrro/Downloads/Telegram Desktop|12|1615455105
 /home/vhyrro/dev/SRH/pds_src/src|1|1615641732
+/home/vhyrro/Downloads/Telegram Desktop|12|1615455105
+/home/vhyrro/Downloads|73|1616169784
 /mnt/Users/thedo|1|1610648683
 /home/vhyrro/dev/SRH/.git|1|1615641766
-/home/vhyrro/Games/FridayNightFunkin|12|1615733262
-/mnt/fs2/Users/thedo/AppData/Roaming/BetterDiscord/plugins|1|1610723628
-/home/vhyrro/Downloads/Boris.and.the.Dark.Survival/Boris.and.the.Dark.Survival|3|1613145293
 /home/vhyrro/Downloads/Ableton Live Suite 10.1.30|11|1614274742
+/home/vhyrro/Downloads/Boris.and.the.Dark.Survival/Boris.and.the.Dark.Survival|3|1613145293
+/mnt/fs2/Users/thedo/AppData/Roaming/BetterDiscord/plugins|1|1610723628
+/home/vhyrro/Games/FridayNightFunkin|15|1615983728
+/home/vhyrro/Games/Danganronpa/Danganronpa.Trigger.Happy.Havoc/Danganronpa.Trigger.Happy.Havoc|2|1615799970
 /home/vhyrro/dev/SRH/pds|1|1615140629
-/home/vhyrro/dev/C++/PDSTo6502/src|7|1614594154
 /home/vhyrro/Music/Neovaii/Closure|1|1614926772
-/home/vhyrro/lightdm-webkit-archlinux-theme|1|1609679746
+/home/vhyrro/dev/C++/PDSTo6502/src|7|1614594154
 /mnt/Users|1|1610648680
-/home/vhyrro/www.cpcwiki.eu/imgs/4/41|1|1615192518
+/home/vhyrro/lightdm-webkit-archlinux-theme|1|1609679746
 /home/vhyrro/dev/NES/external_projects/concentration_room|2|1614678801
+/home/vhyrro/www.cpcwiki.eu/imgs/4/41|1|1615192518
 /home/vhyrro/SRHSource|2|1610731128
 /home/vhyrro/Downloads/Among.Us.v2020.12.9s.Incl.Pets/Among Us|2|1613031356
 /home/vhyrro/Games/Phasmophobia.v0.25.5/_Redist|1|1615368397
-/home/vhyrro/dev/SRH/docs/www.cpcwiki.eu|2|1615145016
-/mnt/fs2/Users|1|1610723568
 /home/vhyrro/dev/SRH/docs/manuals|6|1615576260
-/home/vhyrro/Downloads/Little Nightmares II [FitGirl Repack]|1|1613051274
+/mnt/fs2/Users|1|1610723568
+/home/vhyrro/dev/SRH/docs/www.cpcwiki.eu|2|1615145016
 /tmp/mozilla_vhyrro0|1|1612438234
+/home/vhyrro/Downloads/Little Nightmares II [FitGirl Repack]|1|1613051274
 /home/vhyrro/Fleur/bin/Debug|2|1613648803
-/home/vhyrro/dla_alinki|10|1615449217
-/home/vhyrro/Downloads/TB_IP1_Pliki_cwiczeniowe_Temat C4/C++|1|1613412031
-/home/vhyrro/pacboy-2016|1|1610053796
+/home/vhyrro/dla_alinki|18|1615966646
 /home/vhyrro/.config/nvim/plugin|1|1615737620
+/home/vhyrro/pacboy-2016|1|1610053796
+/home/vhyrro/Downloads/TB_IP1_Pliki_cwiczeniowe_Temat C4/C++|1|1613412031
+/home/vhyrro/.retro-games/Nintendo/NES Games/M/Ma|1|1616160540
+/home/vhyrro/.retro-games/SuperMarioUnlimitedDeluxe|1|1616160473
+/home/vhyrro/Music/Neovaii|10|1616137400
 /home/vhyrro/.emacs.d|3|1612542120
-/home/vhyrro/Music/Neovaii|8|1615274336
 /home/vhyrro/dev/NES/learning|10|1615027141
-/home/vhyrro/Games/SaikoNoSutoka/Saikonosutokalinux201|1|1615283557
-/home/vhyrro/.local|3|1610647310
 /home/vhyrro/Games/SaikoNoSutoka|1|1615283554
+/home/vhyrro/.local|3|1610647310
+/home/vhyrro/Games/SaikoNoSutoka/Saikonosutokalinux201|1|1615283557
 /home/vhyrro/.config/polybar|1|1610372427
-/home/vhyrro/.wine/drive_c/Program Files (x86)/DODI-Repacks/Little Nightmares II/Helios/Binaries/Win64|2|1613245319
 /home/vhyrro/Downloads/Ableton Live Suite 10.1.30/Crack/Keygen by R2R|2|1611686768
+/home/vhyrro/.wine/drive_c/Program Files (x86)/DODI-Repacks/Little Nightmares II/Helios/Binaries/Win64|2|1613245319
 /home/vhyrro/Downloads/PaplePapePlease.v1.1.67-S|2|1613039602
+/home/vhyrro/Games/Danganronpa/Danganronpa.Trigger.Happy.Havoc|2|1615798282
 /home/vhyrro/www.cpcwiki.eu/imgs|2|1615192510
 /home/vhyrro/Downloads/Boris.and.the.Dark.Survival|4|1613145907
-/home/vhyrro/BizHawk_master|2|1613991455
-/opt/SRHSource/src|1|1611495825
-/home/vhyrro/.local/share|3|1610647315
 /opt/SRHSource|1|1611495816
+/home/vhyrro/.local/share|3|1610647315
+/opt/SRHSource/src|1|1611495825
+/home/vhyrro/BizHawk_master|2|1613991455

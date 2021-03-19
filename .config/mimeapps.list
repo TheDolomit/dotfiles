@@ -2,6 +2,8 @@
 x-scheme-handler/msteams=teams.desktop
 x-scheme-handler/tg=userapp-Telegram Desktop-E7RRX0.desktop
 image/png=org.kde.krita.desktop
+x-scheme-handler/quaver=Quaver-scheme-handler.desktop
+x-scheme-handler/discord-376180410490552320=discord-376180410490552320.desktop
 
 [Added Associations]
 application/javascript=freeoffice-textmaker.desktop;

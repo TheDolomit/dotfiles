@@ -11,14 +11,14 @@ bullshit
 cc65-git
 cef-minimal
 comgr
-dotnet-host-bin
-dotnet-runtime-bin
-dotnet-sdk-bin
+dotnet-host-preview
+dotnet-runtime-preview
 dotnet-targeting-pack-bin
 drive
 droidcam
 fim
 firefox-tridactyl-native
+flips-git
 gconf
 hollywood
 hsakmt-roct
@@ -34,6 +34,7 @@ minecraft-launcher
 mingw-w64-tools
 neovim-gruvbox-material-git
 neovim-nightly-bin
+nerd-fonts-complete
 nestopia
 nodejs-less
 nordvpn-bin

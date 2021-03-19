@@ -32,6 +32,10 @@ local function try_loadstring(s, component, name)
 end
 
 _G.packer_plugins = {
+  ["barbar.nvim"] = {
+    loaded = true,
+    path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/barbar.nvim"
+  },
   ["gruvbox-material"] = {
     loaded = true,
     path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/gruvbox-material"
@@ -40,34 +44,42 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/neogit"
   },
-  ["neuron.nvim"] = {
+  notoire = {
     loaded = true,
-    path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/neuron.nvim"
+    path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/notoire"
+  },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
+  },
+  ["nvim-peekup"] = {
+    loaded = true,
+    path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/nvim-peekup"
+  },
+  ["nvim-toggleterm.lua"] = {
+    loaded = true,
+    path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/nvim-toggleterm.lua"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = false,
     needs_bufread = false,
     path = "/home/vhyrro/.local/share/nvim/site/pack/packer/opt/packer.nvim"
   },
-  ["plenary.nvim"] = {
-    loaded = true,
-    path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/plenary.nvim"
-  },
-  ["popup.nvim"] = {
-    loaded = true,
-    path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/popup.nvim"
-  },
   ["presence.nvim"] = {
     loaded = true,
     path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/presence.nvim"
   },
+  ["suda.vim"] = {
+    loaded = true,
+    path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/suda.vim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/telescope.nvim"
-  },
-  ["vim-devicons"] = {
-    loaded = true,
-    path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/vim-devicons"
   },
   ["vim-startify"] = {
     loaded = true,

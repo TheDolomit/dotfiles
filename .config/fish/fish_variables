@@ -5,10 +5,11 @@ SETUVAR --export BROWSER:/usr/bin/librewolf
 SETUVAR --export GITHUB_FILES:\x2elocal\x20\x2econfig\x20\x2exprofile\x20pacman_package_list\x2epacks
 SETUVAR --export MANPAGER:sh\x20\x2dc\x20\x27col\x20\x2dbx\x20\x7c\x20bat\x20\x2dl\x20man\x20\x2dp\x27
 SETUVAR --export MANROFFOPT:\x2dc
-SETUVAR --export --path PATH:/usr/local/bin\x1e/usr/bin\x1e/bin\x1e/usr/local/sbin\x1e/usr/lib/jvm/default/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl\x20/home/vhyrro/\x2elocal/bin\x20/home/vhyrro/\x2elocal/bin
+SETUVAR --export --path PATH:/usr/local/bin\x1e/usr/bin\x1e/bin\x1e/usr/local/sbin\x1e/usr/lib/jvm/default/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl\x1e\x7e/\x2elocal/bin
 SETUVAR SXHKD_SHELL:/usr/bin/bash
 SETUVAR --export TESSDATA_PREFIX:/usr/share/tessdata
 SETUVAR --export TTRV_BROWSER:sxiv
+SETUVAR --export TTRV_EDITOR:nvim
 SETUVAR --export WINEARCH:win64
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
@@ -73,4 +74,5 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:yellow\x1e\x2d\x2ddim
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_user_paths:/home/vhyrro/\x2elocal/bin
 SETUVAR grc_plugin_execs:cvs\x1edf\x1ediff\x1edig\x1egcc\x1eg\x2b\x2b\x1eifconfig\x1emake\x1emount\x1emtr\x1enetstat\x1eping\x1eps\x1etail\x1etraceroute\x1ewdiff\x1eblkid\x1edu\x1ednf\x1edocker\x1edocker\x2dmachine\x1eenv\x1eid\x1eip\x1eiostat\x1elast\x1elsattr\x1elsblk\x1elspci\x1elsmod\x1elsof\x1egetfacl\x1egetsebool\x1eulimit\x1euptime\x1enmap\x1efdisk\x1efindmnt\x1efree\x1esemanage\x1esar\x1ess\x1esysctl\x1esystemctl\x1estat\x1eshowmount\x1etcpdump\x1etune2fs\x1evmstat\x1ew\x1ewho

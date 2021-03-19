@@ -1,5 +1,5 @@
 -- Set the leader to space
-vim.g.mapleader = ' '
+-- vim.g.mapleader = ',' causes problems for some reason
 
 -- General configuration
 vim.o.termguicolors = true

@@ -113,6 +113,7 @@ dav1d
 db
 dbus
 dbus-glib
+dbus-python
 dconf
 dconf-editor
 desktop-file-utils
@@ -132,7 +133,9 @@ docker
 doge
 dosbox
 dosfstools
-dotnet-runtime
+dotnet-runtime-3.1
+dotnet-sdk-3.1
+dotnet-targeting-pack-3.1
 double-conversion
 dtc
 e2fsprogs
@@ -329,6 +332,7 @@ haskell-errors
 haskell-file-embed
 haskell-glob
 haskell-haddock-library
+haskell-haddock-library1.9
 haskell-hashable
 haskell-hourglass
 haskell-hslua
@@ -932,6 +936,7 @@ libvpx1.3
 libvterm
 libwacom
 libwebp
+libwnck3
 libwpd
 libwpe
 libwpg
@@ -964,6 +969,7 @@ libxmu
 libxpm
 libxrandr
 libxrender
+libxres
 libxshmfence
 libxslt
 libxss
@@ -1238,13 +1244,13 @@ python-contextlib2
 python-coverage
 python-cryptography
 python-daemonize
-python-dbus
-python-dbus-common
 python-decorator
 python-distlib
 python-distro
 python-distutils-extra
+python-dnspython
 python-docopt
+python-docstring-to-markdown
 python-docutils
 python-evdev
 python-filelock
@@ -1287,6 +1293,7 @@ python-psutil
 python-py
 python-pycosat
 python-pycparser
+python-pydantic
 python-pydbus
 python-pygls
 python-pygments
@@ -1325,6 +1332,7 @@ python-sphinxcontrib-serializinghtml
 python-termcolor
 python-toml
 python-tqdm
+python-typeguard
 python-typing_extensions
 python-urllib3
 python-urwid
@@ -1341,6 +1349,7 @@ python-zope-interface
 python-zstandard
 qbittorrent
 qca
+qemu
 qpdf
 qt5-base
 qt5ct
@@ -1377,6 +1386,7 @@ retroarch-assets-glui
 retroarch-assets-ozone
 retroarch-assets-xmb
 rhash
+ripgrep
 robin-map
 rofi
 rsync
@@ -1497,7 +1507,6 @@ tslib
 ttf-bitstream-vera
 ttf-dejavu
 ttf-liberation
-ttf-nerd-fonts-symbols
 ttf-opensans
 twolame
 tzdata
@@ -1656,6 +1665,7 @@ zbar
 zeitgeist
 zenity
 zeromq
+zimg
 zip
 zita-alsa-pcmi
 zita-convolver
