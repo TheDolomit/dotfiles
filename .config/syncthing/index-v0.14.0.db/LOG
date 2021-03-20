@@ -594,3 +594,53 @@
 07:52:09.242631 table@remove removed @134
 07:52:09.242662 table@remove removed @131
 07:52:09.242693 table@remove removed @130
+20:52:09.008677 memdb@flush N·13 S·551B
+20:52:09.010461 memdb@flush created L0@144 N·13 S·339B "\x04ld..can,v24823":"\nla..ime,v24811"
+20:52:09.010503 version@stat F·[1 1] S·3KiB[339B 3KiB] Sc·[0.25 0.00]
+20:52:09.011699 memdb@flush committed F·1 T·2.963935ms
+20:52:09.011759 journal@remove removed @140
+20:52:09.011784 table@compaction range L-1 "":""
+20:52:09.011804 table@compaction L0·1 -> L1·1 S·3KiB Q·24823
+20:52:09.013646 table@build created L1@145 N·91 S·3KiB "\x00\x00\x00..mp4,v13403":"\x0e\x00\x00..mp3,v23837"
+20:52:09.013678 version@stat F·[0 1] S·3KiB[0B 3KiB] Sc·[0.00 0.00]
+20:52:09.015004 table@compaction committed F-1 S-339B Ke·0 D·13 T·3.183538ms
+20:52:09.015093 table@remove removed @144
+20:52:09.015127 table@remove removed @142
+21:01:26.960264 db@close closing
+21:01:26.960335 db@close done T·70.441µs
+=============== Mar 20, 2021 (CET) ===============
+18:32:57.887779 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:32:57.888621 version@stat F·[0 1] S·3KiB[0B 3KiB] Sc·[0.00 0.00]
+18:32:57.888637 db@open opening
+18:32:57.888697 journal@recovery F·1
+18:32:57.889122 journal@recovery recovering @143
+18:32:57.902521 memdb@flush created L0@146 N·1 S·137B "\nla..ime,v24824":"\nla..ime,v24824"
+18:32:57.902737 version@stat F·[1 1] S·3KiB[137B 3KiB] Sc·[0.25 0.00]
+18:32:57.909675 db@janitor F·5 G·1
+18:32:57.909683 db@janitor removing table-137
+18:32:57.909723 db@open done T·21.080901ms
+18:33:30.344595 db@close closing
+18:33:30.344705 db@close done T·108.48µs
+=============== Mar 20, 2021 (CET) ===============
+18:33:49.779979 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:33:49.780569 version@stat F·[1 1] S·3KiB[137B 3KiB] Sc·[0.25 0.00]
+18:33:49.780582 db@open opening
+18:33:49.780618 journal@recovery F·1
+18:33:49.781071 journal@recovery recovering @147
+18:33:49.787394 memdb@flush created L0@149 N·1 S·149B "\x04ld..can,v24826":"\x04ld..can,v24826"
+18:33:49.787632 version@stat F·[2 1] S·3KiB[286B 3KiB] Sc·[0.50 0.00]
+18:33:49.790405 db@janitor F·5 G·0
+18:33:49.790423 db@open done T·9.835985ms
+18:34:49.796850 memdb@flush N·1 S·43B
+18:34:49.799320 memdb@flush created L0@153 N·1 S·149B "\x04ld..can,v24828":"\x04ld..can,v24828"
+18:34:49.799364 version@stat F·[3 1] S·3KiB[435B 3KiB] Sc·[0.75 0.00]
+18:34:49.800103 memdb@flush committed F·1 T·3.212382ms
+18:34:49.800158 journal@remove removed @150
+18:34:49.800174 table@compaction range L-1 "":""
+18:34:49.800190 table@compaction L0·3 -> L1·1 S·3KiB Q·24828
+18:34:49.801397 table@build created L1@154 N·91 S·3KiB "\x00\x00\x00..mp4,v13403":"\x0e\x00\x00..mp3,v23837"
+18:34:49.801442 version@stat F·[0 1] S·3KiB[0B 3KiB] Sc·[0.00 0.00]
+18:34:49.802426 table@compaction committed F-3 S-435B Ke·0 D·3 T·2.216741ms
+18:34:49.802558 table@remove removed @153
+18:34:49.802602 table@remove removed @146
+18:34:49.802636 table@remove removed @145

@@ -152,6 +152,7 @@ enca
 enchant
 exa
 exempi
+exfat-utils
 exiv2
 expat
 extra-cmake-modules
@@ -336,6 +337,7 @@ haskell-haddock-library1.9
 haskell-hashable
 haskell-hourglass
 haskell-hslua
+haskell-hslua-module-path
 haskell-hslua-module-system
 haskell-hslua-module-text
 haskell-hsyaml
