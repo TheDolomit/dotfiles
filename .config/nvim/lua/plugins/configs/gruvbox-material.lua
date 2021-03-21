@@ -1,5 +1,9 @@
 -- Gruvbox material configuration
 
-table.insert(plugins, { address = "sainnhe/gruvbox-material" })
+function random_func()
+--	vim.g.colors_name = 'gruvbox-material'
+	vim.cmd(":colorscheme gruvbox-material")
+end
 
-vim.g.colors_name = "gruvbox-material"
+table.insert(plugins, { address = "sainnhe/gruvbox-material", config = random_func })
+

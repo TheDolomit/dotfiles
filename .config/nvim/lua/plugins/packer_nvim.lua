@@ -30,6 +30,7 @@ require('plugins.configs.toggleterm')
 require('plugins.configs.barbar')
 require('plugins.configs.peekup')
 require('plugins.configs.suda')
+require('plugins.configs.galaxyline')
 
 -- Set up packer and load all the plugins
 

@@ -27,6 +27,9 @@ alias yay "paru --bottomup"
 alias vim nvim
 alias sudo "doas --"
 
+# Enable searching through hidden directories in fzf.fish
+set fzf_fd_opts --hidden --exclude=.git
+
 function fish_greeting
 
 	# Randomize the greeting message
@@ -36,5 +39,3 @@ function fish_greeting
 	task -PROJECT list
 
 end
-
-
