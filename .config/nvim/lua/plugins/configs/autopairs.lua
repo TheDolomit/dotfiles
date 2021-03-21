@@ -1,5 +1,3 @@
 -- Autopairs configuration for lua
 
-table.insert(plugins, { address = 'windwp/nvim-autopairs' })
-
-require('nvim-autopairs').setup() 
+table.insert(plugins, { address = 'windwp/nvim-autopairs', config = function() require('nvim-autopairs').setup() end })
