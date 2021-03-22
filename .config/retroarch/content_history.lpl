@@ -8,7 +8,7 @@
   "sort_mode": 2,
   "items": [
     {
-      "path": "/home/vhyrro/.retro-games/Nintendo/NES Games/M/Ma/Super Mario Unlimited - Deluxe v2.3.nes",
+      "path": "/home/vhyrro/.retro-games/Nintendo/NES Games/M/Ma/Super Mario Bros Flow 90 lives EZ.nes",
       "label": "",
       "core_path": "/home/vhyrro/.retro-games/quicknes_libretro.so",
       "core_name": "Nintendo - NES / Famicom (QuickNES)",
@@ -16,7 +16,7 @@
       "db_name": ""
     },
     {
-      "path": "/home/vhyrro/.retro-games/Nintendo/NES Games/M/Ma/Super Mario Bros Flow 90 lives EZ.nes",
+      "path": "/home/vhyrro/.retro-games/Nintendo/NES Games/M/Ma/Super Mario Unlimited - Deluxe v2.3.nes",
       "label": "",
       "core_path": "/home/vhyrro/.retro-games/quicknes_libretro.so",
       "core_name": "Nintendo - NES / Famicom (QuickNES)",

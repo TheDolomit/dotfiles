@@ -46,7 +46,7 @@ super + b
 	bizhawk
 
 super + shift + Return
-	fish -c swapkbdlayout	
+	fish -c swapkbdlayout
 #
 # bspwm hotkeys
 #

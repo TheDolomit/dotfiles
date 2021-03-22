@@ -19,18 +19,21 @@ plugin_manager = { name = "packer", supports_packer_table_layout = true }
 vim.cmd [[packadd packer.nvim]]
 
 -- Include all configs
+require('plugins.configs.devicons_nvim')
 require('plugins.configs.startify')
 require('plugins.configs.gruvbox-material')
 require('plugins.configs.neogit')
+require('plugins.configs.firenvim')
 require('plugins.configs.presence_nvim')
-require('plugins.configs.notoire')
+require('plugins.configs.neuron')
 require('plugins.configs.telescope_nvim')
 require('plugins.configs.autopairs')
-require('plugins.configs.toggleterm')
 require('plugins.configs.barbar')
 require('plugins.configs.peekup')
 require('plugins.configs.suda')
 require('plugins.configs.galaxyline')
+require('plugins.configs.tetris')
+require('plugins.configs.dial')
 
 -- Set up packer and load all the plugins
 

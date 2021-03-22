@@ -1,3 +1,4 @@
+vim.api.nvim_set_keymap('n', "<Esc>", ":noh<CR>", { noremap = true, silent = true })
 
-
-vim.api.nvim_set_keymap('n', "<Esc>", ":noh<CR>", {})
+require('keybinds.dial')
+require('keybinds.barbar')

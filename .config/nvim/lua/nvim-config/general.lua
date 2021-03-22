@@ -1,5 +1,5 @@
 -- Set the leader to space
--- vim.g.mapleader = ',' causes problems for some reason
+vim.g.mapleader = ' '
 
 -- General configuration
 vim.o.termguicolors = true
@@ -27,5 +27,3 @@ vim.o.splitright = true
 
 -- Synchronize the system clipboard with neovim's
 vim.o.clipboard = vim.o.clipboard .. 'unnamedplus'
-
--- nnoremap <esc> :noh<CR><esc>
