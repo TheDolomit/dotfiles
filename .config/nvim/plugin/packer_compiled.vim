@@ -58,7 +58,7 @@ _G.packer_plugins = {
     path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/neogit"
   },
   ["neuron.nvim"] = {
-    config = { "\27LJ\2\ni\0\0\4\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\3\0B\1\2\1K\0\1\0\1\0\3\rmappings\1\19virtual_titles\2\15neuron_dir\r~/neuron\nsetup\vneuron\frequire\0" },
+    config = { "\27LJ\2\ni\0\0\4\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\3\0B\1\2\1K\0\1\0\1\0\3\15neuron_dir\r~/neuron\rmappings\1\19virtual_titles\2\nsetup\vneuron\frequire\0" },
     loaded = true,
     path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/neuron.nvim"
   },
@@ -113,11 +113,11 @@ _G.packer_plugins = {
 }
 
 -- Config for: neuron.nvim
-try_loadstring("\27LJ\2\ni\0\0\4\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\3\0B\1\2\1K\0\1\0\1\0\3\rmappings\1\19virtual_titles\2\15neuron_dir\r~/neuron\nsetup\vneuron\frequire\0", "config", "neuron.nvim")
--- Config for: gruvbox-material
-try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0!colorscheme gruvbox-material\bcmd\bvim\0", "config", "gruvbox-material")
+try_loadstring("\27LJ\2\ni\0\0\4\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\3\0B\1\2\1K\0\1\0\1\0\3\15neuron_dir\r~/neuron\rmappings\1\19virtual_titles\2\nsetup\vneuron\frequire\0", "config", "neuron.nvim")
 -- Config for: nvim-autopairs
 try_loadstring("\27LJ\2\n<\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
+-- Config for: gruvbox-material
+try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0!colorscheme gruvbox-material\bcmd\bvim\0", "config", "gruvbox-material")
 
 -- Command lazy-loads
 vim.cmd [[command! -nargs=* -range -bang -complete=file Tetris lua require("packer.load")({'nvim-tetris'}, { cmd = "Tetris", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args> }, _G.packer_plugins)]]
