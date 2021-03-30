@@ -15,3 +15,4 @@ vim.api.nvim_set_keymap('n', "<C-A-l>", ":vertical resize -2<CR>", { silent = tr
 require('keybinds.dial')
 require('keybinds.buffers')
 require('keybinds.telescope')
+require('keybinds.nvim-compe')

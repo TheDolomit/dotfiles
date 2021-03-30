@@ -1,6 +1,6 @@
 -- Barbar keybind configuration
 
-vim.api.nvim_set_keymap('n', "<C-d>", ":BufferClose<CR>", { silent = true })
+vim.api.nvim_set_keymap('n', "<C-c>", ":BufferClose<CR>", { silent = true })
 
 vim.api.nvim_set_keymap('n', "<C-n>", ":BufferNext<CR>", { silent = true })
 vim.api.nvim_set_keymap('n', "<C-p>", ":BufferPrevious<CR>", { silent = true })

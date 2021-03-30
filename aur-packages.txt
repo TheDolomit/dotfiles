@@ -17,9 +17,9 @@ dotnet-targeting-pack-bin
 drive
 droidcam
 fim
-firefox-tridactyl-native
 flips-git
 gconf
+haskell-haddock-library1.9
 hollywood
 hsakmt-roct
 hsa-rocr
@@ -28,6 +28,7 @@ libavresample
 libglademm
 librewolf-bin
 llvm-amdgpu
+lua-language-server-git
 megabasterd-bin
 megatools-bin
 minecraft-launcher
@@ -61,6 +62,7 @@ proton-ge-custom-bin
 protontricks
 pup
 pygtk
+pyright-git
 python2-gobject2
 python3-memoizedb
 python3-xcgf
@@ -97,3 +99,4 @@ vmware-keymaps
 vmware-workstation
 workman-git
 xdman
+xinit-xsession

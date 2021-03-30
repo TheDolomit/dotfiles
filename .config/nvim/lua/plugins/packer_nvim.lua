@@ -34,6 +34,11 @@ require('plugins.configs.suda')
 require('plugins.configs.galaxyline')
 require('plugins.configs.tetris')
 require('plugins.configs.dial')
+require('plugins.configs.treesitter')
+require('plugins.configs.termwrapper')
+
+require('plugins.configs.lsp-config')
+require('plugins.configs.nvim-compe')
 
 -- Set up packer and load all the plugins
 

@@ -51,10 +51,10 @@ sudo mv /tmp/dotfiles/.xprofile /home/$USER/ --force
 sudo mv /tmp/dotfiles/.Xauthority /home/$USER/ --force
 sudo mv /tmp/dotfiles/.Xresources /home/$USER/ --force
 sudo mv /tmp/dotfiles/.dmrc /home/$USER/ --force
-sudo rm -rf /etc/lightdm
-sudo mv /tmp/dotfiles/lightdm /etc/ --force
-sudo mkdir -p /usr/share/lightdm-webkit/themes
-sudo mv /tmp/dotfiles/webkit-themes/arch /usr/share/lightdm-webkit/themes/ --force
+sudo rm -rf /etc/sddm.conf.d
+sudo mv /tmp/dotfiles/dm-config/ /etc/sddm.conf.d --force
+sudo mkdir -p /usr/share/sddm/themes
+sudo mv /tmp/dotfiles/themes/future-dark /usr/share/sddm/themes/ --force
 sudo mv /tmp/dotfiles/.local ~/ --force
 sudo mv /tmp/dotfiles/wallpapers ~/ --force
 sudo mv /tmp/dotfiles/setup.sh ~/
@@ -62,7 +62,7 @@ sudo mv /tmp/dotfiles/setup-chroot.sh ~/
 sudo mv /tmp/dotfiles/add-dotfiles.fish ~/
 chmod +x ~/add-dotfiles.fish
 
-sudo systemctl enable lightdm
+sudo systemctl enable sddm
 
 if [ $(systemd-detect-virt | grep vmware | wc -c) != 0 ]
 then

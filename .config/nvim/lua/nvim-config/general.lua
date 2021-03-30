@@ -27,3 +27,8 @@ vim.o.splitright = true
 
 -- Synchronize the system clipboard with neovim's
 vim.o.clipboard = vim.o.clipboard .. 'unnamedplus'
+
+-- Make sure the statusline is always shown
+vim.g.laststatus = 2
+
+vim.o.shortmess = vim.o.shortmess .. 'c'
