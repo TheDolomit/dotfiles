@@ -1,2 +1,3 @@
 .local/share/z/**
 .local/share/fish/fish_history
+.ssh/**
