@@ -41,9 +41,11 @@ table.insert(plugins, { address = 'neovim/nvim-lspconfig', config = function()
 --	   	end
 	end
 
-	lsp.jedi_language_server.setup { on_attach = on_attach }
-	lsp.rust_analyzer.setup { on_attach = on_attach }
-	lsp.clangd.setup { on_attach = on_attach }
+	local default_servers = { "jedi_language_server", "rust_analyzer", "clangd", "vimls", "bashls", "cmake", "texlab", "tsserver" }
+
+	for _, lsp_server in ipairs(default_servers) do
+		lsp[lsp_server].setup { on_attach = on_attach }
+	end
 
 	lsp.sumneko_lua.setup {
 	  cmd = {"lua-language-server", "-E", "/usr/share/lua-language-server/main.lua"};

@@ -41,6 +41,7 @@ at-spi2-core
 attica
 attr
 audacity
+audiofile
 audit
 autoconf
 autoconf2.13
@@ -83,6 +84,7 @@ cairomm
 calf
 calibre
 cantarell-fonts
+cantata
 caprine
 capstone
 c-ares
@@ -153,12 +155,12 @@ doxygen
 dtc
 dwarffortress
 e2fsprogs
-ebtables
 editorconfig-core-c
 edk2-ovmf
 efibootmgr
 efivar
 electron
+element-desktop
 element-web
 elfutils
 embree
@@ -220,6 +222,7 @@ ghc-libs
 ghostscript
 giflib
 git
+github-cli
 git-lfs
 glew
 glew1.10
@@ -252,6 +255,7 @@ gpgme
 gpm
 gptfdisk
 granite
+grantlee
 graphene
 graphite
 graphviz
@@ -302,6 +306,7 @@ hashcat
 haskell-aeson
 haskell-aeson-pretty
 haskell-ansi-terminal
+haskell-appar
 haskell-asn1-encoding
 haskell-asn1-parse
 haskell-asn1-types
@@ -319,6 +324,7 @@ haskell-blaze-builder
 haskell-blaze-html
 haskell-blaze-markup
 haskell-byteable
+haskell-byteorder
 haskell-case-insensitive
 haskell-cereal
 haskell-citeproc
@@ -368,6 +374,7 @@ haskell-hxt-regex-xmlschema
 haskell-hxt-unicode
 haskell-indexed-traversable
 haskell-integer-logarithms
+haskell-iproute
 haskell-ipynb
 haskell-jira-wiki-markup
 haskell-juicypixels
@@ -497,6 +504,8 @@ kdecoration
 kded
 kdelibs4support
 kdesu
+kdevelop
+kdevelop-php
 kdoctools
 kemoticons
 keyutils
@@ -731,6 +740,7 @@ lib3mf-1
 libabw
 libaec
 libaio
+libao
 libappindicator-gtk3
 libarchive
 libass
@@ -842,6 +852,7 @@ libixion
 libjpeg6-turbo
 libjpeg-turbo
 libkate
+libkomparediff2
 libksba
 libkscreen
 libksysguard
@@ -874,6 +885,7 @@ libmpdclient
 libmpeg2
 libmspub
 libmtp
+libmusicbrainz5
 libmwaw
 libnautilus-extension
 libndp
@@ -938,6 +950,7 @@ libsass
 libseccomp
 libsecret
 libshout
+libsidplayfp
 libsigc++
 libslirp
 libsm
@@ -979,6 +992,7 @@ libutempter
 libutf8proc
 libuv
 libva
+libva-mesa-driver
 libvdpau
 libvirt
 libvirt-glib
@@ -1115,7 +1129,7 @@ mongo-c-driver
 mono
 mono-msbuild
 moreutils
-mozilla-common
+mpd
 mpfr
 mpg123
 mplayer
@@ -1134,7 +1148,6 @@ neovim-qt
 nethogs
 netpbm
 net-snmp
-netstandard-targeting-pack
 nettle
 net-tools
 networkmanager
@@ -1157,6 +1170,7 @@ nuget
 numactl
 nvidia-cg-toolkit
 oath-toolkit
+obs-studio
 ocl-icd
 odt2txt
 oniguruma
@@ -1311,6 +1325,7 @@ python-babel
 python-baron
 python-beaker
 python-beautifulsoup4
+python-bidict
 python-blist
 python-cachecontrol
 python-cachetools
@@ -1339,10 +1354,14 @@ python-dnspython
 python-docopt
 python-docstring-to-markdown
 python-docutils
+python-engineio
 python-evdev
+python-eventlet
 python-feedparser
 python-filelock
 python-filetype
+python-flask
+python-flask-socketio
 python-future
 python-gevent
 python-gobject
@@ -1361,10 +1380,12 @@ python-imagesize
 python-importlib-metadata
 python-iniconfig
 python-isort
+python-itsdangerous
 python-jedi
 python-jinja
 python-jsonschema
 python-kitchen
+python-kivy
 python-lazy-object-proxy
 python-logbook
 python-lxml
@@ -1376,9 +1397,11 @@ python-mccabe
 python-mechanize
 python-mistune
 python-mock
+python-monotonic
 python-more-itertools
 python-msgpack
 python-multidict
+python-mutagen
 python-netifaces
 python-nose
 python-notify2
@@ -1403,6 +1426,7 @@ python-pychm
 python-pycosat
 python-pycparser
 python-pycryptodome
+python-pycryptodomex
 python-pydantic
 python-pydbus
 python-pygls
@@ -1437,6 +1461,7 @@ python-setuptools-scm
 python-sgmllib
 python-six
 python-snowballstemmer
+python-socketio
 python-sortedcontainers
 python-soupsieve
 python-sphinx
@@ -1462,6 +1487,9 @@ python-vcrpy
 python-virtualenv
 python-watchgod
 python-webencodings
+python-websocket-client
+python-websockets
+python-werkzeug
 python-wrapt
 python-xapp
 python-xcffib
@@ -1489,12 +1517,14 @@ qt5-multimedia
 qt5-quickcontrols
 qt5-quickcontrols2
 qt5-script
+qt5-sensors
 qt5-speech
 qt5-svg
 qt5-tools
 qt5-wayland
 qt5-webchannel
 qt5-webengine
+qt5-webkit
 qt5-x11extras
 qtkeychain-qt5
 quazip
@@ -1541,7 +1571,7 @@ ruby-term-ansicolor
 ruby-tins
 runc
 run-parts
-rustup
+rust
 samba
 sane
 sassc
@@ -1624,6 +1654,7 @@ tesseract
 tesseract-data-eng
 tevent
 texinfo
+texlab
 thin-provisioning-tools
 threadweaver
 tinyxml
@@ -1648,6 +1679,7 @@ tzdata
 uchardet
 udisks2
 uget
+umbrello
 unibilium
 unixodbc
 unzip
@@ -1710,6 +1742,7 @@ x265
 xapian-core
 xautomation
 xbitmaps
+xcape
 xcb-proto
 xcb-util
 xcb-util-cursor
@@ -1812,3 +1845,4 @@ zlib
 zstd
 zvbi
 zxing-cpp
+zziplib

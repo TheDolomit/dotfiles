@@ -85,7 +85,7 @@ foreground = ${colours.foreground}
 border-size = 4
 padding-right = 2
 
-tray-position = none
+tray-position = right
 
 modules-left = bspwm powerline_arrow_dark date
 modules-center = 

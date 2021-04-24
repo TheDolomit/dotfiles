@@ -2,6 +2,16 @@
 
 table.insert(plugins, { address = "/home/vhyrro/dev/neorg", config = function()
 
-	require('neorg').setup {}
+	require('neorg').setup {
+
+		load = {
+			["core.neorgcmd"] = {}
+		},
+
+		logger = {
+			use_console = true
+		},
+
+	}
 
 end})

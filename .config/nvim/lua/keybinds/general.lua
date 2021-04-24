@@ -15,8 +15,11 @@ vim.api.nvim_set_keymap('n', "<C-A-l>", ":vertical resize -2<CR>", { silent = tr
 vim.api.nvim_set_keymap('v', ">", ">gv", { noremap = true, silent = true })
 vim.api.nvim_set_keymap('v', "<", "<gv", { noremap = true, silent = true })
 
+vim.api.nvim_set_keymap('n', "Y", "y$", { noremap = true })
+
 require('keybinds.dial')
 require('keybinds.buffers')
 require('keybinds.telescope')
 require('keybinds.nvim-compe')
 require('keybinds.lspsaga')
+require('keybinds.neogit')

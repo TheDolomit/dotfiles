@@ -11,6 +11,14 @@ table.insert(plugins, { address = 'nvim-treesitter/nvim-treesitter', run = ":TSU
 
 		autotag = {
 			enable = true
+		},
+
+		incremental_selection = {
+			enable = true
+		},
+
+		indent = {
+			enable = true
 		}
 	}
 

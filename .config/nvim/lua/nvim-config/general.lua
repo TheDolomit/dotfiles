@@ -10,10 +10,13 @@ vim.o.mouse = 'a'
 vim.o.mousefocus = true
 
 -- Enable line numbers
-vim.wo.number = true 
+vim.wo.number = true
 
 -- Used by vim-whichkey
 vim.o.timeoutlen = 300
+
+-- Update the editor more frequently
+vim.o.updatetime = 100
 
 -- Start scrolling when we are 5 lines away from margins
 vim.o.scrolloff = 5
@@ -31,4 +34,26 @@ vim.o.clipboard = vim.o.clipboard .. 'unnamedplus'
 -- Make sure the statusline is always shown
 vim.g.laststatus = 2
 
+-- Print shorter messages
 vim.o.shortmess = vim.o.shortmess .. 'c'
+
+-- Stop neovim from waiting after escape has been pressed
+vim.o.ttimeoutlen = 5
+
+function on_file_enter()
+	-- Set up indenting
+	vim.bo.expandtab = false
+	vim.bo.copyindent = true
+	vim.bo.shiftwidth = 4
+	vim.bo.tabstop = 4
+	vim.bo.softtabstop = 4
+	vim.bo.autoindent = true
+	vim.bo.smartindent = true
+
+	vim.cmd("norm '\"")
+end
+
+vim.bo.undofile = true
+vim.o.undodir = "/home/vhyrro/.cache/nvim/undo"
+
+vim.cmd [[ autocmd FileType * :lua on_file_enter() ]]
