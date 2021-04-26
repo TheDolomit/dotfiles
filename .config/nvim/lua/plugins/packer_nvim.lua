@@ -20,7 +20,6 @@ vim.cmd [[packadd packer.nvim]]
 
 -- Include all configs
 require('plugins.configs.devicons_nvim')
-require('plugins.configs.startify')
 require('plugins.configs.gruvbox-material')
 require('plugins.configs.neogit')
 require('plugins.configs.firenvim')
@@ -34,7 +33,7 @@ require('plugins.configs.galaxyline')
 require('plugins.configs.tetris')
 require('plugins.configs.dial')
 require('plugins.configs.treesitter')
-require('plugins.configs.termwrapper')
+require('plugins.configs.toggleterm')
 require('plugins.configs.kommentary')
 require('plugins.configs.spellsitter')
 require('plugins.configs.neoscroll')

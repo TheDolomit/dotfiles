@@ -160,6 +160,11 @@ _G.packer_plugins = {
     needs_bufread = false,
     path = "/home/vhyrro/.local/share/nvim/site/pack/packer/opt/nvim-tetris"
   },
+  ["nvim-toggleterm.lua"] = {
+    config = { "\27LJ\1\2\5\0\0\5\0\24\0'4\0\0\0007\0\1\0007\0\2\0%\1\3\0%\2\4\0%\3\5\0003\4\6\0>\0\5\0014\0\0\0007\0\1\0007\0\2\0%\1\a\0%\2\b\0%\3\t\0003\4\n\0>\0\5\0014\0\0\0007\0\1\0007\0\2\0%\1\a\0%\2\v\0%\3\f\0003\4\r\0>\0\5\0014\0\14\0%\1\15\0>\0\2\0027\0\16\0003\1\17\0004\2\0\0007\2\18\0027\2\19\2:\2\19\0013\2\20\0003\3\21\0:\3\22\2:\2\23\1>\0\2\1G\0\1\0\15float_opts\15highlights\1\0\2\15background\vNormal\vborder\vNormal\1\0\2\rwinblend\3\0\vborder\vdouble\nshell\6o\1\0\5\20start_in_insert\1\17persist_size\2\14direction\nfloat\tsize\3Z\17hide_numbers\2\nsetup\15toggleterm\frequire\1\0\2\vsilent\2\fnoremap\2]:lua require('toggleterm.terminal').Terminal:new { direction = 'vertical' }:toggle()<CR>\16<Leader>shr\1\0\2\vsilent\2\fnoremap\2Z:lua require('toggleterm.terminal').Terminal:new { direction = 'float' }:toggle()<CR>\16<Leader>shf\6n\1\0\2\vsilent\2\fnoremap\2\15<C-\\><C-n>\n<Esc>\6t\20nvim_set_keymap\bapi\bvim\0" },
+    loaded = true,
+    path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/nvim-toggleterm.lua"
+  },
   ["nvim-tree.lua"] = {
     config = { "\27LJ\1\2­\6\0\0\5\0007\0m4\0\0\0%\1\1\0>\0\2\0027\0\2\0004\1\3\0007\1\4\0013\2\a\0\16\3\0\0%\4\6\0>\3\2\2:\3\b\2\16\3\0\0%\4\6\0>\3\2\2:\3\t\2\16\3\0\0%\4\n\0>\3\2\2:\3\v\2\16\3\0\0%\4\n\0>\3\2\2:\3\f\2\16\3\0\0%\4\r\0>\3\2\2:\3\14\2\16\3\0\0%\4\15\0>\3\2\2:\3\16\2\16\3\0\0%\4\17\0>\3\2\2:\3\18\2\16\3\0\0%\4\19\0>\3\2\2:\3\20\2\16\3\0\0%\4\21\0>\3\2\2:\3\22\2\16\3\0\0%\4\23\0>\3\2\2:\3\24\2\16\3\0\0%\4\25\0>\3\2\2:\3\26\2\16\3\0\0%\4\27\0>\3\2\2:\3\28\2\16\3\0\0%\4\29\0>\3\2\2:\3\30\2\16\3\0\0%\4\31\0>\3\2\2:\3 \2\16\3\0\0%\4!\0>\3\2\2:\3\"\2\16\3\0\0%\4#\0>\3\2\2:\3$\2\16\3\0\0%\4%\0>\3\2\2:\3&\2\16\3\0\0%\4'\0>\3\2\2:\3(\2\16\3\0\0%\4)\0>\3\2\2:\3*\2\16\3\0\0%\4+\0>\3\2\2:\3,\2\16\3\0\0%\4-\0>\3\2\2:\3.\2\16\3\0\0%\4/\0>\3\2\2:\0030\2\16\3\0\0%\0041\0>\3\2\2:\0032\2\16\3\0\0%\0043\0>\3\2\2:\0034\2\16\3\0\0%\0045\0>\3\2\2:\0036\2:\2\5\1G\0\1\0\6q\nclose\6<\vdir_up\a]c\18next_git_item\a[c\18prev_git_item\6p\npaste\6c\tcopy\6x\bcut\n<C-r>\16full_rename\6r\vrename\6d\vremove\6a\vcreate\6R\frefresh\6H\20toggle_dotfiles\6I\19toggle_ignored\n<Tab>\fpreview\6O\15close_node\6J\17next_sibling\6K\17prev_sibling\n<C-t>\vtabnew\n<C-x>\nsplit\n<C-v>\vvsplit\6,\19<2-RightMouse>\acd\18<2-LeftMouse>\6o\1\0\0\tedit\23nvim_tree_bindings\6g\bvim\23nvim_tree_callback\21nvim-tree.config\frequire\0" },
     load_after = {},
@@ -208,19 +213,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   },
-  ["termwrapper.nvim"] = {
-    config = { "\27LJ\1\2Ñ\1\0\0\3\0\4\0\n4\0\0\0%\1\1\0>\0\2\0024\1\0\0%\2\1\0>\1\2\0027\1\2\0013\2\3\0>\1\2\1G\0\1\0\1\0\a\27default_window_command\23belowright 13split\20open_new_toggle\2\22toggle_autoinsert\1\blog\3\1\20open_autoinsert\2\14autoclose\2\24winenter_autoinsert\1\nsetup\16termwrapper\frequire\0" },
-    loaded = true,
-    path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/termwrapper.nvim"
-  },
   vhyrro_presence = {
     config = { "\27LJ\1\2h\0\0\3\0\4\0\b4\0\0\0%\1\1\0>\0\2\2\16\1\0\0007\0\2\0003\2\3\0>\0\3\1G\0\1\0\1\0\2\23enable_line_number\2\21debounce_timeout\3\5\nsetup\rpresence\frequire\0" },
     loaded = true,
     path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/vhyrro_presence"
-  },
-  ["vim-startify"] = {
-    loaded = true,
-    path = "/home/vhyrro/.local/share/nvim/site/pack/packer/start/vim-startify"
   }
 }
 
@@ -256,10 +252,10 @@ time("Config for kommentary", false)
 time("Config for nvim-autopairs", true)
 try_loadstring("\27LJ\1\2<\0\0\2\0\3\0\0064\0\0\0%\1\1\0>\0\2\0027\0\2\0>\0\1\1G\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
 time("Config for nvim-autopairs", false)
--- Config for: termwrapper.nvim
-time("Config for termwrapper.nvim", true)
-try_loadstring("\27LJ\1\2Ñ\1\0\0\3\0\4\0\n4\0\0\0%\1\1\0>\0\2\0024\1\0\0%\2\1\0>\1\2\0027\1\2\0013\2\3\0>\1\2\1G\0\1\0\1\0\a\27default_window_command\23belowright 13split\20open_new_toggle\2\22toggle_autoinsert\1\blog\3\1\20open_autoinsert\2\14autoclose\2\24winenter_autoinsert\1\nsetup\16termwrapper\frequire\0", "config", "termwrapper.nvim")
-time("Config for termwrapper.nvim", false)
+-- Config for: nvim-toggleterm.lua
+time("Config for nvim-toggleterm.lua", true)
+try_loadstring("\27LJ\1\2\5\0\0\5\0\24\0'4\0\0\0007\0\1\0007\0\2\0%\1\3\0%\2\4\0%\3\5\0003\4\6\0>\0\5\0014\0\0\0007\0\1\0007\0\2\0%\1\a\0%\2\b\0%\3\t\0003\4\n\0>\0\5\0014\0\0\0007\0\1\0007\0\2\0%\1\a\0%\2\v\0%\3\f\0003\4\r\0>\0\5\0014\0\14\0%\1\15\0>\0\2\0027\0\16\0003\1\17\0004\2\0\0007\2\18\0027\2\19\2:\2\19\0013\2\20\0003\3\21\0:\3\22\2:\2\23\1>\0\2\1G\0\1\0\15float_opts\15highlights\1\0\2\15background\vNormal\vborder\vNormal\1\0\2\rwinblend\3\0\vborder\vdouble\nshell\6o\1\0\5\20start_in_insert\1\17persist_size\2\14direction\nfloat\tsize\3Z\17hide_numbers\2\nsetup\15toggleterm\frequire\1\0\2\vsilent\2\fnoremap\2]:lua require('toggleterm.terminal').Terminal:new { direction = 'vertical' }:toggle()<CR>\16<Leader>shr\1\0\2\vsilent\2\fnoremap\2Z:lua require('toggleterm.terminal').Terminal:new { direction = 'float' }:toggle()<CR>\16<Leader>shf\6n\1\0\2\vsilent\2\fnoremap\2\15<C-\\><C-n>\n<Esc>\6t\20nvim_set_keymap\bapi\bvim\0", "config", "nvim-toggleterm.lua")
+time("Config for nvim-toggleterm.lua", false)
 -- Config for: firenvim
 time("Config for firenvim", true)
 try_loadstring("\27LJ\1\2\v\0\0\1\0\0\0\1G\0\1\0\0", "config", "firenvim")
